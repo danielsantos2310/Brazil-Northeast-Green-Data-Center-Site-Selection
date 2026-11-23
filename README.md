@@ -86,7 +86,7 @@ docs/
 - Step 03 — ANEEL SIGA first-pass audit and ETL: **complete**
 - Step 04 — IBGE municipality spatial foundation: **complete**
 - Step 05 — EPE grid-infrastructure foundation: **complete**
-- Step 06 — ONS operational-grid/curtailment foundation: **pipeline prepared**
+- Step 06 — ONS operational-grid/curtailment foundation: **complete**
 - Step 07 — Solar + wind resource: **pending**
 - Step 08 — Fibre/connectivity: **pending**
 - Step 09 — Climate + cooling + water: **pending**
