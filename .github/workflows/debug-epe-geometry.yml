@@ -1,0 +1,39 @@
+name: Debug EPE ArcGIS geometry
+
+on:
+  push:
+    paths:
+      - ".github/workflows/debug-epe-geometry.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Probe ArcGIS query formats
+        run: |
+          python - <<'PY'
+          import json
+          import requests
+
+          url = "https://gisepeprd2.epe.gov.br/arcgis/rest/services/SMA/WFS_Webmap_EPE/MapServer/20/query"
+          base = {
+              "where": "1=1",
+              "outFields": "*",
+              "returnGeometry": "true",
+              "outSR": "4674",
+              "resultRecordCount": 1,
+          }
+          for fmt in ("geojson", "json"):
+              params = dict(base, f=fmt)
+              r = requests.get(url, params=params, timeout=60)
+              print("FORMAT", fmt, "STATUS", r.status_code, "URL", r.url)
+              payload = r.json()
+              print("TOP KEYS", list(payload.keys()))
+              feat = payload.get("features", [{}])[0]
+              print("FEATURE KEYS", list(feat.keys()))
+              print("GEOMETRY", json.dumps(feat.get("geometry"), ensure_ascii=False)[:2000])
+              print("ATTR/PROPS", json.dumps(feat.get("attributes", feat.get("properties")), ensure_ascii=False)[:1000])
+          PY
