@@ -1,0 +1,45 @@
+name: Probe Global Wind Atlas Brazil resources
+
+on:
+  push:
+    paths:
+      - ".github/workflows/probe-gwa-brazil.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Probe official Brazil wind resource endpoints
+        shell: bash
+        run: |
+          python - <<'PY'
+          import requests
+
+          urls = {
+              "wind_speed_100m": "https://globalwindatlas.info/api/gis/country/BRA/wind-speed/100",
+              "power_density_100m": "https://globalwindatlas.info/api/gis/country/BRA/power-density/100",
+          }
+
+          for name, url in urls.items():
+              with requests.get(
+                  url,
+                  headers={"Range": "bytes=0-1023", "User-Agent": "Mozilla/5.0"},
+                  stream=True,
+                  timeout=120,
+                  allow_redirects=True,
+              ) as r:
+                  print("RESOURCE", name)
+                  print("STATUS", r.status_code)
+                  print("FINAL_URL", r.url)
+                  print("CONTENT_TYPE", r.headers.get("content-type"))
+                  print("CONTENT_LENGTH", r.headers.get("content-length"))
+                  print("CONTENT_RANGE", r.headers.get("content-range"))
+                  print("DISPOSITION", r.headers.get("content-disposition"))
+                  first = next(r.iter_content(chunk_size=1024), b"")
+                  print("FIRST_BYTES", first[:32].hex())
+                  print("---")
+          PY
