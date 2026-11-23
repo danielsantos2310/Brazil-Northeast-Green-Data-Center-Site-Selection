@@ -2,6 +2,10 @@
 
 Layer IDs are resolved by name at runtime so the pipeline does not depend on
 hard-coded ArcGIS layer numbers.
+
+Important: use the WMS_Webmap_EPE MapServer REST service for feature queries.
+As verified on 2026-11-23, the parallel WFS_Webmap_EPE service returns the
+expected attributes but null geometry for these layers.
 """
 from __future__ import annotations
 
@@ -14,7 +18,7 @@ import requests
 
 SERVICE = (
     "https://gisepeprd2.epe.gov.br/arcgis/rest/services/"
-    "SMA/WFS_Webmap_EPE/MapServer"
+    "SMA/WMS_Webmap_EPE/MapServer"
 )
 LAYER_NAMES = [
     "Subestações - Base Existente",
@@ -73,12 +77,27 @@ def download_geojson(layer_id: int) -> dict:
         page = payload.get("features", [])
         if crs is None:
             crs = payload.get("crs")
+
+        null_geometry = sum(feature.get("geometry") is None for feature in page)
+        if null_geometry:
+            raise RuntimeError(
+                f"EPE layer {layer_id} returned {null_geometry} features "
+                "with null geometry. Refusing to save an unusable spatial layer."
+            )
+
         features.extend(page)
         if len(page) < page_size:
             break
         offset += len(page)
 
-    return {"type": "FeatureCollection", "features": features, **({"crs": crs} if crs else {})}
+    if not features:
+        raise RuntimeError(f"EPE layer {layer_id} returned zero features.")
+
+    return {
+        "type": "FeatureCollection",
+        "features": features,
+        **({"crs": crs} if crs else {}),
+    }
 
 
 def safe_name(name: str) -> str:
@@ -118,6 +137,10 @@ def main() -> None:
                 "layer_name": name,
                 "layer_id": layer_id,
                 "feature_count": len(geojson["features"]),
+                "non_null_geometry_count": sum(
+                    feature.get("geometry") is not None
+                    for feature in geojson["features"]
+                ),
                 "source_url": f"{SERVICE}/{layer_id}",
                 "filename": path.name,
                 "bytes": path.stat().st_size,
