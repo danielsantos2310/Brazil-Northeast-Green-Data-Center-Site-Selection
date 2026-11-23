@@ -27,7 +27,7 @@ jobs:
       - name: Download official EPE grid layers
         run: python src/fetch/download_epe_grid.py --output-dir epe_raw
 
-      - name: Verify files and manifest
+      - name: Verify files, geometry and manifest
         shell: bash
         run: |
           set -euo pipefail
@@ -46,10 +46,22 @@ jobs:
               assert path.stat().st_size == row["bytes"], row["filename"]
               h = hashlib.sha256(path.read_bytes()).hexdigest()
               assert h == row["sha256"], row["filename"]
+
               payload = json.loads(path.read_text(encoding="utf-8"))
               assert payload["type"] == "FeatureCollection"
-              assert len(payload["features"]) == row["feature_count"]
-              print(row["layer_name"], row["feature_count"], row["bytes"], row["sha256"])
+              features = payload["features"]
+              assert len(features) == row["feature_count"]
+              non_null = sum(feature.get("geometry") is not None for feature in features)
+              assert non_null == len(features), (row["filename"], non_null, len(features))
+              assert row["non_null_geometry_count"] == len(features)
+
+              print(
+                  row["layer_name"],
+                  "features=", row["feature_count"],
+                  "geometry=", non_null,
+                  "bytes=", row["bytes"],
+                  "sha256=", row["sha256"],
+              )
           PY
 
       - name: Upload raw EPE artifact
