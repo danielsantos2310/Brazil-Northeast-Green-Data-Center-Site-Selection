@@ -11,7 +11,7 @@ permissions:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -21,8 +21,8 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install raster dependencies
-        run: python -m pip install --disable-pip-version-check requests rasterio
+      - name: Install geospatial dependencies
+        run: python -m pip install --disable-pip-version-check requests rasterio geopandas pyogrio pandas
 
       - name: Build Northeast source subsets
         run: python src/fetch/download_gwa_northeast.py --output-dir gwa_raw
@@ -46,27 +46,103 @@ jobs:
               path = root / row["subset_filename"]
               assert path.exists()
               assert path.stat().st_size == row["subset_bytes"]
-              digest = hashlib.sha256(path.read_bytes()).hexdigest()
-              assert digest == row["subset_sha256"]
+              assert hashlib.sha256(path.read_bytes()).hexdigest() == row["subset_sha256"]
               with rasterio.open(path) as src:
                   assert src.width == row["subset_window"]["width"]
                   assert src.height == row["subset_window"]["height"]
                   assert src.crs is not None
                   assert src.count == 1
-                  print(
-                      row["name"],
-                      "shape=", (src.height, src.width),
-                      "crs=", src.crs,
-                      "bytes=", path.stat().st_size,
-                      "min/max sample pending zonal analysis",
-                  )
+                  print(row["name"], (src.height, src.width), src.crs, path.stat().st_size)
           PY
 
-      - name: Upload GWA Northeast source subset artifact
+      - name: Split lossless source windows by IBGE state
+        run: python src/fetch/split_gwa_by_state.py --source-dir gwa_raw --output-dir gwa_states
+
+      - name: Download official IBGE 2025 meshes for zonal QA
+        run: python src/fetch/download_ibge_2025.py --output-dir ibge_raw --extract
+
+      - name: Build temporary Northeast municipality layer
+        shell: bash
+        run: |
+          python - <<'PY'
+          from src.spatial.join_aneel_to_ibge import load_ibge
+          municipalities = load_ibge("ibge_raw")
+          municipalities.to_file("ibge_northeast_temp.gpkg", driver="GPKG")
+          print("municipalities", len(municipalities))
+          PY
+
+      - name: Build municipality wind-resource metrics
+        run: |
+          python src/spatial/build_wind_resource_metrics.py             --municipalities ibge_northeast_temp.gpkg             --wind-speed gwa_raw/gwa4_brazil_northeast_wind_speed_100m.tif             --power-density gwa_raw/gwa4_brazil_northeast_power_density_100m.tif             --output-dir wind_processed
+
+      - name: Upload municipality wind-resource outputs
         uses: actions/upload-artifact@v4
         with:
-          name: gwa4-brazil-northeast-100m
-          path: gwa_raw/
+          name: gwa4-municipality-wind-resource
+          path: wind_processed/
           if-no-files-found: error
+          retention-days: 7
+
+      - name: Upload AL source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-AL
+          path: gwa_states/AL/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload BA source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-BA
+          path: gwa_states/BA/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload CE source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-CE
+          path: gwa_states/CE/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload MA source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-MA
+          path: gwa_states/MA/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload PB source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-PB
+          path: gwa_states/PB/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload PE source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-PE
+          path: gwa_states/PE/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload PI source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-PI
+          path: gwa_states/PI/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload RN source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-RN
+          path: gwa_states/RN/
+          compression-level: 0
+          retention-days: 7
+      - name: Upload SE source subset
+        uses: actions/upload-artifact@v4
+        with:
+          name: gwa4-source-subset-SE
+          path: gwa_states/SE/
           compression-level: 0
           retention-days: 7
