@@ -85,6 +85,7 @@ docs/
 - Step 02 — Initial data acquisition: **in progress**
 - Step 03 — ANEEL SIGA first-pass audit and ETL: **complete**
 - Step 04 — IBGE municipality spatial foundation: **pipeline prepared; raw mesh acquisition pending**
+- Step 05 — EPE grid-infrastructure foundation: **pipeline prepared**
 - GitHub Pages: **not enabled**
 
 The October 2026 ANEEL mirror is being used only as a working snapshot while the official ANEEL host is unavailable. Final publication will refresh the source from ANEEL.
