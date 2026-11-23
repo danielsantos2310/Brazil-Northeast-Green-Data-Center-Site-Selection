@@ -1,0 +1,65 @@
+name: Fetch ONS operational grid and curtailment
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-ons-core.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install downloader dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Download official ONS core data
+        run: python src/fetch/download_ons_core.py --output-dir ons_raw --months 2026-10
+
+      - name: Verify files and manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path("ons_raw")
+          manifest = json.loads((root / "ons_download_manifest.json").read_text(encoding="utf-8"))
+          expected = {
+              "ons_subestacoes_operacao.csv",
+              "ons_wind_curtailment_2026-10.csv",
+              "ons_solar_curtailment_2026-10.csv",
+          }
+          found = {row["filename"] for row in manifest}
+          assert found == expected, (found, expected)
+
+          for row in manifest:
+              path = root / row["filename"]
+              assert path.exists(), path
+              assert path.stat().st_size == row["bytes"], row["filename"]
+              digest = hashlib.sha256(path.read_bytes()).hexdigest()
+              assert digest == row["sha256"], row["filename"]
+              print(row["filename"], row["bytes"], row["sha256"], row["source_url"])
+          PY
+
+      - name: Upload raw ONS artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ons-core-2026-10
+          path: ons_raw/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
