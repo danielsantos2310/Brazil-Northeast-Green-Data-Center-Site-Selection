@@ -1,0 +1,71 @@
+state,technology_code,technology,phase,plants,fiscalized_mw,granted_mw
+AL,CGH,Hydro,Operação,7,4.5,4.5
+AL,UFV,Solar,Construção não iniciada,4,0.0,102.7
+AL,UFV,Solar,Operação,7,4.9,4.9
+AL,UHE,Hydro,Operação,1,400.0,400.0
+AL,UTE,Thermal,Operação,38,374.6,374.6
+BA,CGH,Hydro,Operação,13,10.9,10.9
+BA,EOL,Wind,Construção,5,0.0,169.6
+BA,EOL,Wind,Construção não iniciada,134,0.0,5418.9
+BA,EOL,Wind,Operação,381,11832.1,11840.2
+BA,PCH,Hydro,Construção,1,0.0,17.0
+BA,PCH,Hydro,Operação,6,85.8,85.8
+BA,UFV,Solar,Construção,5,0.0,162.5
+BA,UFV,Solar,Construção não iniciada,340,0.0,15256.4
+BA,UFV,Solar,Operação,161,3057.1,3057.1
+BA,UHE,Hydro,Operação,10,5612.6,5612.6
+BA,UTE,Thermal,Construção,1,0.0,22.5
+BA,UTE,Thermal,Operação,106,1432.8,1446.7
+CE,EOL,Wind,Construção,5,0.0,210.0
+CE,EOL,Wind,Construção não iniciada,47,0.0,1970.1
+CE,EOL,Wind,Operação,103,2690.3,2690.3
+CE,UFV,Solar,Construção,1,44.7,44.7
+CE,UFV,Solar,Construção não iniciada,320,0.0,11457.5
+CE,UFV,Solar,Operação,79,2297.9,2297.9
+CE,UTE,Thermal,Operação,30,1735.4,1735.4
+MA,EOL,Wind,Construção não iniciada,3,0.0,130.2
+MA,EOL,Wind,Operação,16,426.0,426.0
+MA,UFV,Solar,Construção não iniciada,4,0.0,226.2
+MA,UFV,Solar,Operação,10,4.4,4.4
+MA,UHE,Hydro,Operação,1,1087.0,1087.0
+MA,UTE,Thermal,Construção,1,0.0,10.8
+MA,UTE,Thermal,Operação,28,2964.0,2969.0
+PB,EOL,Wind,Construção,27,0.0,771.9
+PB,EOL,Wind,Construção não iniciada,29,0.0,1331.3
+PB,EOL,Wind,Operação,44,1234.2,1243.2
+PB,UFV,Solar,Construção,4,0.0,200.0
+PB,UFV,Solar,Construção não iniciada,55,0.0,2710.2
+PB,UFV,Solar,Operação,34,714.7,714.7
+PB,UTE,Thermal,Operação,15,624.1,624.1
+PE,CGH,Hydro,Operação,10,10.2,10.2
+PE,EOL,Wind,Construção não iniciada,13,0.0,352.8
+PE,EOL,Wind,Operação,46,1265.1,1265.1
+PE,PCH,Hydro,Construção não iniciada,1,0.0,8.8
+PE,PCH,Hydro,Operação,3,13.5,13.5
+PE,UFV,Solar,Construção,4,0.0,152.6
+PE,UFV,Solar,Construção não iniciada,47,0.0,2000.6
+PE,UFV,Solar,Operação,78,1505.2,1505.2
+PE,UHE,Hydro,Operação,1,1479.6,1479.6
+PE,UTE,Thermal,Operação,69,2065.4,2065.4
+PI,EOL,Wind,Construção,7,0.0,340.2
+PI,EOL,Wind,Construção não iniciada,18,0.0,860.6
+PI,EOL,Wind,Operação,126,4396.3,4415.2
+PI,UFV,Solar,Construção,7,0.0,644.1
+PI,UFV,Solar,Construção não iniciada,253,0.0,11487.3
+PI,UFV,Solar,Operação,83,2404.2,2404.2
+PI,UHE,Hydro,Operação,1,237.3,237.3
+PI,UTE,Thermal,Construção não iniciada,1,0.0,24.4
+PI,UTE,Thermal,Operação,17,40.5,40.5
+RN,EOL,Wind,Construção,17,0.0,496.4
+RN,EOL,Wind,Construção não iniciada,39,0.0,1496.9
+RN,EOL,Wind,Operação,319,10726.0,10761.4
+RN,PCH,Hydro,Operação,1,4.7,4.7
+RN,UFV,Solar,Construção,5,0.0,171.9
+RN,UFV,Solar,Construção não iniciada,98,0.0,3666.4
+RN,UFV,Solar,Operação,80,2113.2,2113.2
+RN,UTE,Thermal,Operação,36,292.7,292.7
+SE,EOL,Wind,Operação,1,34.5,34.5
+SE,UFV,Solar,Construção não iniciada,7,0.0,782.5
+SE,UFV,Solar,Operação,1,0.8,0.8
+SE,UHE,Hydro,Operação,2,3162.4,3162.6
+SE,UTE,Thermal,Operação,43,1694.8,1694.8
