@@ -84,10 +84,19 @@ docs/
 - Step 01 — Project foundation: **complete**
 - Step 02 — Initial data acquisition: **in progress**
 - Step 03 — ANEEL SIGA first-pass audit and ETL: **complete**
-- Step 04 — IBGE municipality spatial foundation: **pipeline prepared; raw mesh acquisition pending**
+- Step 04 — IBGE municipality spatial foundation: **complete**
 - Step 05 — EPE grid-infrastructure foundation: **pipeline prepared**
 - Step 06 — ONS operational-grid/curtailment foundation: **pipeline prepared**
-- GitHub Pages: **not enabled**
+- Step 07 — Solar + wind resource: **pending**
+- Step 08 — Fibre/connectivity: **pending**
+- Step 09 — Climate + cooling + water: **pending**
+- Step 10 — Environment/land constraints: **pending**
+- Step 11 — Suitability model: **pending**
+- Step 12 — Candidate locations + sensitivity analysis: **pending**
+- Step 13 — Full interactive website: **pending**
+- Step 14 — GitHub Pages + portfolio + LinkedIn: **pending**
+
+Step 04 uses the official 2025 IBGE municipal meshes for all nine Northeast states. The raw state ZIPs are checksum-verified and preserved in the private Drive workspace; the public repository retains reproducible acquisition and spatial-processing code instead of raw GIS archives.
 
 The October 2026 ANEEL mirror is being used only as a working snapshot while the official ANEEL host is unavailable. Final publication will refresh the source from ANEEL.
 
