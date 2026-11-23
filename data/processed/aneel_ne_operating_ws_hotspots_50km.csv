@@ -1,0 +1,21 @@
+rank,center_plant,state,municipality_field,latitude,longitude,operating_wind_solar_mw_within_50km,plants_within_50km,wind_mw_within_50km,solar_mw_within_50km
+1,Cabeço Vermelho,RN,Jardim de Angicos - RN,-5.49281996,-36.00362986,6531.3,189,6318.9,212.4
+2,Aroeira 2,BA,Morro do Chapéu - BA,-10.80514852,-41.43627081,3478.3,94,3021.9,456.4
+3,Solar Alto do Rodrigues,RN,Alto do Rodrigues - RN,-5.37858306,-36.8210861,3393.2,92,1601.4,1791.8
+4,Ventos de São Rafael 07,RN,São Tomé - RN,-6.12990453,-36.23770519,2767.6,63,2767.6,0.0
+5,Ventos de Santo Augusto VII,PI,Simões - PI,-7.7252102,-40.67930224,2535.1,78,2273.9,261.2
+6,Serra do Assuruá 1,BA,Gentio do Ouro - BA,-11.37032999,-42.60718563,2396.9,73,2296.9,100.0
+7,Aura Queimada Nova 01,PI,Lagoa do Barro do Piauí - PI,-8.71766786,-41.64461214,2373.9,61,2373.8,0.0
+8,Tanque,BA,Caetité - BA,-14.1025978,-42.61065719,1969.4,94,1955.1,14.3
+9,UFV Flor de Mandacaru,CE,Icapuí - CE,-4.78638889,-37.30555556,1967.0,60,1390.2,576.8
+10,Ventos de Santa Esperança 21,BA,Morro do Chapéu - BA,-11.49919413,-41.29109346,1844.8,48,1588.4,256.4
+11,Pedra do Reino V,BA,Sobradinho - BA,-9.54944968,-40.89579893,1675.9,53,706.4,969.5
+12,Chafariz 1,PB,Santa Luzia - PB,-6.97288508,-36.87927525,1661.2,48,1293.0,368.2
+13,Icaraí I,CE,Amontada - CE,-3.08118348,-39.59486114,1465.9,55,1364.4,101.5
+14,Dunas de Paracuru,CE,Paracuru - CE,-3.43674371,-38.98536818,1311.6,47,824.6,487.0
+15,Lagoinha II,CE,Russas - CE,-4.86435556,-37.99865,1008.1,31,185.7,822.4
+16,Belmonte 2-1,PE,São José do Belmonte - PE,-7.84431111,-38.83301944,985.3,24,0.0,985.3
+17,Macaúbas,BA,Brotas de Macaúbas - BA,-12.35119149,-42.33852459,835.8,19,355.8,480.0
+18,São Gonçalo 1,PI,São Gonçalo do Gurguéia - PI,-10.09157393,-45.264353,790.4,18,0.0,790.4
+19,Sobrado 1,BA,Casa Nova - BA,-9.38115197,-41.81209074,721.9,16,691.9,30.0
+20,Serra das Almas IV,BA,"Licínio de Almeida - BA, Urandi - BA",-14.79229001,-42.60132273,697.5,30,697.5,0.0
