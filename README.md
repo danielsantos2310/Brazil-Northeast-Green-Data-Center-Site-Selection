@@ -1,0 +1,75 @@
+# Brazil Northeast Green Data Center Site Selection Analytics
+
+A public-data geospatial screening project to identify high-potential municipalities in Northeast Brazil for renewable-powered data-centre development.
+
+## Objective
+
+Evaluate municipalities across the nine Northeast states using transparent evidence on:
+
+- renewable energy resource and generation
+- grid infrastructure
+- digital connectivity
+- climate and cooling
+- water
+- land and environmental constraints
+- economy, logistics and incentives
+
+The model is a **screening tool**, not an investment-grade site certification. Public data can identify promising municipalities, but it cannot confirm spare grid connection capacity, commercial fibre availability, land title, water allocation or negotiated PPA terms.
+
+## Study area
+
+MA, PI, CE, RN, PB, PE, AL, SE and BA.
+
+## Project structure
+
+```text
+data/
+  raw/
+  interim/
+  processed/
+  reference/
+notebooks/
+src/
+  fetch/
+  clean/
+  spatial/
+  scoring/
+  validation/
+tests/
+outputs/
+  maps/
+  charts/
+  tables/
+website/
+docs/
+```
+
+## Planned analytical workflow
+
+1. Source audit and provenance
+2. Geospatial foundation
+3. Energy and grid analysis
+4. Connectivity, climate, water and environmental layers
+5. Scoring model and scenario profiles
+6. Sensitivity analysis and validation
+7. Candidate shortlist
+8. Interactive website
+9. Final documentation and publication
+
+## Initial authoritative sources
+
+- ANEEL SIGA
+- EPE Webmap and transmission studies
+- ONS Dados Abertos
+- IBGE municipal boundaries and socioeconomic statistics
+- INPE LABREN Solar Atlas
+- Global Wind Atlas
+- INMET historical weather
+- ANATEL infrastructure data
+- ANA/SNIRH
+- MMA/ICMBio
+- MDIC ZPE
+
+## Methodological principle
+
+A high score means **deserves deeper engineering and commercial due diligence**. It does not mean a site is automatically ready for construction.
