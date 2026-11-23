@@ -112,7 +112,11 @@ def main() -> None:
     output = Path(args.output_dir)
     output.mkdir(parents=True, exist_ok=True)
 
-    municipalities = gpd.read_parquet(args.municipalities)
+    municipality_path = Path(args.municipalities)
+    if municipality_path.suffix.lower() in {".parquet", ".pq"}:
+        municipalities = gpd.read_parquet(municipality_path)
+    else:
+        municipalities = gpd.read_file(municipality_path)
     municipalities["ibge_code"] = municipalities["ibge_code"].astype("string")
 
     base = municipalities[
