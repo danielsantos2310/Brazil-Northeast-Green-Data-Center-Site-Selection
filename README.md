@@ -85,7 +85,7 @@ docs/
 - Step 02 — Initial data acquisition: **in progress**
 - Step 03 — ANEEL SIGA first-pass audit and ETL: **complete**
 - Step 04 — IBGE municipality spatial foundation: **complete**
-- Step 05 — EPE grid-infrastructure foundation: **pipeline prepared**
+- Step 05 — EPE grid-infrastructure foundation: **complete**
 - Step 06 — ONS operational-grid/curtailment foundation: **pipeline prepared**
 - Step 07 — Solar + wind resource: **pending**
 - Step 08 — Fibre/connectivity: **pending**
