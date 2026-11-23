@@ -1,0 +1,54 @@
+name: Fetch IBGE 2025 Northeast municipal meshes
+
+on:
+  push:
+    paths:
+      - ".github/workflows/fetch-ibge-2025.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install downloader dependency
+        run: python -m pip install --disable-pip-version-check requests
+
+      - name: Download official IBGE 2025 Northeast municipal meshes
+        run: python src/fetch/download_ibge_2025.py --output-dir ibge_raw
+
+      - name: Verify archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          test "$(find ibge_raw -maxdepth 1 -name '*_Municipios_2025.zip' | wc -l)" -eq 9
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p = Path("ibge_raw/ibge_2025_manifest.json")
+          rows = json.loads(p.read_text(encoding="utf-8"))
+          assert len(rows) == 9, len(rows)
+          assert all(Path("ibge_raw", r["filename"]).stat().st_size == r["bytes"] for r in rows)
+          print("Verified", len(rows), "IBGE state archives")
+          for r in rows:
+              print(r["state"], r["bytes"], r["sha256"])
+          PY
+
+      - name: Upload raw IBGE artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ibge-northeast-municipios-2025
+          path: ibge_raw/
+          if-no-files-found: error
+          compression-level: 0
+          retention-days: 7
