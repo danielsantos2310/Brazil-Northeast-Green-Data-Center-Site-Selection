@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ANEEL Renewable Plant Explorer — Northeast Brazil</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+html,body{height:100%;margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif;background:#07131c;color:#f4f8fa}
+#map{height:100%}
+.panel{position:absolute;z-index:1000;top:18px;left:18px;width:min(390px,calc(100% - 36px));background:rgba(7,19,28,.94);border:1px solid #233945;border-radius:14px;padding:16px;box-shadow:0 18px 45px rgba(0,0,0,.35)}
+h1{font-size:18px;margin:0 0 6px}.sub{color:#9ab0ba;font-size:12px;line-height:1.45;margin-bottom:12px}
+.row{display:flex;gap:8px;flex-wrap:wrap}.chip{border:1px solid #233945;border-radius:999px;padding:7px 10px;font-size:12px;cursor:pointer;background:#0d1e29;color:#f4f8fa}
+.chip.active{border-color:#69d8e7}.metric{margin-top:12px;font-size:12px;color:#9ab0ba}.warn{margin-top:10px;font-size:11px;line-height:1.4;color:#f3b45d}
+.legend{margin-top:10px;font-size:11px;color:#9ab0ba}.dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}.wind{background:#69d8e7}.solar{background:#f3b45d}
+.leaflet-popup-content-wrapper,.leaflet-popup-tip{background:#0d1e29;color:#f4f8fa}.leaflet-popup-content{line-height:1.45}
+@media(max-width:700px){.panel{top:10px;left:10px;width:calc(100% - 42px);padding:12px}}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>ANEEL renewable plant explorer</h1>
+  <div class="sub">Northeast Brazil · SIGA October 2026 working snapshot. Energy geography only — not a data-centre suitability score.</div>
+  <div class="row">
+    <button id="op" class="chip active">Operating</button>
+    <button id="pipe" class="chip">Pipeline</button>
+  </div>
+  <div id="metric" class="metric">Loading…</div>
+  <div class="legend"><span class="dot wind"></span>Wind &nbsp;&nbsp; <span class="dot solar"></span>Solar</div>
+  <div class="warn">Pipeline capacity is granted capacity, not confirmed future supply. Plant proximity does not imply spare grid connection capacity.</div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const map=L.map('map',{zoomControl:false}).setView([-8.5,-39.5],5);
+L.control.zoom({position:'bottomright'}).addTo(map);
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; OpenStreetMap contributors'}).addTo(map);
+let layers={operating:null,pipeline:null},data={};
+function style(feature){return {radius:Math.max(3,Math.min(10,3+Math.sqrt((feature.properties.fiscalized_mw||feature.properties.granted_mw||0))/4)),fillColor:feature.properties.technology==='Wind'?'#69d8e7':'#f3b45d',color:'#07131c',weight:1,opacity:.9,fillOpacity:.78}}
+function popup(f){const p=f.properties;const mw=p.phase==='Operação'?p.fiscalized_mw:p.granted_mw;return '<b>'+p.name+'</b><br>'+p.technology+' · '+p.phase+'<br><b>'+mw.toLocaleString(undefined,{maximumFractionDigits:1})+' MW</b><br>'+p.municipality+'<br><small>'+p.cod_ceg+'</small>'}
+async function load(name,url){const gj=await fetch(url).then(r=>r.json());data[name]=gj;layers[name]=L.geoJSON(gj,{pointToLayer:(f,ll)=>L.circleMarker(ll,style(f)),onEachFeature:(f,l)=>l.bindPopup(popup(f))});return gj}
+Promise.all([
+ load('operating','data/aneel_operating_wind_solar_ne.geojson'),
+ load('pipeline','data/aneel_pipeline_wind_solar_ne.geojson')
+]).then(()=>{
+ layers.operating.addTo(map);
+ const b=layers.operating.getBounds();if(b.isValid())map.fitBounds(b.pad(.08));
+ update();
+});
+function update(){const op=map.hasLayer(layers.operating),pi=map.hasLayer(layers.pipeline);document.getElementById('op').classList.toggle('active',op);document.getElementById('pipe').classList.toggle('active',pi);let n=0,mw=0;if(op){n+=data.operating.features.length;mw+=data.operating.features.reduce((s,f)=>s+(f.properties.fiscalized_mw||0),0)}if(pi){n+=data.pipeline.features.length;mw+=data.pipeline.features.reduce((s,f)=>s+(f.properties.granted_mw||0),0)}document.getElementById('metric').textContent=n.toLocaleString()+' mapped projects · '+mw.toLocaleString(undefined,{maximumFractionDigits:0})+' MW represented'}
+document.getElementById('op').onclick=()=>{map.hasLayer(layers.operating)?map.removeLayer(layers.operating):layers.operating.addTo(map);update()};
+document.getElementById('pipe').onclick=()=>{map.hasLayer(layers.pipeline)?map.removeLayer(layers.pipeline):layers.pipeline.addTo(map);update()};
+</script>
+</body>
+</html>
