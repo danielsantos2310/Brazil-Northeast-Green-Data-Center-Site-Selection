@@ -20,6 +20,41 @@ The model is a **screening tool**, not an investment-grade site certification. P
 
 MA, PI, CE, RN, PB, PE, AL, SE and BA.
 
+## Storage strategy
+
+This project deliberately separates working data from the public repository.
+
+### Google Drive — research workspace
+
+Google Drive is the source-file workspace for:
+
+- original/raw downloads
+- large GIS and raster files
+- working/interim datasets
+- processed analytical files before publication
+- notebook exports and QA material
+- charts, maps and tables
+- publication/portfolio assets
+
+Raw source files are preserved unchanged and organized by agency/provider.
+
+### GitHub — reproducible/public project
+
+GitHub contains:
+
+- Python source code and fetch/ETL scripts
+- notebooks suitable for publication
+- methodology and source provenance
+- tests and validation logic
+- lightweight public processed outputs when appropriate
+- the final interactive website
+
+Large raw datasets are intentionally excluded from Git. Reproducible download scripts and source references document how to recover them.
+
+### GitHub Pages — final publication layer
+
+When the analysis is validated, the final static site will be built from `website/` and published through GitHub Pages. Only optimized, public, licence-compatible web data and assets will be included.
+
 ## Project structure
 
 ```text
