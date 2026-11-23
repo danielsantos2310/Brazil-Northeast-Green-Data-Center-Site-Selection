@@ -14,6 +14,11 @@ Thumbs.db
 .vscode/
 .idea/
 
+# Raw source data lives in the private Google Drive project workspace.
+# Keep only the folder placeholder in GitHub.
+data/raw/*
+!data/raw/.gitkeep
+
 # Large/intermediate geospatial outputs
 data/interim/*
 !data/interim/.gitkeep
@@ -26,6 +31,4 @@ outputs/charts/*
 outputs/tables/*
 !outputs/tables/.gitkeep
 
-# Raw data policy
-# Keep small source snapshots only when licensing/size permits.
-# Large raw files should be downloaded reproducibly using source scripts.
+# Publication-ready web datasets/assets belong under website/ once optimized.
