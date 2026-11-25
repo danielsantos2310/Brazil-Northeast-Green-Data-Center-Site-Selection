@@ -58,9 +58,9 @@ def study_band(r):
     return "P3_TARGETED_RISK_RESOLUTION"
 
 def next_gate(r):
-    gates = []
-    if bool(r["epe_known_near_term_access_constraint_flag"]):
-        gates.append("utility connection/headroom")
+    # Utility headroom and permitted water supply are blocking studies for
+    # every candidate because neither is verified by the municipality model.
+    gates = ["utility connection/headroom"]
     if r["water_score"] < 0.40:
         gates.append("water supply/rights")
     else:
