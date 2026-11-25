@@ -133,6 +133,12 @@ def main():
             raise RuntimeError(f"No usable year discovered for {key}: {meta}")
         for uf, group in tiera.groupby("state"):
             payload,url=fetch_indicator(STATE_BY_UF.get(uf,uf),meta["id"],year)
+            if key == "water_stress_risk" and uf == sorted(tiera["state"].unique())[0]:
+                print("DEBUG_SAMPLE_PAYLOAD_TYPE", type(payload).__name__)
+                if isinstance(payload, list):
+                    print("DEBUG_SAMPLE_RECORD", json.dumps(payload[:2], ensure_ascii=False)[:4000])
+                elif isinstance(payload, dict):
+                    print("DEBUG_SAMPLE_RECORD", json.dumps(payload, ensure_ascii=False)[:4000])
             if isinstance(payload,dict):
                 data=payload.get("data") or payload.get("results") or payload.get("features") or []
             else:
