@@ -129,6 +129,8 @@ Current automated refresh workflows:
 - [Official-source verification note](docs/source_verification_2026-11-25.md)
 - [Step-16 Tier-A deep dive](docs/step16_tierA_deep_dive.md)
 - [Step-16 external diligence brief](docs/step16_external_diligence_brief.md)
+- [Step-16 external data request pack](docs/step16_external_data_request_pack.md)
+- [External diligence gate-sheet template](data/templates/step16_external_gate_sheet.csv)
 
 ## Step 16 — deeper diligence
 
