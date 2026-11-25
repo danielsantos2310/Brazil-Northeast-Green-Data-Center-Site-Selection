@@ -1,131 +1,90 @@
-# Brazil Northeast Green Data Center Site Selection Analytics
+# Green Data Centre Site Selection — Northeast Brazil
 
-A public-data geospatial screening project to identify high-potential municipalities in Northeast Brazil for renewable-powered data-centre development.
+> **Status: GitHub release candidate (25 November 2026). The analytical baseline remains provisional while the current ANA water layer and July-2026 CNUC geometry are being refreshed.**
 
-## Objective
+## The question
 
-Evaluate municipalities across the nine Northeast states using transparent evidence on:
+Where in Northeast Brazil is large digital infrastructure most defensible when renewable-resource quality, grid infrastructure, telecom connectivity, cooling climate, water constraints, environmental limits, policy context and evidence uncertainty are considered together?
 
-- renewable energy resource and generation
-- grid infrastructure
-- digital connectivity
-- climate and cooling
-- water
-- land and environmental constraints
-- economy, logistics and incentives
+This project screens all **1,794 municipalities in Brazil's Northeast** using public official data. It is not a parcel-selection tool and it does not claim that a municipality has spare electrical capacity, available dark fibre, permitted industrial water or an immediately developable site.
 
-The model is a **screening tool**, not an investment-grade site certification. Public data can identify promising municipalities, but it cannot confirm spare grid connection capacity, commercial fibre availability, land title, water allocation or negotiated PPA terms.
+## Why this project matters
 
-## Study area
+Northeast Brazil combines exceptional wind and solar resources with rapidly growing interest in hyperscale and AI infrastructure. At the same time, the region illustrates a central infrastructure challenge: strong renewable potential and visible transmission assets do not automatically mean that a large new load can connect at the required time, place and scale.
 
-MA, PI, CE, RN, PB, PE, AL, SE and BA.
+The model therefore separates three things that are often collapsed into one number:
 
-## Storage strategy
+1. **Due-diligence gates** — requirements that a weighted score cannot override, such as project-level grid connection feasibility, water strategy, parcel legality and REDATA compliance.
+2. **Evidence confidence** — how directly and recently each public dataset supports the screening result.
+3. **Scenario attractiveness** — municipality-level relative scores for different data-centre strategies.
 
-This project deliberately separates working data from the public repository.
+## Scenarios
 
-### Google Drive — research workspace
+The project evaluates four controlled decision scenarios rather than claiming one universal ranking:
 
-Google Drive is the source-file workspace for:
+- **Hyperscale AI** — grid and energy weighted most heavily.
+- **Colocation / Digital Hub** — connectivity and grid dominate.
+- **Renewable-First Compute** — energy resource and grid dominate.
+- **Low-Water AI** — currently a **proxy only** until the final water layer is integrated.
 
-- original/raw downloads
-- large GIS and raster files
-- working/interim datasets
-- processed analytical files before publication
-- notebook exports and QA material
-- charts, maps and tables
-- publication/portfolio assets
+The published weights are scenario assumptions, not empirical truths. A 1,500-run Monte Carlo sensitivity analysis perturbs those weights to measure rank stability.
 
-Raw source files are preserved unchanged and organized by agency/provider.
+## Data architecture
 
-### GitHub — reproducible/public project
+The screening model uses:
 
-GitHub contains:
+- **ANEEL SIGA** — generation assets and renewable pipeline context.
+- **IBGE** — 2025 municipality boundaries and stable `CD_MUN` joins.
+- **EPE** — existing/planned transmission lines and substations.
+- **ONS** — operating substations and constrained-off renewable generation.
+- **INPE/LABREN** — long-term solar-resource climatology.
+- **Global Wind Atlas** — 100 m hub-height wind-resource statistics.
+- **ANATEL** — fibre backhaul and endpoint-provider diversity.
+- **INMET** — 1991–2020 climate normals, interpolated from resolved station coordinates.
+- **ANA/SNIRH** — hydrological availability methodology; final municipality Q95 evidence pending endpoint extraction.
+- **MMA/CNUC** — protected-area constraints; current model uses August 2025 geometry while the July 2026 refresh is queued.
+- **MDIC / ZPE** — strategic and investment context from official web records.
 
-- Python source code and fetch/ETL scripts
-- notebooks suitable for publication
-- methodology and source provenance
-- tests and validation logic
-- lightweight public processed outputs when appropriate
-- the final interactive website
+## What the current model says
 
-Large raw datasets are intentionally excluded from Git. Reproducible download scripts and source references document how to recover them.
+The current **provisional no-water** baseline identifies 17 Tier-A municipalities that remain robust across the four scenarios and 1,500 randomized weight perturbations.
 
-### GitHub Pages — final publication layer
+The result is not simply a list of famous investment locations. **São Gonçalo do Amarante / Pecém** validates extremely strongly, but the model also surfaces less obvious renewable-grid corridors such as **Lajes, Caetité, Santa Luzia, Serra do Mel and São João do Piauí**. Conversely, a major connectivity hub such as **Fortaleza** does not automatically dominate the overall hyperscale ranking.
 
-When the analysis is validated, the final static site will be built from `website/` and published through GitHub Pages. Only optimized, public, licence-compatible web data and assets will be included.
+This is intentional: existing market activity is used as an external validation case, not as the target the model is forced to reproduce.
 
-## Project structure
+## A critical grid lesson
 
-```text
-data/
-  raw/
-  interim/
-  processed/
-  reference/
-notebooks/
-src/
-  fetch/
-  clean/
-  spatial/
-  scoring/
-  validation/
-tests/
-outputs/
-  maps/
-  charts/
-  tables/
-website/
-docs/
-```
+The model keeps **grid infrastructure strength** separate from **verified connection headroom**. A municipality can score highly for transmission proximity and strategic reinforcement while still face evidence of near-term connection constraints. This distinction is especially important in Pecém and Parnaíba.
 
-## Current status
+## Water and REDATA
 
-- Step 01 — Project foundation: **complete**
-- Step 02 — Initial data acquisition: **in progress**
-- Step 03 — ANEEL SIGA first-pass audit and ETL: **complete**
-- Step 04 — IBGE municipality spatial foundation: **complete**
-- Step 05 — EPE grid-infrastructure foundation: **complete**
-- Step 06 — ONS operational-grid/curtailment foundation: **complete**
-- Step 07 — Solar + wind resource: **in progress — wind complete; LABREN solar pending user acceptance**
-- Step 08 — Fibre/connectivity: **pending**
-- Step 09 — Climate + cooling + water: **pending**
-- Step 10 — Environment/land constraints: **pending**
-- Step 11 — Suitability model: **pending**
-- Step 12 — Candidate locations + sensitivity analysis: **pending**
-- Step 13 — Full interactive website: **pending**
-- Step 14 — GitHub Pages + portfolio + LinkedIn: **pending**
+Water is intentionally not filled with a neutral or fabricated value. The final water framework distinguishes:
 
-Step 04 uses the official 2025 IBGE municipal meshes for all nine Northeast states. The raw state ZIPs are checksum-verified and preserved in the private Drive workspace; the public repository retains reproducible acquisition and spatial-processing code instead of raw GIS archives.
+- hydrological availability;
+- current demand pressure;
+- permitted industrial supply;
+- reclaimed-water potential; and
+- facility-level Water Usage Effectiveness (WUE).
 
-The October 2026 ANEEL mirror is being used only as a working snapshot while the official ANEEL host is unavailable. Final publication will refresh the source from ANEEL.
+For REDATA-oriented projects, facility-level clean-energy and water-efficiency obligations are treated as due-diligence gates rather than municipality score bonuses.
 
-## Planned analytical workflow
+## Reproducibility
 
-1. Source audit and provenance
-2. Geospatial foundation
-3. Energy and grid analysis
-4. Connectivity, climate, water and environmental layers
-5. Scoring model and scenario profiles
-6. Sensitivity analysis and validation
-7. Candidate shortlist
-8. Interactive website
-9. Final documentation and publication
+The repository/release package is designed to include:
 
-## Initial authoritative sources
+- source registry and provenance;
+- municipality feature tables;
+- scenario weights;
+- deterministic MCDA scoring code;
+- deterministic Monte Carlo sensitivity code;
+- QA outputs;
+- web-ready GeoJSON;
+- candidate comparison tables; and
+- an interactive decision-support dashboard.
 
-- ANEEL SIGA
-- EPE Webmap and transmission studies
-- ONS Dados Abertos
-- IBGE municipal boundaries and socioeconomic statistics
-- INPE LABREN Solar Atlas
-- Global Wind Atlas
-- INMET historical weather
-- ANATEL infrastructure data
-- ANA/SNIRH
-- MMA/ICMBio
-- MDIC ZPE
+## Current limitations
 
-## Methodological principle
+This is a municipality-level public-data screen. Final investment decisions still require parcel-level due diligence, utility studies, grid access approval, commercial carrier checks, geotechnical work, environmental licensing, water permitting, cooling design, tax/legal review and construction/logistics analysis.
 
-A high score means **deserves deeper engineering and commercial due diligence**. It does not mean a site is automatically ready for construction.
+The public release should remain labelled **provisional** until the current ANA water layer and July-2026 CNUC refresh are integrated and the model is rerun.
