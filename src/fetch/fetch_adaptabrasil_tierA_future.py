@@ -26,24 +26,44 @@ def norm(x):
     x=unicodedata.normalize("NFKD",str(x or "")).encode("ascii","ignore").decode()
     return re.sub(r"\s+"," ",x).strip().lower()
 
-def walk(obj):
-    if isinstance(obj,dict):
-        yield obj
-        for v in obj.values():
-            yield from walk(v)
-    elif isinstance(obj,list):
-        for v in obj:
-            yield from walk(v)
+def walk(obj, path=()):
+    if isinstance(obj, dict):
+        yield path, obj
+        for k,v in obj.items():
+            yield from walk(v, path + (k,))
+    elif isinstance(obj, list):
+        for i,v in enumerate(obj):
+            yield from walk(v, path + (i,))
+
+def text_blob(d):
+    vals=[]
+    for k,v in d.items():
+        if isinstance(v,(str,int,float)) and k.lower() in {
+            "name","nome","title","titulo","simple_description","descricao_simples",
+            "complete_description","descricao_completa"
+        }:
+            vals.append(str(v))
+    return norm(" | ".join(vals))
 
 def discover(hierarchy,key,aliases):
     best=None
-    for node in walk(hierarchy):
-        blob=norm(" | ".join(str(node.get(k) or "") for k in ["name","simple_description","complete_description"]))
-        score=max([len(norm(a)) if norm(a) in blob else 0 for a in aliases])
-        if score and node.get("id") is not None and (best is None or score>best[0]):
-            best=(score,node)
-    if best is None: raise RuntimeError(f"Indicator not found: {key}")
-    return best[1]
+    for path,node in walk(hierarchy):
+        blob=text_blob(node)
+        if not blob:
+            continue
+        score=max((len(norm(a)) if norm(a) in blob else 0) for a in aliases)
+        ident=node.get("id") or node.get("indicator_id") or node.get("indicador")
+        years=node.get("years") or node.get("anos") or node.get("year") or node.get("ano")
+        if score<=0 or ident is None:
+            continue
+        candidate=(score,len(path),node,years)
+        if best is None or candidate[0]>best[0] or (candidate[0]==best[0] and candidate[1]<best[1]):
+            best=candidate
+    if best is None:
+        raise RuntimeError(f"Indicator not found: {key}")
+    node=dict(best[2])
+    node["_resolved_years"]=best[3]
+    return node
 
 def scenario_id(s):
     if isinstance(s,dict):
@@ -76,7 +96,7 @@ def main():
     for key,aliases in TARGET_ALIASES.items():
         node=discover(hierarchy,key,aliases)
         iid=node["id"]
-        years=node.get("years") or []
+        years=node.get("_resolved_years") or node.get("years") or node.get("anos") or []
         if isinstance(years,str): years=[int(x) for x in years.split(",") if x.strip()]
         years=sorted(int(y) for y in years)
         baseline=years[0]
