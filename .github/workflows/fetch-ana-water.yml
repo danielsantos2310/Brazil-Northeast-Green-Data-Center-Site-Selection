@@ -52,12 +52,21 @@ jobs:
           print(df["water_has_mapped_q95_reach"].value_counts(dropna=False))
           PY
 
+      - name: Build hydrological-access screening score
+        run: |
+          python src/spatial/build_ana_water_screening_score.py \
+            --direct-evidence data/processed/step09_ana_municipality_surface_water_evidence.csv \
+            --water-geometry data/interim/ana_surface_water_availability_ne.geojson \
+            --municipalities data/interim/ibge_ne_municipalities_2025.gpkg \
+            --out data/processed/step09_ana_municipality_water_evidence_hydrological_access.csv
+
       - uses: actions/upload-artifact@v4
         with:
           name: ana-q95-northeast-municipality-evidence
           path: |
             data/interim/ana_surface_water_availability_ne.geojson
             data/processed/step09_ana_municipality_surface_water_evidence.csv
+            data/processed/step09_ana_municipality_water_evidence_hydrological_access.csv
             outputs/qa/step09_ana_water_qa.json
           if-no-files-found: error
           retention-days: 14
