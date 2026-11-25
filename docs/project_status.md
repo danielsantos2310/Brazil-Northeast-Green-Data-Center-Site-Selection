@@ -19,7 +19,8 @@ The municipality-level public-data screening is now complete across all planned 
 - Step 11 — Suitability model: **COMPLETE v4 water-integrated**
 - Step 12 — Candidate + joint sensitivity: **COMPLETE v4**
 - Step 13 — Interactive website: **COMPLETE v4**
-- Step 14 — GitHub / Pages technical publication: **COMPLETE**; portfolio/LinkedIn communication remains a separate publication task.
+- Step 14 — GitHub / Pages technical publication: **COMPLETE**.
+- Step 15 — Portfolio communication package: **PREPARED**; portfolio case study and LinkedIn launch draft are versioned in `docs/`, but no external LinkedIn post has been published.
 
 ## Current robust shortlist
 
