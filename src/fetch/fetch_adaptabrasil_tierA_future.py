@@ -26,13 +26,21 @@ def norm(x):
     x=unicodedata.normalize("NFKD",str(x or "")).encode("ascii","ignore").decode()
     return re.sub(r"\s+"," ",x).strip().lower()
 
+def walk(obj):
+    if isinstance(obj,dict):
+        yield obj
+        for v in obj.values():
+            yield from walk(v)
+    elif isinstance(obj,list):
+        for v in obj:
+            yield from walk(v)
+
 def discover(hierarchy,key,aliases):
     best=None
-    for node in hierarchy:
-        if not isinstance(node,dict): continue
+    for node in walk(hierarchy):
         blob=norm(" | ".join(str(node.get(k) or "") for k in ["name","simple_description","complete_description"]))
         score=max([len(norm(a)) if norm(a) in blob else 0 for a in aliases])
-        if score and (best is None or score>best[0]):
+        if score and node.get("id") is not None and (best is None or score>best[0]):
             best=(score,node)
     if best is None: raise RuntimeError(f"Indicator not found: {key}")
     return best[1]
