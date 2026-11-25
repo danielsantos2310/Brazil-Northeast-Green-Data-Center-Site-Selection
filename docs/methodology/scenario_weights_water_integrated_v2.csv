@@ -1,0 +1,29 @@
+scenario,dimension,final_target_weight,provisional_no_water_weight,water_pending,active_water_integrated_weight,model_version
+Hyperscale AI,energy,0.25,0.2777777777777778,False,0.25,v4_water_integrated_2026-11-25
+Hyperscale AI,grid,0.3,0.3333333333333333,False,0.3,v4_water_integrated_2026-11-25
+Hyperscale AI,connectivity,0.15,0.1666666666666666,False,0.15,v4_water_integrated_2026-11-25
+Hyperscale AI,climate,0.1,0.1111111111111111,False,0.1,v4_water_integrated_2026-11-25
+Hyperscale AI,environment,0.05,0.0555555555555555,False,0.05,v4_water_integrated_2026-11-25
+Hyperscale AI,strategic_context,0.05,0.0555555555555555,False,0.05,v4_water_integrated_2026-11-25
+Hyperscale AI,water,0.1,0.0,False,0.1,v4_water_integrated_2026-11-25
+Colocation / digital hub,energy,0.15,0.1578947368421052,False,0.15,v4_water_integrated_2026-11-25
+Colocation / digital hub,grid,0.25,0.2631578947368421,False,0.25,v4_water_integrated_2026-11-25
+Colocation / digital hub,connectivity,0.3,0.3157894736842105,False,0.3,v4_water_integrated_2026-11-25
+Colocation / digital hub,climate,0.1,0.1052631578947368,False,0.1,v4_water_integrated_2026-11-25
+Colocation / digital hub,environment,0.05,0.0526315789473684,False,0.05,v4_water_integrated_2026-11-25
+Colocation / digital hub,strategic_context,0.1,0.1052631578947368,False,0.1,v4_water_integrated_2026-11-25
+Colocation / digital hub,water,0.05,0.0,False,0.05,v4_water_integrated_2026-11-25
+Renewable-first compute,energy,0.35,0.3888888888888888,False,0.35,v4_water_integrated_2026-11-25
+Renewable-first compute,grid,0.25,0.2777777777777778,False,0.25,v4_water_integrated_2026-11-25
+Renewable-first compute,connectivity,0.1,0.1111111111111111,False,0.1,v4_water_integrated_2026-11-25
+Renewable-first compute,climate,0.05,0.0555555555555555,False,0.05,v4_water_integrated_2026-11-25
+Renewable-first compute,environment,0.1,0.1111111111111111,False,0.1,v4_water_integrated_2026-11-25
+Renewable-first compute,strategic_context,0.05,0.0555555555555555,False,0.05,v4_water_integrated_2026-11-25
+Renewable-first compute,water,0.1,0.0,False,0.1,v4_water_integrated_2026-11-25
+Low-water AI,energy,0.2,0.25,False,0.2,v4_water_integrated_2026-11-25
+Low-water AI,grid,0.25,0.3125,False,0.25,v4_water_integrated_2026-11-25
+Low-water AI,connectivity,0.1,0.125,False,0.1,v4_water_integrated_2026-11-25
+Low-water AI,climate,0.15,0.1874999999999999,False,0.15,v4_water_integrated_2026-11-25
+Low-water AI,environment,0.05,0.0625,False,0.05,v4_water_integrated_2026-11-25
+Low-water AI,strategic_context,0.05,0.0625,False,0.05,v4_water_integrated_2026-11-25
+Low-water AI,water,0.2,0.0,False,0.2,v4_water_integrated_2026-11-25
