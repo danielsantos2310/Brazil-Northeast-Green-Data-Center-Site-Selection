@@ -1,61 +1,121 @@
-# Provisional Executive Decision Brief — Northeast Brazil Green Data Centre Screening
+# Executive Decision Brief — Northeast Brazil Green Data Centre Screening
 
-**Baseline:** 24 November 2026 · v2 climate exact-coordinate model · water not yet scored · CNUC spatial baseline August 2025 pending July-2026 geometry refresh.
+**Release:** 25 November 2026 · v4 water-integrated municipality screening
 
 ## Executive conclusion
 
-The current evidence does not support a single universal 'best site'. It supports a small set of municipalities with different strategic profiles. São Gonçalo do Amarante / Pecém is the strongest market-validated all-round screening case, but it also carries documented near-term grid-access risk. Caetité and Santa Luzia are the strongest independent renewable-grid challengers; Milagres is the strongest infrastructure-connected challenger; Urandi adds a favourable cooling profile; and Lajes remains a high-value renewable-grid hypothesis despite weaker climate conditions.
+The completed public-data screening does not identify a single universally optimal site. It identifies **11 Tier-A municipalities** that remain robust across four strategic scenarios and 1,500 joint uncertainty runs per scenario.
 
-These are **municipality screening results**, not parcel approvals. Water, utility headroom, route-redundant fibre, parcel legality and REDATA project compliance remain due-diligence gates.
+The final Tier-A set is:
 
-## Current top 10 robust candidates
+1. São Gonçalo do Amarante, CE
+2. Juazeiro, BA
+3. Bom Jesus da Lapa, BA
+4. Parnaíba, PI
+5. Urandi, BA
+6. Paulo Afonso, BA
+7. Caetité, BA
+8. São João do Piauí, PI
+9. Brumado, BA
+10. Icó, CE
+11. Delmiro Gouveia, AL
 
-| Municipality | UF | Archetype | Hyperscale rank* | MC median rank | Energy | Grid | Connectivity | Climate | Evidence confidence** | Main watchout |
-|---|---|---|---:|---:|---:|---:|---:|---:|---:|---|
-| São Gonçalo do Amarante | CE | Balanced contender | 1 | 1.25 | 0.73 | 0.81 | 0.94 | 0.63 | 0.77 | EPE near-term grid-access constraint evidence; CNUC overlap 7.9%; ANA water evidence pending |
-| Caetité | BA | Cooling-balanced inland contender | 3 | 3.25 | 0.75 | 0.94 | 0.78 | 0.81 | 0.74 | ANA water evidence pending |
-| Santa Luzia | PB | Renewable-grid stronghold | 2 | 5.25 | 0.94 | 0.92 | 0.75 | 0.45 | 0.73 | ANA water evidence pending |
-| Milagres | CE | Infrastructure-connected contender | 4 | 5.50 | 0.68 | 0.96 | 0.92 | 0.53 | 0.73 | ANA water evidence pending |
-| Urandi | BA | Cooling-balanced inland contender | 5 | 6.75 | 0.76 | 0.83 | 0.81 | 0.83 | 0.72 | ANA water evidence pending |
-| Lajes | RN | Renewable-grid stronghold | 6 | 9.00 | 0.78 | 0.97 | 0.82 | 0.32 | 0.72 | Climate dimension comparatively weak (0.32); ANA water evidence pending |
-| Assú | RN | Balanced contender | 7 | 9.25 | 0.75 | 0.97 | 0.89 | 0.30 | 0.72 | Climate dimension comparatively weak (0.30); ANA water evidence pending |
-| Igaporã | BA | Cooling-balanced inland contender | 9 | 13.00 | 0.73 | 0.84 | 0.77 | 0.77 | 0.73 | ANA water evidence pending |
-| Aquiraz | CE | Infrastructure-connected contender | 12 | 15.25 | 0.74 | 0.90 | 0.92 | 0.34 | 0.73 | CNUC overlap 5.9%; Climate dimension comparatively weak (0.34); ANA water evidence pending |
-| João Câmara | RN | Balanced contender | 10 | 16.50 | 0.74 | 0.96 | 0.80 | 0.34 | 0.73 | Climate dimension comparatively weak (0.34); ANA water evidence pending |
+All 11 Tier-A municipalities have **direct local ANA Q95 intersections** and all are **Pareto non-dominated across six core dimensions**: energy, grid, connectivity, climate, environment and water.
 
-\* Hyperscale rank is provisional and excludes water until the ANA spatial layer is processed.
-\** Mean of the four existing scenario evidence-confidence measures; this is separate from attractiveness and is not a substitute for project due diligence.
+These are municipality-level screening results, not parcel approvals or investment recommendations.
+
+## What changed in v4
+
+The most important methodological change is the integration of official ANA/SNIRH hydrological evidence.
+
+Before water evidence was integrated, Tier A contained 17 municipalities. The water-integrated model reduced that set to 11 and introduced five municipalities with stronger hydrological evidence: **Parnaíba, Paulo Afonso, Brumado, Icó and Delmiro Gouveia**.
+
+The environmental layer was also refreshed to the official **MMA/CNUC July 2026** geometry.
+
+The result is a materially stronger shortlist because missing water evidence is no longer represented by a neutral assumption.
 
 ## Decision interpretation
 
-### 1. São Gonçalo do Amarante / Pecém — strongest strategic validation case
-Ranks #1 in the current hyperscale and colocation screens and remains Tier A under randomized weights. Its strengths are connectivity, industrial/ZPE context and balanced energy/grid evidence. The key issue is not whether the area is strategically attractive—it clearly is—but whether a specific large load can obtain the required connection on the required schedule. The model therefore keeps EPE's grid-access warning outside the ordinary attractiveness score.
+### São Gonçalo do Amarante, CE — strongest all-round strategic case
 
-### 2. Caetité — strongest independent balanced challenger
-Caetité combines very strong grid evidence, a strong renewable ecosystem and a materially more favourable cooling profile than the coastal hubs. It remains near the top even with no strategic/ZPE bonus. Its next gate is commercial and engineering validation: utility capacity, water strategy, carrier-route diversity and parcel screening.
+São Gonçalo do Amarante remains the strongest market-validated all-round candidate because of its combination of connectivity, industrial context, renewable ecosystem and grid infrastructure. The municipality also has direct ANA Q95 evidence.
 
-### 3. Santa Luzia — renewable-resource leader with credible grid support
-Santa Luzia has the strongest energy score among the current top group and remains robust under weight perturbation. The main uncertainty is whether connectivity, water and project-scale utility feasibility are strong enough to convert the municipality-level resource advantage into a practical hyperscale site.
+Its principal gate remains verified large-load grid access. Transmission proximity and strategic importance do not prove that the required capacity can be connected on the required schedule.
 
-### 4. Milagres — infrastructure-connected alternative
-Milagres is not a major announced data-centre cluster, yet ranks highly because its grid and connectivity evidence are unusually strong. This makes it a useful challenger case and a good test of whether the model can surface infrastructure value that is not already obvious from market announcements.
+### Juazeiro, BA — strong water-energy strategic balance
 
-### 5. Urandi — cooling-balanced inland option
-Urandi combines reasonably strong energy and grid scores with one of the better climate profiles in Tier A. It is particularly useful for the project narrative because it illustrates how an inland location can trade a smaller digital-market footprint for better thermal conditions.
+Juazeiro emerges as a high-quality water-integrated candidate with direct Q95 evidence and strong renewable/strategic characteristics. It should advance to utility, parcel, fibre-route and water-right diligence.
 
-### 6. Lajes — renewable-grid corridor hypothesis
-Lajes remains highly robust because of strong grid and renewable evidence, even without strategic-context bonuses. Its weaker climate score makes the site logic dependent on modern cooling design, while water and fibre-route redundancy remain important unknowns.
+### Bom Jesus da Lapa, BA — inland hydrological and infrastructure contender
 
-## What would change the shortlist most
+Bom Jesus da Lapa combines direct hydrological evidence with a competitive inland infrastructure profile. Its investment case depends on confirming utility headroom, carrier diversity and suitable parcels.
 
-1. **ANA water evidence:** municipalities with attractive energy/grid profiles may fall if hydrological availability and current basin pressure are weak.
-2. **Current CNUC geometry:** new or revised protected areas can change parcel availability even if municipality-level scores remain similar.
-3. **Verified utility headroom:** this can dominate the economics of very large loads and cannot be inferred from line/substation proximity.
-4. **Carrier route independence:** provider count is useful, but physically diverse routes matter more for high-availability facilities.
-5. **Extreme-heat resilience:** INMET normals are now spatially improved, but a future resilience layer should test heat-wave tails separately from long-term climate suitability.
+### Parnaíba, PI — major beneficiary of explicit water evidence
 
-## Recommended next investment-screening sequence
+Parnaíba entered the final Tier-A set after water became a scored dimension. This makes it one of the clearest examples of why explicit hydrological evidence materially improves the screening model.
 
-**Water + current protected-area refresh → rerun model and sensitivity → freeze candidate tiers → parcel shortlist → utility/fibre/water due diligence → REDATA compliance assessment → final public dashboard.**
+### Urandi, BA — cooling-balanced inland option
 
-Until that sequence is complete, all ranks should be presented as **provisional municipality screening evidence**, not a final site recommendation.
+Urandi remains attractive for its favourable climate profile combined with competitive energy/grid evidence and direct Q95 hydrological evidence.
+
+### Paulo Afonso, BA — hydrology-strengthened energy case
+
+Paulo Afonso also entered Tier A after water integration. Its strong energy and hydrological context makes it a valuable candidate for deeper engineering and commercial screening.
+
+### Caetité, BA — strong renewable-grid challenger
+
+Caetité remains one of the strongest independent renewable/grid candidates and retains a favourable cooling profile. Its next gates are verified utility capacity, water permitting, fibre-route independence and parcel suitability.
+
+### São João do Piauí, PI — resilient inland contender
+
+São João do Piauí remains robust across the final uncertainty framework and provides geographic diversification within the Tier-A set.
+
+### Brumado, BA — new water-integrated Tier-A candidate
+
+Brumado is another municipality promoted by the stronger hydrological evidence layer. It warrants deeper utility, parcel and telecom validation.
+
+### Icó, CE — new direct-water Tier-A candidate
+
+Icó entered Tier A in the water-integrated model and provides an additional Ceará alternative outside the main coastal industrial cluster.
+
+### Delmiro Gouveia, AL — new hydrology-supported Tier-A candidate
+
+Delmiro Gouveia completes the final Tier-A set and demonstrates that the water-integrated model can surface credible inland alternatives beyond the most obvious market clusters.
+
+## Robustness
+
+The final shortlist is tested with:
+
+- four strategic scenarios;
+- 1,500 Monte Carlo runs per scenario;
+- multiplicative lognormal weight perturbation;
+- ANA fallback-distance sensitivity from 15–60 km;
+- deterministic rankings retained for traceability;
+- six-dimension Pareto validation independent of strategic/ZPE context.
+
+Final robust tier counts:
+
+- **Tier A: 11**
+- **Tier B: 29**
+- **Tier C: 69**
+- **Not robust: 1,685**
+
+## What the model does not prove
+
+A high score means **investigate further**, not **construction-ready**.
+
+Before any investment decision, the shortlisted municipalities still require:
+
+1. utility load-flow studies and formal connection offers;
+2. firm and additional clean-energy procurement analysis;
+3. water-right, utility-water and reclaimed-water feasibility;
+4. parcel-level environmental, flood, land-title and geotechnical review;
+5. independent physical fibre-route and carrier-commercial validation;
+6. cooling architecture, WUE/PUE and extreme-heat engineering;
+7. tariffs, taxes, construction/logistics, workforce and local-community diligence.
+
+## Recommended next phase
+
+The municipality screening is complete. The logical next phase is a **Tier-A investment-screening layer**:
+
+**11 Tier-A municipalities → utility/fibre/water/parcel diligence → shortlist 3–5 municipalities → parcel candidates → project economics and REDATA compliance → investment-grade recommendation.**
