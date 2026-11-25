@@ -121,6 +121,13 @@ Current automated refresh workflows:
 - **ANA Q95 municipality water evidence**
 - **latest CNUC municipality constraints**
 
+## Portfolio / communication assets
+
+- [Portfolio case study](docs/portfolio_case_study.md)
+- [Executive decision brief](docs/executive_decision_brief.md)
+- [LinkedIn launch draft](docs/linkedin_launch_draft.md)
+- [Official-source verification note](docs/source_verification_2026-11-25.md)
+
 ## Important limitations
 
 This is a **regional screening system**. A real data-centre investment still requires, at minimum:
