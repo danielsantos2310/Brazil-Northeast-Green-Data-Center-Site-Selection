@@ -1,42 +1,56 @@
-# Water method v2 — Northeast Brazil data-centre screening
+# Water Integration Method — v4
 
-## Decision principle
-Water is not a single proximity variable. The final project must distinguish:
-1. **hydrological surface-water availability**;
-2. **current demand pressure / basin stress**;
-3. **permitted or contracted industrial supply**;
-4. **reclaimed-water availability**;
-5. **facility cooling-water efficiency (WUE)**.
+## Purpose
 
-Only (1) can currently be computed directly from the downloaded/open ANA layer at municipality scale. Items (3)–(5) are project/parcel due diligence; they must never be inferred from a municipality score.
+Add a defensible hydrological-risk dimension without pretending public hydrology is equivalent to industrial water supply.
 
-## Primary spatial evidence — ANA Q95
-Official feature layer:
-https://portal1.snirh.gov.br/server/rest/services/dados_abertos/Disponibilidade_Hidrica_Superficial/FeatureServer/0
+## Source
 
-Field `DISPQ95` is surface-water availability in m³/s. ANA describes regulated reaches using reservoir restriction flow plus incremental Q95 (or regulated flow with 100% guarantee when restriction flow is unavailable); unregulated rivers use Q95.
+ANA/SNIRH `Disponibilidade Hídrica Superficial` FeatureServer. The geometry includes `DISPQ95` in m³/s.
 
-The prepared scripts download Northeast-only polylines and aggregate to IBGE municipalities using exact line/polygon intersection. Outputs include reach count/length, length-weighted Q95, median, p90, maximum, and reach length above 1/10/100 m³/s thresholds.
+## Direct municipality evidence
 
-**These metrics are hydrological evidence only. They are not a water right, permit, utility commitment, sustainable withdrawal guarantee, or data-centre cooling supply.**
+For municipalities intersecting mapped ANA reaches, the direct evidence index combines:
+- percentile of length-weighted mean Q95; and
+- percentile of maximum Q95.
 
-## Current demand-pressure context — ANA Conjuntura 2025
-https://conjuntura2025.ana.gov.br/balanco-hidrico.html
+The upstream processing gives each component 50% weight.
 
-ANA's current balance uses 2024 demand estimates and classifies water-resource commitment as low (<5%), moderate (5–30%), high (30–70%), very high (70–100%), critical (>100%), or intermittent (zero offer).
+## Fallback for municipalities without an intersecting Q95 reach
 
-Important for this project: ANA explicitly warns that reach-level balance is less representative in the Semi-Arid, where reservoirs, adductors and canals supply water that is not fully represented by the hydrographic network. It cites high shares of demand assigned to intermittent reaches in Piancó-Piranhas-Açu, Ceará coastal basins and Rio Grande do Norte coastal basins.
+Municipal boundaries are administrative rather than hydrological. A municipality with no intersecting mapped reach is therefore not assigned zero water.
 
-Therefore the current project will **not** use the older 2013/2014-demand ArcGIS balance as if it were a current municipal water-stress score. Q95 will remain an evidence layer until a structured current-demand-pressure dataset can be joined consistently.
+The nearest mapped ANA reach is identified from the municipality polygon. Its Q95 is converted to a percentile against all retrieved ANA reaches and discounted by distance:
 
-## REDATA gate
-Brazil's REDATA regime requires cooling WUE <= 0.05 L/kWh for participating data-centre projects. This is a project-design gate, not a municipal hydrology score. A municipality with abundant water can still fail a REDATA-oriented design, and a low-water closed-loop/liquid-cooled design may succeed in a water-constrained municipality if all legal and engineering requirements are satisfied.
+`fallback_water_score = nearest_q95_percentile / (1 + distance_km / decay_km)`
 
-Source: https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/setembro/regime-especial-de-tributacao-para-servicos-de-datacenter-e-sancionado
+Base `decay_km = 25`.
 
-## Final integration rule
-Until current hydrological pressure and project water strategy are verified:
-- `water_score = NOT_SCORED`;
-- no neutral fill value;
-- scenario weights are renormalized over defensible dimensions;
-- the scenario called `low_water_ai` is explicitly labelled a **proxy**, not a final low-water ranking.
+Evidence confidence is labelled by direct intersection / nearest distance. Supply verification remains false for every municipality.
+
+## Method uncertainty
+
+The joint sensitivity analysis does not trust the 25 km parameter as truth. For each Monte Carlo iteration, the fallback decay scale is sampled log-uniformly from **15–60 km** while scenario weights are also perturbed.
+
+Tier A is not dependent on the fallback rule: all 11 final Tier-A candidates have direct local Q95 intersections.
+
+## What the water score is not
+
+It is not:
+- an abstraction right;
+- a municipal utility commitment;
+- permitted sustainable industrial supply;
+- drought-resilience guarantee;
+- reclaimed-water availability;
+- a cooling-system WUE calculation.
+
+These remain project-level due-diligence gates.
+
+## Reproducibility
+
+`src/fetch/download_ana_water_layers.py` downloads the official geometry with robust paginated retry/backoff.
+`src/spatial/process_ana_water_municipalities.py` aggregates direct Q95 evidence.
+`src/spatial/build_ana_water_screening_score.py` constructs direct/nearest hydrological-access evidence.
+`.github/workflows/fetch-ana-water.yml` reruns the pipeline on GitHub infrastructure.
+
+An independent workflow rerun matched the locally generated water score to machine precision.

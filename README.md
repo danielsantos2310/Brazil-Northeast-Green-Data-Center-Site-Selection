@@ -1,90 +1,135 @@
-# Green Data Centre Site Selection — Northeast Brazil
+# Northeast Brazil Green Data Centre Site Selection
 
-> **Status: GitHub release candidate (25 November 2026). The analytical baseline remains provisional while the ANA water layer is being integrated. The July-2026 CNUC geometry refresh is complete and has been rerun through the model.**
+**A reproducible public-data screening framework for comparing 1,794 municipalities across energy, grid, connectivity, climate, environment, hydrology and strategic context.**
 
-## The question
+[Open the interactive dashboard](https://danielsantos2310.github.io/Brazil-Northeast-Green-Data-Center-Site-Selection/)
 
-Where in Northeast Brazil is large digital infrastructure most defensible when renewable-resource quality, grid infrastructure, telecom connectivity, cooling climate, water constraints, environmental limits, policy context and evidence uncertainty are considered together?
+> **Release: v4 water-integrated municipality screening — 25 November 2026.** The model is complete as a regional public-data screening tool. It is **not** a parcel-level investment recommendation and does not replace utility connection studies, water rights, environmental licensing, carrier-route validation or engineering due diligence.
 
-This project screens all **1,794 municipalities in Brazil's Northeast** using public official data. It is not a parcel-selection tool and it does not claim that a municipality has spare electrical capacity, available dark fibre, permitted industrial water or an immediately developable site.
+## Executive result
 
-## Why this project matters
+The final public-data screening produces **11 Tier-A robust candidates** after 1,500 joint uncertainty runs per scenario:
 
-Northeast Brazil combines exceptional wind and solar resources with rapidly growing interest in hyperscale and AI infrastructure. At the same time, the region illustrates a central infrastructure challenge: strong renewable potential and visible transmission assets do not automatically mean that a large new load can connect at the required time, place and scale.
+1. São Gonçalo do Amarante, CE
+2. Juazeiro, BA
+3. Bom Jesus da Lapa, BA
+4. Parnaíba, PI
+5. Urandi, BA
+6. Paulo Afonso, BA
+7. Caetité, BA
+8. São João do Piauí, PI
+9. Brumado, BA
+10. Icó, CE
+11. Delmiro Gouveia, AL
 
-The model therefore separates three things that are often collapsed into one number:
+All 11 have **direct local ANA Q95 intersections** and all 11 are **Pareto non-dominated across six core dimensions**: energy, grid, connectivity, climate, environment and water.
 
-1. **Due-diligence gates** — requirements that a weighted score cannot override, such as project-level grid connection feasibility, water strategy, parcel legality and REDATA compliance.
-2. **Evidence confidence** — how directly and recently each public dataset supports the screening result.
-3. **Scenario attractiveness** — municipality-level relative scores for different data-centre strategies.
+### What changed when water became real evidence?
 
-## Scenarios
+Before ANA hydrology was integrated, Tier A contained 17 municipalities. Water integration contracted the shortlist to 11 and introduced five locations with stronger hydrological evidence: **Parnaíba, Paulo Afonso, Brumado, Icó and Delmiro Gouveia**. Eleven previous Tier-A municipalities moved below Tier A.
 
-The project evaluates four controlled decision scenarios rather than claiming one universal ranking:
+This is a feature, not a defect: previously missing evidence is allowed to change the decision instead of being filled with a fake neutral score.
 
-- **Hyperscale AI** — grid and energy weighted most heavily.
-- **Colocation / Digital Hub** — connectivity and grid dominate.
-- **Renewable-First Compute** — energy resource and grid dominate.
-- **Low-Water AI** — currently a **proxy only** until the final water layer is integrated.
+## Why this project is different
 
-The published weights are scenario assumptions, not empirical truths. A 1,500-run Monte Carlo sensitivity analysis perturbs those weights to measure rank stability.
+- **Grid infrastructure is not treated as grid headroom.** EPE/ONS proximity is scored separately from documented access-risk evidence.
+- **Renewable pipeline MW is not treated as available supply.** Operating ecosystem and granted pipeline are separated.
+- **Fibre presence is not treated as route diversity.** ANATEL provider diversity is evidence, not an SLA or dark-fibre guarantee.
+- **Q95 is not treated as a water permit.** ANA hydrology is regional screening evidence only.
+- **Municipality rank is not treated as parcel feasibility.** CNUC and other constraints remain hard due-diligence gates at site level.
+- **Weights are not assumed to be truth.** Scenario weights are perturbed and the water fallback method is sensitivity-tested.
 
-## Data architecture
+## Evidence stack
 
-The screening model uses:
+| Dimension | Primary sources | What is measured | What is explicitly *not* claimed |
+|---|---|---|---|
+| Energy | ANEEL SIGA, INPE/LABREN, Global Wind Atlas | operating clean-energy ecosystem, pipeline context, solar/wind resource | available firm power or contracted clean supply |
+| Grid | EPE, ONS | transmission/substation infrastructure, operating grid context | spare MW / connection approval |
+| Connectivity | ANATEL | fibre backhaul, endpoint-provider diversity | dark fibre, independent physical paths, SLA |
+| Climate | INMET 1991–2020 normals | cooling-relevant climatology from 74 resolved station codes | extreme-weather design basis |
+| Environment | MMA/CNUC July 2026 | protected-area overlap and Integral Protection exposure | parcel legality or licence outcome |
+| Water | ANA/SNIRH Q95 | hydrological availability/access evidence | water right, utility supply, permitted sustainable withdrawal |
+| Strategic | MDIC/ZPE + documented market context | policy/cluster context | substitute for physical feasibility |
 
-- **ANEEL SIGA** — generation assets and renewable pipeline context.
-- **IBGE** — 2025 municipality boundaries and stable `CD_MUN` joins.
-- **EPE** — existing/planned transmission lines and substations.
-- **ONS** — operating substations and constrained-off renewable generation.
-- **INPE/LABREN** — long-term solar-resource climatology.
-- **Global Wind Atlas** — 100 m hub-height wind-resource statistics.
-- **ANATEL** — fibre backhaul and endpoint-provider diversity.
-- **INMET** — 1991–2020 climate normals, interpolated from resolved station coordinates.
-- **ANA/SNIRH** — hydrological availability methodology; final municipality Q95 evidence pending endpoint extraction.
-- **MMA/CNUC** — protected-area constraints using the official July 2026 geometry (`CNUC_2026_07`), processed through a reproducible GitHub Actions refresh.
-- **MDIC / ZPE** — strategic and investment context from official web records.
+## Water methodology
 
-## What the current model says
+ANA's official surface-water availability geometry provides `DISPQ95` (m³/s).
 
-The current **provisional no-water** baseline identifies 17 Tier-A municipalities that remain robust across the four scenarios and 1,500 randomized weight perturbations.
+- **1,112 municipalities** intersect at least one mapped Q95 reach directly.
+- **682 municipalities** do not; for those, the model uses the nearest mapped ANA reach and a transparent distance-decay rule.
+- Base fallback formula: `nearest Q95 percentile / (1 + distance_km / 25)`.
+- The sensitivity model samples the decay scale **log-uniformly from 15–60 km** rather than trusting the 25 km base assumption.
+- Crucially, **all 11 Tier-A municipalities have direct intersections**, so the Tier-A result is not being driven by the fallback-distance assumption.
 
-The result is not simply a list of famous investment locations. **São Gonçalo do Amarante / Pecém** validates extremely strongly, but the model also surfaces less obvious renewable-grid corridors such as **Lajes, Caetité, Santa Luzia, Serra do Mel and São João do Piauí**. Conversely, a major connectivity hub such as **Fortaleza** does not automatically dominate the overall hyperscale ranking.
+## Environmental refresh
 
-This is intentional: existing market activity is used as an external validation case, not as the target the model is forced to reproduce.
+The official **MMA/CNUC July 2026 (`CNUC_2026_07`)** geometry is processed through a reproducible GitHub Actions pipeline.
 
-## A critical grid lesson
+Current municipality screening counts:
+- 732 with any CNUC overlap
+- 258 intersecting Integral Protection areas
+- 347 with >=10% total CNUC overlap
+- 213 with >=30% overlap
 
-The model keeps **grid infrastructure strength** separate from **verified connection headroom**. A municipality can score highly for transmission proximity and strategic reinforcement while still face evidence of near-term connection constraints. This distinction is especially important in Pecém and Parnaíba.
+Updating from August 2025 to July 2026 changed hundreds of lower/middle ranks but caused **zero top-50 membership changes** and **zero Tier-A membership changes** before water was added.
 
-## Water and REDATA
+## Four scenarios
 
-Water is intentionally not filled with a neutral or fabricated value. The final water framework distinguishes:
+| Dimension | Hyperscale AI | Colocation / digital hub | Renewable-first compute | Water-resilient AI* |
+|---|---:|---:|---:|---:|
+| Energy | 25% | 15% | 35% | 20% |
+| Grid | 30% | 25% | 25% | 25% |
+| Connectivity | 15% | 30% | 10% | 10% |
+| Climate | 10% | 10% | 5% | 15% |
+| Environment | 5% | 5% | 10% | 5% |
+| Water | 10% | 5% | 10% | 20% |
+| Strategic context | 5% | 10% | 5% | 5% |
 
-- hydrological availability;
-- current demand pressure;
-- permitted industrial supply;
-- reclaimed-water potential; and
-- facility-level Water Usage Effectiveness (WUE).
+*The stored scenario key remains `Low-water AI`; the public label is **Water-resilient AI** because the municipality score measures water-risk evidence, while low facility water consumption is a design/compliance gate.*
 
-For REDATA-oriented projects, facility-level clean-energy and water-efficiency obligations are treated as due-diligence gates rather than municipality score bonuses.
+## Robustness framework
+
+The final shortlist is tested using **1,500 Monte Carlo runs per scenario** with:
+- multiplicative lognormal weight perturbation (`sigma = 0.20`);
+- water fallback distance-decay sampled between 15 and 60 km;
+- deterministic scenario rankings retained for traceability;
+- six-dimension Pareto validation independent of strategic/ZPE context.
+
+Tier counts in the water-integrated model:
+- **Tier A:** 11
+- **Tier B:** 29
+- **Tier C:** 69
+
+## Repository structure
+
+```text
+src/fetch/        official-source acquisition
+src/spatial/      municipal spatial aggregation
+src/scoring/      scenario scoring
+src/validation/   Monte Carlo / robustness analysis
+data/processed/   lightweight reviewer-facing outputs
+docs/             methodology, source registry and decision notes
+website/          interactive dashboard
+.github/workflows reproducible source refresh pipelines
+```
 
 ## Reproducibility
 
-The repository/release package is designed to include:
+GitHub Actions independently reproduced the ANA hydrological-access table. The workflow-generated and locally generated water scores match to floating-point precision (maximum observed difference approximately `1.1e-16`).
 
-- source registry and provenance;
-- municipality feature tables;
-- scenario weights;
-- deterministic MCDA scoring code;
-- deterministic Monte Carlo sensitivity code;
-- QA outputs;
-- web-ready GeoJSON;
-- candidate comparison tables; and
-- an interactive decision-support dashboard.
+Current automated refresh workflows:
+- **ANA Q95 municipality water evidence**
+- **latest CNUC municipality constraints**
 
-## Current limitations
+## Important limitations
 
-This is a municipality-level public-data screen. Final investment decisions still require parcel-level due diligence, utility studies, grid access approval, commercial carrier checks, geotechnical work, environmental licensing, water permitting, cooling design, tax/legal review and construction/logistics analysis.
+This is a **regional screening system**. A real data-centre investment still requires, at minimum:
+- utility load-flow / connection-offer studies;
+- firm and additional clean-energy procurement analysis;
+- water-right, utility and reclaimed-water feasibility;
+- parcel-level environmental, flood, land-title and geotechnical review;
+- independent fibre-route and carrier-commercial validation;
+- cooling architecture, WUE/PUE and heat-wave engineering;
+- construction, tax, logistics, workforce and local-community due diligence.
 
-The public release should remain labelled **provisional** until ANA Q95 hydrological evidence is integrated and the model is rerun with a real water dimension. The July-2026 CNUC refresh is complete.
+**A high score means “investigate further,” not “construction-ready.”**

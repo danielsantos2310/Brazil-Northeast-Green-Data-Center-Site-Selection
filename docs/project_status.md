@@ -1,72 +1,56 @@
-# Project Status — 25 November 2026 — v5
+# Project Status — 25 November 2026 — v6
 
-## Brazil Northeast Green Data Centre Site Selection
+## Analytical screening status: COMPLETE
+
+The municipality-level public-data screening is now complete across all planned evidence dimensions: energy, grid, connectivity, climate, environment, hydrology and strategic context.
 
 ### Roadmap
 
 - Step 01 — Foundation: **COMPLETE**
-- Step 02 — Acquisition/provenance: **COMPLETE** for the planned source families.
+- Step 02 — Acquisition / provenance: **COMPLETE**
 - Step 03 — ANEEL generation: **COMPLETE**
 - Step 04 — IBGE spatial foundation: **COMPLETE**
-- Step 05 — EPE grid foundation: **COMPLETE**
-- Step 06 — ONS operating-grid/curtailment context: **COMPLETE**
-- Step 07 — Solar + wind resource: **COMPLETE**
+- Step 05 — EPE grid: **COMPLETE**
+- Step 06 — ONS operating grid / curtailment: **COMPLETE**
+- Step 07 — Solar + wind: **COMPLETE**
 - Step 08 — Connectivity: **COMPLETE**
-- Step 09 — Climate + water: **PARTIAL** — climate complete with resolved station coordinates; ANA Q95 municipality integration remains.
-- Step 10 — Environment: **COMPLETE / CURRENT** — official MMA/CNUC July-2026 geometry processed and propagated through the model.
-- Step 11 — Suitability model: **PROVISIONAL v3** — climate + July-2026 environment complete; water deliberately not scored.
-- Step 12 — Candidate/sensitivity: **PROVISIONAL v3** — rankings, 1,500-run sensitivity, Pareto, scenario dependence and external validation rerun.
-- Step 13 — Website: **GITHUB RELEASE-CANDIDATE BUILD COMPLETE** — dashboard, web data and charts are in `website/`.
-- Step 14 — Public release: **PROVISIONAL** — final analytical freeze still requires ANA water integration and one final rerun.
+- Step 09 — Climate + hydrology: **COMPLETE for municipality screening**
+- Step 10 — Environment: **COMPLETE / current July-2026 CNUC**
+- Step 11 — Suitability model: **COMPLETE v4 water-integrated**
+- Step 12 — Candidate + joint sensitivity: **COMPLETE v4**
+- Step 13 — Interactive website: **COMPLETE v4**
+- Step 14 — GitHub / Pages technical publication: **COMPLETE**; portfolio/LinkedIn communication remains a separate publication task.
 
-## Current baseline
+## Current robust shortlist
 
-All **1,794 Northeast municipalities** are represented. Current weighted dimensions are energy, grid strength, connectivity, climate/cooling, environment and strategic context. Water remains explicitly `NOT_SCORED`; no neutral value is imputed.
+Tier A: 11 municipalities — São Gonçalo do Amarante, Juazeiro, Bom Jesus da Lapa, Parnaíba, Urandi, Paulo Afonso, Caetité, São João do Piauí, Brumado, Icó and Delmiro Gouveia.
 
-Four scenarios: Hyperscale AI; Colocation / Digital Hub; Renewable-First Compute; Low-Water AI proxy.
+Joint uncertainty tier counts: Tier A 11; Tier B 29; Tier C 69; not robust 1,685.
 
-## Climate
+All 11 Tier-A candidates are Pareto non-dominated across energy, grid, connectivity, climate, environment and water.
 
-All 74 core INMET station codes have resolved coordinates with provenance; seven retain relocation/coordinate-conflict flags. The exact-coordinate upgrade produced zero top-50 membership changes.
+## Water evidence
 
-## Environment — July 2026
+ANA/SNIRH Q95 pipeline succeeded end-to-end through GitHub Actions.
 
-Official snapshot: `CNUC_2026_07`, acquired and processed through GitHub Actions.
+- 1,112 municipalities: direct mapped Q95 reach
+- 682 municipalities: nearest-reach fallback
+- fallback base decay: 25 km
+- sensitivity range: 15–60 km
+- all 11 Tier-A candidates: direct Q95 evidence
 
-- 732 municipalities with any CNUC overlap
-- 258 intersecting Integral Protection areas
-- 347 with >=10% overlap
-- 213 with >=30% overlap
-- 30 municipalities changed environmental constraint tier versus August 2025
+The score is hydrological-access evidence only. No municipality is marked as having verified water supply, water rights or permitted sustainable withdrawal.
 
-Environment score: `1 - integral_protection_share - 0.35 × sustainable_use_share`, clipped to [0,1].
+## CNUC
 
-The refresh changed hundreds of lower/middle ranks but produced **zero top-50 membership changes** and **zero Tier-A entrances/exits** across all four scenarios.
+Current environment snapshot: MMA/CNUC `CNUC_2026_07`. 732 municipalities have any overlap; 258 intersect Integral Protection areas.
 
-## Sensitivity / robust candidates
-
-Fresh 1,500-run Monte Carlo on the July-2026 environment baseline: **Tier A 17; Tier B 30; Tier C 75**.
-
-Tier A: São Gonçalo do Amarante, Caetité, Santa Luzia, Milagres, Urandi, Lajes, Assú, Igaporã, Aquiraz, João Câmara, Serra do Mel, São João do Piauí, Campina Grande, Juazeiro, Ourolândia, Irecê, Bom Jesus da Lapa.
-
-Exact Pareto validation across energy, grid, connectivity, climate and environment places **16/17 Tier-A municipalities on the non-dominated frontier**. Igaporã remains dominated by Caetité.
-
-Pairwise top-50 overlap remains **27–39 municipalities**, confirming meaningful scenario dependence.
-
-## Water — remaining analytical gate
-
-ANA's official surface-water FeatureServer is reachable from GitHub Actions and exposes geometry plus `DISPQ95` (m³/s). A prior run retrieved the first 7,000 Northeast features before a transient HTTP 502. The downloader is now hardened with smaller pages, retry/backoff, page-size fallback, deterministic OBJECTID ordering and duplicate-ID QA.
-
-Q95 will remain **hydrological availability evidence only** — not a water right, utility commitment, permitted withdrawal or cooling-water feasibility result.
-
-## GitHub / web
+## GitHub / Pages
 
 Repository: https://github.com/danielsantos2310/Brazil-Northeast-Green-Data-Center-Site-Selection
 
-The browser map ships the union of 162 municipalities that reach the top 100 in at least one scenario for performance. The analytical model still covers all 1,794 municipalities.
+Dashboard files are under `website/`, and repository-root `index.html` redirects to the dashboard for Pages publication.
 
-## Final analytical gate
+## Remaining work is due diligence / communication, not missing screening data
 
-Before freezing the ranking: complete ANA Q95 aggregation; build a defensible water evidence dimension; rerun all scenarios + 1,500-run sensitivity; rerun Pareto/scenario validation; regenerate website data; run final QA.
-
-A high score means **deserves deeper engineering and commercial due diligence**, not construction-ready.
+Future improvements may add current basin demand-pressure evidence, flood/heat extremes, parcel land availability, utility offers, dark-fibre route independence, tariffs/taxes and investment-grade project economics. These are deeper diligence layers rather than blockers to the completed municipality screening.
