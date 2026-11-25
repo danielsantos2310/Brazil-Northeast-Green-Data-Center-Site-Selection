@@ -128,6 +128,23 @@ Current automated refresh workflows:
 - [LinkedIn launch draft](docs/linkedin_launch_draft.md)
 - [Official-source verification note](docs/source_verification_2026-11-25.md)
 - [Step-16 Tier-A deep dive](docs/step16_tierA_deep_dive.md)
+- [Step-16 external diligence brief](docs/step16_external_diligence_brief.md)
+
+## Step 16 — deeper diligence
+
+The completed v4 model retains **11 Tier-A robust municipalities**. A second, non-scoring diligence layer now uses AdaptaBrasil baseline climate risk, current official water-system evidence, ANA demand context and explicit blocking gates to prioritize the next external studies.
+
+Current external-diligence queue:
+
+1. **Bom Jesus da Lapa, BA**
+2. **Brumado, BA**
+3. **Juazeiro, BA**
+4. **São Gonçalo do Amarante / Pecém, CE**
+5. **Urandi, BA**
+
+**Parnaíba, PI** is the first reserve challenger.
+
+This is not a replacement ranking. Promotion beyond this point requires formal utility headroom, permitted industrial water, independent carrier routes and a viable parcel.
 
 ## Important limitations
 
