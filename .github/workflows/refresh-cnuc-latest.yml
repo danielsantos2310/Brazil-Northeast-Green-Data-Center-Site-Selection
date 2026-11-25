@@ -20,6 +20,8 @@ jobs:
         with: { python-version: "3.12" }
       - name: Install spatial dependencies
         run: python -m pip install --disable-pip-version-check requests pandas numpy geopandas pyogrio shapely pyproj
+      - name: Compile pipeline
+        run: python -m py_compile src/fetch/refresh_cnuc_latest.py src/spatial/build_ibge_ne_municipalities.py src/spatial/process_cnuc_municipalities.py
       - name: Build official IBGE 2025 Northeast geometry
         run: |
           python src/fetch/download_ibge_2025.py --output-dir data/raw/ibge --extract
@@ -36,6 +38,7 @@ jobs:
           assert len(df)==1794 and df["CD_MUN"].nunique()==1794
           m=json.load(open("data/interim/cnuc_latest/selected_resources.json",encoding="utf-8"))
           print("selected:",[(x["name"],x["version"]) for x in m["selected"]])
+          print("any overlap:",int(df["cnuc_any_overlap"].sum()))
           PY
       - uses: actions/upload-artifact@v4
         with:
