@@ -1,0 +1,1795 @@
+ibge_code,municipality,state,hyperscale_ai_rank_provisional_no_water,colocation_digital_hub_rank_provisional_no_water,renewable_first_compute_rank_provisional_no_water,low_water_ai_rank_provisional_no_water,best_scenario,best_scenario_rank,worst_scenario,worst_scenario_rank,scenario_rank_spread,scenario_mean_rank
+2312403,São Gonçalo do Amarante,CE,1,1,2,1,Hyperscale AI,1,Renewable-first compute,2,1,1.25
+2905206,Caetité,BA,3,5,4,2,Low-water AI,2,Colocation / digital hub,5,3,3.5
+2513406,Santa Luzia,PB,2,12,1,5,Renewable-first compute,1,Colocation / digital hub,12,11,5.0
+2308302,Milagres,CE,4,2,9,7,Colocation / digital hub,2,Renewable-first compute,9,7,5.5
+2932606,Urandi,BA,5,9,8,3,Low-water AI,3,Colocation / digital hub,9,6,6.25
+2400208,Assú,RN,7,7,6,14,Renewable-first compute,6,Low-water AI,14,8,8.5
+2406700,Lajes,RN,6,13,5,13,Renewable-first compute,5,Colocation / digital hub,13,8,9.25
+2913408,Igaporã,BA,9,21,15,6,Low-water AI,6,Colocation / digital hub,21,15,12.75
+2301000,Aquiraz,CE,12,10,13,27,Colocation / digital hub,10,Low-water AI,27,17,15.5
+2405801,João Câmara,RN,10,23,10,22,Hyperscale AI,10,Colocation / digital hub,23,13,16.25
+2413359,Serra do Mel,RN,8,37,3,17,Renewable-first compute,3,Colocation / digital hub,37,34,16.25
+2210003,São João do Piauí,PI,13,17,11,30,Renewable-first compute,11,Low-water AI,30,19,17.75
+2504009,Campina Grande,PB,14,4,46,11,Colocation / digital hub,4,Renewable-first compute,46,42,18.75
+2918407,Juazeiro,BA,17,18,17,26,Hyperscale AI,17,Low-water AI,26,9,19.5
+2923357,Ourolândia,BA,11,48,18,4,Low-water AI,4,Colocation / digital hub,48,44,20.25
+2914604,Irecê,BA,16,8,51,8,Colocation / digital hub,8,Renewable-first compute,51,43,20.75
+2301109,Aracati,CE,15,22,7,44,Renewable-first compute,7,Low-water AI,44,37,22.0
+2903904,Bom Jesus da Lapa,BA,19,25,29,28,Hyperscale AI,19,Renewable-first compute,29,10,25.25
+2408003,Mossoró,RN,18,15,19,54,Colocation / digital hub,15,Low-water AI,54,39,26.5
+2305407,Icó,CE,23,31,22,31,Renewable-first compute,22,Colocation / digital hub,31,9,26.75
+2904605,Brumado,BA,22,16,60,12,Low-water AI,12,Renewable-first compute,60,48,27.5
+2303709,Caucaia,CE,21,26,30,35,Hyperscale AI,21,Low-water AI,35,14,28.0
+2402600,Ceará-Mirim,RN,20,45,16,45,Renewable-first compute,16,Colocation / digital hub,45,29,31.5
+2311306,Quixadá,CE,25,14,77,19,Colocation / digital hub,14,Renewable-first compute,77,63,33.75
+2603207,Caetés,PE,26,63,36,15,Low-water AI,15,Colocation / digital hub,63,48,35.0
+2921708,Morro do Chapéu,BA,24,83,32,9,Low-water AI,9,Colocation / digital hub,83,74,37.0
+2403103,Currais Novos,RN,27,41,26,56,Renewable-first compute,26,Low-water AI,56,30,37.5
+2400802,Angicos,RN,29,39,20,63,Renewable-first compute,20,Low-water AI,63,43,37.75
+2601102,Araripina,PE,28,46,34,47,Hyperscale AI,28,Low-water AI,47,19,38.75
+2207702,Parnaíba,PI,45,6,25,81,Colocation / digital hub,6,Low-water AI,81,75,39.25
+2307700,Maranguape,CE,33,20,76,34,Colocation / digital hub,20,Renewable-first compute,76,56,40.75
+2613503,São José do Belmonte,PE,36,61,31,38,Renewable-first compute,31,Colocation / digital hub,61,30,41.5
+2313401,Tianguá,CE,31,32,35,71,Hyperscale AI,31,Low-water AI,71,40,42.25
+2307650,Maracanaú,CE,37,27,48,68,Colocation / digital hub,27,Low-water AI,68,41,45.0
+2606200,Goiana,PE,35,28,65,57,Colocation / digital hub,28,Renewable-first compute,65,37,46.25
+2613107,São Caitano,PE,44,40,73,29,Low-water AI,29,Renewable-first compute,73,44,46.5
+2602902,Cabo de Santo Agostinho,PE,43,3,94,48,Colocation / digital hub,3,Renewable-first compute,94,91,47.0
+2408102,Natal,RN,42,35,42,69,Colocation / digital hub,35,Low-water AI,69,34,47.0
+2304285,Eusébio,CE,40,38,38,78,Colocation / digital hub,38,Low-water AI,78,40,48.5
+2606002,Garanhuns,PE,38,11,120,25,Colocation / digital hub,11,Renewable-first compute,120,109,48.5
+2401909,Caiçara do Rio do Vento,RN,32,85,21,58,Renewable-first compute,21,Colocation / digital hub,85,64,49.0
+2924009,Paulo Afonso,BA,34,19,110,33,Colocation / digital hub,19,Renewable-first compute,110,91,49.0
+2310209,Paracuru,CE,50,58,53,52,Hyperscale AI,50,Colocation / digital hub,58,8,53.25
+2905305,Cafarnaum,BA,30,145,44,10,Low-water AI,10,Colocation / digital hub,145,135,57.25
+2933604,Xique-Xique,BA,39,147,28,21,Low-water AI,21,Colocation / digital hub,147,126,58.75
+2304400,Fortaleza,CE,48,24,75,92,Colocation / digital hub,24,Low-water AI,92,68,59.75
+2300200,Acaraú,CE,52,89,37,70,Renewable-first compute,37,Colocation / digital hub,89,52,62.0
+2925105,Poções,BA,51,36,146,18,Low-water AI,18,Renewable-first compute,146,128,62.75
+2507507,João Pessoa,PB,56,42,72,96,Colocation / digital hub,42,Low-water AI,96,54,66.5
+2933158,Várzea Nova,BA,58,117,71,24,Low-water AI,24,Colocation / digital hub,117,93,67.5
+2932457,Umburanas,BA,46,148,64,16,Low-water AI,16,Colocation / digital hub,148,132,68.5
+2607901,Jaboatão dos Guararapes,PE,60,30,112,76,Colocation / digital hub,30,Renewable-first compute,112,82,69.5
+2918357,João Dourado,BA,53,149,56,20,Low-water AI,20,Colocation / digital hub,149,129,69.5
+2407104,Macaíba,RN,63,64,63,98,Hyperscale AI,63,Low-water AI,98,35,72.0
+2205953,Marcolândia,PI,55,96,62,84,Hyperscale AI,55,Colocation / digital hub,96,41,74.25
+2702405,Delmiro Gouveia,AL,62,56,130,50,Low-water AI,50,Renewable-first compute,130,80,74.5
+2927408,Salvador,BA,61,33,128,79,Colocation / digital hub,33,Renewable-first compute,128,95,75.25
+2306553,Itarema,CE,64,93,59,86,Renewable-first compute,59,Colocation / digital hub,93,34,75.5
+2307304,Juazeiro do Norte,CE,70,53,103,82,Colocation / digital hub,53,Renewable-first compute,103,50,77.0
+2604106,Caruaru,PE,81,43,129,62,Colocation / digital hub,43,Renewable-first compute,129,86,78.75
+2308104,Mauriti,CE,57,155,50,55,Renewable-first compute,50,Colocation / digital hub,155,105,79.25
+2611606,Recife,PE,65,29,138,91,Colocation / digital hub,29,Renewable-first compute,138,109,80.75
+2919405,Licínio de Almeida,BA,77,99,105,46,Low-water AI,46,Renewable-first compute,105,59,81.75
+2616407,Vitória de Santo Antão,PE,79,50,111,90,Colocation / digital hub,50,Renewable-first compute,111,61,82.5
+2412005,São Gonçalo do Amarante,RN,72,51,97,111,Colocation / digital hub,51,Low-water AI,111,60,82.75
+2405108,Jandaíra,RN,41,217,14,60,Renewable-first compute,14,Colocation / digital hub,217,203,83.0
+2903201,Barreiras,BA,75,113,84,64,Low-water AI,64,Colocation / digital hub,113,49,84.0
+2514909,São Mamede,PB,49,213,23,51,Renewable-first compute,23,Colocation / digital hub,213,190,84.0
+2510808,Patos,PB,87,75,69,107,Renewable-first compute,69,Low-water AI,107,38,84.5
+2304459,Fortim,CE,66,125,39,110,Renewable-first compute,39,Colocation / digital hub,125,86,85.0
+2210706,Simões,PI,69,128,58,95,Renewable-first compute,58,Colocation / digital hub,128,70,87.5
+2307007,Jaguaruana,CE,54,172,24,103,Renewable-first compute,24,Colocation / digital hub,172,148,88.25
+2313609,Ubajara,CE,67,136,43,114,Renewable-first compute,43,Colocation / digital hub,136,93,90.0
+2614709,Tacaimbó,PE,74,153,91,43,Low-water AI,43,Colocation / digital hub,153,110,90.25
+2507705,Juazeirinho,PB,88,59,124,97,Colocation / digital hub,59,Renewable-first compute,124,65,92.0
+2912400,Ibipeba,BA,59,241,54,23,Low-water AI,23,Colocation / digital hub,241,218,94.25
+2613206,São João,PE,73,116,150,39,Low-water AI,39,Renewable-first compute,150,111,94.5
+2608057,Jatobá,PE,76,126,126,53,Low-water AI,53,Colocation / digital hub,126,73,95.25
+2611002,Petrolândia,PE,96,87,134,73,Low-water AI,73,Renewable-first compute,134,61,97.5
+2411403,Santana do Matos,RN,47,273,12,59,Renewable-first compute,12,Colocation / digital hub,273,261,97.75
+2801207,Canindé de São Francisco,SE,89,82,151,72,Low-water AI,72,Renewable-first compute,151,79,98.5
+2704302,Maceió,AL,93,52,153,102,Colocation / digital hub,52,Renewable-first compute,153,101,100.0
+2305357,Icapuí,CE,68,185,27,121,Renewable-first compute,27,Colocation / digital hub,185,158,100.25
+2700300,Arapiraca,AL,95,44,172,93,Colocation / digital hub,44,Renewable-first compute,172,128,101.0
+2600054,Abreu e Lima,PE,83,55,167,101,Colocation / digital hub,55,Renewable-first compute,167,112,101.5
+2300754,Amontada,CE,99,102,87,124,Renewable-first compute,87,Low-water AI,124,37,103.0
+2306702,Jaguaretama,CE,102,105,89,116,Renewable-first compute,89,Low-water AI,116,27,103.0
+2306256,Itaitinga,CE,80,57,158,119,Colocation / digital hub,57,Renewable-first compute,158,101,103.5
+2901155,América Dourada,BA,92,122,163,40,Low-water AI,40,Renewable-first compute,163,123,104.25
+2512507,Queimadas,PB,101,66,178,74,Colocation / digital hub,66,Renewable-first compute,178,112,104.75
+2910057,Dias d'Ávila,BA,86,34,206,94,Colocation / digital hub,34,Renewable-first compute,206,172,105.0
+2403251,Parnamirim,RN,104,77,83,159,Colocation / digital hub,77,Low-water AI,159,82,105.75
+2911709,Guanambi,BA,71,275,52,37,Low-water AI,37,Colocation / digital hub,275,238,108.75
+2929255,São Gabriel,BA,91,203,109,42,Low-water AI,42,Colocation / digital hub,203,161,111.25
+2313500,Trairi,CE,110,144,86,108,Renewable-first compute,86,Colocation / digital hub,144,58,112.0
+2305308,Ibiapina,CE,97,115,79,161,Renewable-first compute,79,Low-water AI,161,82,113.0
+2607208,Ipojuca,PE,100,47,205,106,Colocation / digital hub,47,Renewable-first compute,205,158,114.5
+2930105,Senhor do Bonfim,BA,112,49,232,80,Colocation / digital hub,49,Renewable-first compute,232,183,118.25
+2609501,Nazaré da Mata,PE,119,71,160,129,Colocation / digital hub,71,Renewable-first compute,160,89,119.75
+2300101,Abaiara,CE,78,295,47,65,Renewable-first compute,47,Colocation / digital hub,295,248,121.25
+2907608,Central,BA,114,167,149,61,Low-water AI,61,Colocation / digital hub,167,106,122.75
+2307601,Limoeiro do Norte,CE,109,138,81,169,Renewable-first compute,81,Low-water AI,169,88,124.25
+2609402,Moreno,PE,111,69,194,126,Colocation / digital hub,69,Renewable-first compute,194,125,125.0
+2309706,Pacatuba,CE,107,68,169,158,Colocation / digital hub,68,Renewable-first compute,169,101,125.5
+2923209,Oliveira dos Brejinhos,BA,84,312,68,41,Low-water AI,41,Colocation / digital hub,312,271,126.25
+2932408,Uibaí,BA,90,319,70,36,Low-water AI,36,Colocation / digital hub,319,283,128.75
+2909802,Cruz das Almas,BA,121,67,212,122,Colocation / digital hub,67,Renewable-first compute,212,145,130.5
+2211001,Teresina,PI,106,72,127,221,Colocation / digital hub,72,Low-water AI,221,149,131.5
+2613701,São Lourenço da Mata,PE,120,79,198,135,Colocation / digital hub,79,Renewable-first compute,198,119,133.0
+2800308,Aracaju,SE,125,90,147,176,Colocation / digital hub,90,Low-water AI,176,86,134.5
+2408904,Parelhas,RN,82,325,45,89,Renewable-first compute,45,Colocation / digital hub,325,280,135.25
+2501351,Assunção,PB,118,221,96,112,Renewable-first compute,96,Colocation / digital hub,221,125,136.75
+2311801,Russas,CE,126,131,100,198,Renewable-first compute,100,Low-water AI,198,98,138.75
+2605202,Escada,PE,134,81,199,144,Colocation / digital hub,81,Renewable-first compute,199,118,139.5
+2606408,Gravatá,PE,151,107,170,137,Colocation / digital hub,107,Renewable-first compute,170,63,141.25
+2304954,Guaiúba,CE,127,109,226,104,Low-water AI,104,Renewable-first compute,226,122,141.5
+2111300,São Luís,MA,115,78,156,220,Colocation / digital hub,78,Low-water AI,220,142,142.25
+2401107,Areia Branca,RN,98,299,33,141,Renewable-first compute,33,Colocation / digital hub,299,266,142.75
+2800605,Barra dos Coqueiros,SE,113,197,125,136,Hyperscale AI,113,Colocation / digital hub,197,84,142.75
+2310258,Paraipaba,CE,135,142,164,133,Low-water AI,133,Renewable-first compute,164,31,143.5
+2802908,Itabaiana,SE,128,84,204,160,Colocation / digital hub,84,Renewable-first compute,204,120,144.0
+2303501,Cascavel,CE,145,121,143,172,Colocation / digital hub,121,Low-water AI,172,51,145.25
+2406502,Lagoa Nova,RN,103,301,55,125,Renewable-first compute,55,Colocation / digital hub,301,246,146.0
+2930774,Sobradinho,BA,94,331,74,85,Renewable-first compute,74,Colocation / digital hub,331,257,146.0
+2601201,Arcoverde,PE,157,100,202,128,Colocation / digital hub,100,Renewable-first compute,202,102,146.75
+2610103,Palmeirina,PE,124,162,225,77,Low-water AI,77,Renewable-first compute,225,148,147.0
+2508307,Lagoa Seca,PB,131,176,174,113,Low-water AI,113,Colocation / digital hub,176,63,148.5
+2905701,Camaçari,BA,132,73,245,145,Colocation / digital hub,73,Renewable-first compute,245,172,148.75
+2201739,Betânia do Piauí,PI,133,239,82,148,Renewable-first compute,82,Colocation / digital hub,239,157,150.5
+2601706,Belo Jardim,PE,144,76,268,115,Colocation / digital hub,76,Renewable-first compute,268,192,150.75
+2604007,Carpina,PE,139,62,246,156,Colocation / digital hub,62,Renewable-first compute,246,184,150.75
+2504603,Conde,PB,129,114,177,188,Colocation / digital hub,114,Low-water AI,188,74,152.0
+2923100,Olindina,BA,137,86,236,150,Colocation / digital hub,86,Renewable-first compute,236,150,152.25
+2310852,Pindoretama,CE,138,192,107,173,Renewable-first compute,107,Colocation / digital hub,192,85,152.5
+2803005,Itabaianinha,SE,146,74,255,139,Colocation / digital hub,74,Renewable-first compute,255,181,153.5
+2512408,Puxinanã,PB,122,262,144,87,Low-water AI,87,Colocation / digital hub,262,175,153.75
+2929602,Sapeaçu,BA,136,133,218,132,Low-water AI,132,Renewable-first compute,218,86,154.75
+2614808,Tacaratu,PE,117,343,92,67,Low-water AI,67,Colocation / digital hub,343,276,154.75
+2313302,Tauá,CE,140,218,118,147,Renewable-first compute,118,Colocation / digital hub,218,100,155.75
+2305233,Horizonte,CE,147,98,203,178,Colocation / digital hub,98,Renewable-first compute,203,105,156.5
+2612307,Saloá,PE,123,315,123,66,Low-water AI,66,Colocation / digital hub,315,249,156.75
+2904050,Bonito,BA,158,204,193,75,Low-water AI,75,Colocation / digital hub,204,129,157.5
+2910800,Feira de Santana,BA,149,60,270,155,Colocation / digital hub,60,Renewable-first compute,270,210,158.5
+2513703,Santa Rita,PB,141,103,180,212,Colocation / digital hub,103,Low-water AI,212,109,159.0
+2603454,Camaragibe,PE,148,94,238,182,Colocation / digital hub,94,Renewable-first compute,238,144,165.5
+2610608,Paudalho,PE,152,104,244,166,Colocation / digital hub,104,Renewable-first compute,244,140,166.5
+2610707,Paulista,PE,153,80,252,181,Colocation / digital hub,80,Renewable-first compute,252,172,166.5
+2203453,Dom Inocêncio,PI,108,398,41,120,Renewable-first compute,41,Colocation / digital hub,398,357,166.75
+2302206,Beberibe,CE,155,199,121,200,Renewable-first compute,121,Low-water AI,200,79,168.75
+2409605,Pedra Preta,RN,105,399,49,123,Renewable-first compute,49,Colocation / digital hub,399,350,169.0
+2409332,Santa Maria,RN,156,120,171,231,Colocation / digital hub,120,Low-water AI,231,111,169.5
+2412203,São José de Mipibu,RN,163,119,141,257,Colocation / digital hub,119,Low-water AI,257,138,170.0
+2308401,Missão Velha,CE,161,173,179,174,Hyperscale AI,161,Renewable-first compute,179,18,171.75
+2403608,Extremoz,RN,150,188,152,201,Hyperscale AI,150,Low-water AI,201,51,172.75
+2925006,Planalto,BA,166,168,274,88,Low-water AI,88,Renewable-first compute,274,186,174.0
+2307809,Marco,CE,159,174,145,219,Renewable-first compute,145,Low-water AI,219,74,174.25
+2900702,Alagoinhas,BA,165,65,309,162,Colocation / digital hub,65,Renewable-first compute,309,244,175.25
+2911303,Gentio do Ouro,BA,85,552,40,32,Low-water AI,32,Colocation / digital hub,552,520,177.25
+2914802,Itabuna,BA,154,54,408,99,Colocation / digital hub,54,Renewable-first compute,408,354,178.75
+2601003,Angelim,PE,170,182,260,109,Low-water AI,109,Renewable-first compute,260,151,180.25
+2410900,Riachuelo,RN,130,350,85,157,Renewable-first compute,85,Colocation / digital hub,350,265,180.5
+2516102,Soledade,PB,182,152,210,187,Colocation / digital hub,152,Renewable-first compute,210,58,182.75
+2907202,Casa Nova,BA,187,223,119,206,Renewable-first compute,119,Colocation / digital hub,223,104,183.75
+2606804,Igarassu,PE,167,112,273,186,Colocation / digital hub,112,Renewable-first compute,273,161,184.5
+2706703,Penedo,AL,180,177,189,194,Colocation / digital hub,177,Low-water AI,194,17,185.0
+2707701,Rio Largo,AL,169,91,303,177,Colocation / digital hub,91,Renewable-first compute,303,212,185.0
+2402303,Caraúbas,RN,175,158,162,252,Colocation / digital hub,158,Low-water AI,252,94,186.75
+2707107,Piranhas,AL,177,190,250,138,Low-water AI,138,Renewable-first compute,250,112,188.75
+2605707,Floresta,PE,178,264,181,134,Low-water AI,134,Colocation / digital hub,264,130,189.25
+2201960,Brasileira,PI,142,181,157,286,Hyperscale AI,142,Low-water AI,286,144,191.5
+2301851,Banabuiú,CE,174,227,216,151,Low-water AI,151,Colocation / digital hub,227,76,192.0
+2806701,São Cristóvão,SE,176,110,263,224,Colocation / digital hub,110,Renewable-first compute,263,153,193.25
+2200277,Alegrete do Piauí,PI,190,207,137,262,Renewable-first compute,137,Low-water AI,262,125,199.0
+2413904,Taipu,RN,181,196,175,247,Renewable-first compute,175,Low-water AI,247,72,199.75
+2609600,Olinda,PE,193,111,261,243,Colocation / digital hub,111,Renewable-first compute,261,150,202.0
+2921005,Mata de São João,BA,179,95,350,185,Colocation / digital hub,95,Renewable-first compute,350,255,202.25
+2306405,Itapipoca,CE,203,143,223,241,Colocation / digital hub,143,Low-water AI,241,98,202.5
+2313104,Tabuleiro do Norte,CE,168,313,116,223,Renewable-first compute,116,Colocation / digital hub,313,197,205.0
+2930709,Simões Filho,BA,171,70,380,204,Colocation / digital hub,70,Renewable-first compute,380,310,206.25
+2919207,Lauro de Freitas,BA,185,101,327,217,Colocation / digital hub,101,Renewable-first compute,327,226,207.5
+2613909,Serra Talhada,PE,234,191,196,209,Colocation / digital hub,191,Hyperscale AI,234,43,207.5
+2904506,Brotas de Macaúbas,BA,116,610,57,49,Low-water AI,49,Colocation / digital hub,610,561,208.0
+2303204,Caririaçu,CE,211,161,227,236,Colocation / digital hub,161,Low-water AI,236,75,208.75
+2616001,Venturosa,PE,189,367,165,118,Low-water AI,118,Colocation / digital hub,367,249,209.75
+2907509,Catu,BA,198,97,356,190,Colocation / digital hub,97,Renewable-first compute,356,259,210.25
+2705705,Olho d'Água das Flores,AL,225,134,292,191,Colocation / digital hub,134,Renewable-first compute,292,158,210.5
+2310704,Pentecoste,CE,228,179,304,142,Low-water AI,142,Renewable-first compute,304,162,213.25
+2302008,Barro,CE,207,235,213,203,Low-water AI,203,Colocation / digital hub,235,32,214.5
+2411205,Santa Cruz,RN,199,202,208,255,Hyperscale AI,199,Low-water AI,255,56,216.0
+2910727,Eunápolis,BA,204,92,418,153,Colocation / digital hub,92,Renewable-first compute,418,326,216.75
+2302602,Camocim,CE,217,151,168,334,Colocation / digital hub,151,Low-water AI,334,183,217.5
+2309508,Orós,CE,221,194,233,222,Colocation / digital hub,194,Renewable-first compute,233,39,217.5
+2400109,Acari,RN,216,169,186,301,Colocation / digital hub,169,Low-water AI,301,132,218.0
+2911600,Governador Mangabeira,BA,205,156,313,205,Colocation / digital hub,156,Renewable-first compute,313,157,219.75
+2804805,Nossa Senhora do Socorro,SE,206,124,287,268,Colocation / digital hub,124,Renewable-first compute,287,163,221.25
+2506004,Esperança,PB,220,248,211,208,Low-water AI,208,Colocation / digital hub,248,40,221.75
+2918100,Jeremoabo,BA,209,154,330,196,Colocation / digital hub,154,Renewable-first compute,330,176,222.25
+2611804,Ribeirão,PE,208,106,386,193,Colocation / digital hub,106,Renewable-first compute,386,280,223.25
+2804102,Moita Bonita,SE,219,165,254,258,Colocation / digital hub,165,Low-water AI,258,93,224.0
+2907806,Cícero Dantas,BA,226,146,322,211,Colocation / digital hub,146,Renewable-first compute,322,176,226.25
+2207207,Padre Marcos,PI,210,268,166,266,Renewable-first compute,166,Colocation / digital hub,268,102,227.5
+2109106,Presidente Dutra,MA,194,118,262,342,Colocation / digital hub,118,Low-water AI,342,224,229.0
+2302503,Brejo Santo,CE,232,212,248,226,Colocation / digital hub,212,Renewable-first compute,248,36,229.5
+2806008,Ribeirópolis,SE,237,135,280,278,Colocation / digital hub,135,Renewable-first compute,280,145,232.5
+2409100,Passa e Fica,RN,218,255,195,264,Renewable-first compute,195,Low-water AI,264,69,233.0
+2414001,Tangará,RN,227,198,217,299,Colocation / digital hub,198,Low-water AI,299,101,235.25
+2310100,Palmácia,CE,260,251,282,149,Low-water AI,149,Renewable-first compute,282,133,235.5
+2917706,Jaguarari,BA,252,210,269,213,Colocation / digital hub,210,Renewable-first compute,269,59,236.0
+2805406,Poço Redondo,SE,239,205,289,214,Colocation / digital hub,205,Renewable-first compute,289,84,236.75
+2932200,Ubaitaba,BA,224,88,508,152,Colocation / digital hub,88,Renewable-first compute,508,420,243.0
+2913101,Ibititá,BA,214,454,200,105,Low-water AI,105,Colocation / digital hub,454,349,243.25
+2919157,Lapão,BA,231,386,242,117,Low-water AI,117,Colocation / digital hub,386,269,244.0
+2928703,Santo Antônio de Jesus,BA,236,123,377,244,Colocation / digital hub,123,Renewable-first compute,377,254,245.0
+2911402,Glória,BA,195,472,187,127,Low-water AI,127,Colocation / digital hub,472,345,245.25
+2404507,Guamaré,RN,173,484,93,234,Renewable-first compute,93,Colocation / digital hub,484,391,246.0
+2404705,Ipanguaçu,RN,212,305,173,295,Renewable-first compute,173,Colocation / digital hub,305,132,246.25
+2907301,Castro Alves,BA,242,243,307,195,Low-water AI,195,Renewable-first compute,307,112,246.75
+2500601,Alhandra,PB,222,253,234,280,Hyperscale AI,222,Low-water AI,280,58,247.25
+2608800,Lajedo,PE,253,236,338,165,Low-water AI,165,Renewable-first compute,338,173,248.0
+2906006,Campo Formoso,BA,200,510,154,130,Low-water AI,130,Colocation / digital hub,510,380,248.5
+2400703,Alto do Rodrigues,RN,184,462,115,235,Renewable-first compute,115,Colocation / digital hub,462,347,249.0
+2208007,Picos,PI,241,129,259,370,Colocation / digital hub,129,Low-water AI,370,241,249.75
+2411429,Santana do Seridó,RN,183,489,140,192,Renewable-first compute,140,Colocation / digital hub,489,349,251.0
+2906501,Candeias,BA,213,108,440,251,Colocation / digital hub,108,Renewable-first compute,440,332,253.0
+2705200,Messias,AL,230,215,365,202,Low-water AI,202,Renewable-first compute,365,163,253.0
+2930907,Tabocas do Brejo Velho,BA,202,540,136,143,Renewable-first compute,136,Colocation / digital hub,540,404,255.25
+2512101,Pombal,PB,265,214,219,326,Colocation / digital hub,214,Low-water AI,326,112,256.0
+2608909,Limoeiro,PE,258,132,406,229,Colocation / digital hub,132,Renewable-first compute,406,274,256.25
+2202000,Buriti dos Lopes,PI,235,171,239,381,Colocation / digital hub,171,Low-water AI,381,210,256.5
+2708808,São Sebastião,AL,259,141,346,285,Colocation / digital hub,141,Renewable-first compute,346,205,257.75
+2928802,Santo Estêvão,BA,251,140,388,253,Colocation / digital hub,140,Renewable-first compute,388,248,258.0
+2516201,Sousa,PB,268,139,308,317,Colocation / digital hub,139,Low-water AI,317,178,258.0
+2908200,Conceição da Feira,BA,245,186,360,242,Colocation / digital hub,186,Renewable-first compute,360,174,258.25
+2208650,Queimada Nova,PI,143,690,61,140,Renewable-first compute,61,Colocation / digital hub,690,629,258.5
+2311504,Quixeré,CE,188,459,101,287,Renewable-first compute,101,Colocation / digital hub,459,358,258.75
+2924504,Pindaí,BA,164,687,102,83,Low-water AI,83,Colocation / digital hub,687,604,259.0
+2903953,Bom Jesus da Serra,BA,256,288,364,131,Low-water AI,131,Renewable-first compute,364,233,259.75
+2402105,Campo Redondo,RN,162,625,90,163,Renewable-first compute,90,Colocation / digital hub,625,535,260.0
+2925204,Pojuca,BA,248,130,427,249,Colocation / digital hub,130,Renewable-first compute,427,297,263.5
+2611507,Quipapá,PE,272,127,451,215,Colocation / digital hub,127,Renewable-first compute,451,324,266.25
+2603702,Canhotinho,PE,264,228,400,179,Low-water AI,179,Renewable-first compute,400,221,267.75
+2608453,Lagoa do Carro,PE,255,278,325,216,Low-water AI,216,Renewable-first compute,325,109,268.5
+2516003,Solânea,PB,267,230,256,325,Colocation / digital hub,230,Low-water AI,325,95,269.5
+2407203,Macau,RN,192,530,99,260,Renewable-first compute,99,Colocation / digital hub,530,431,270.25
+2600708,Aliança,PE,261,226,320,279,Colocation / digital hub,226,Renewable-first compute,320,94,271.5
+2610301,Paranatama,PE,191,653,148,100,Low-water AI,100,Colocation / digital hub,653,553,273.0
+2602803,Buíque,PE,273,339,295,189,Low-water AI,189,Colocation / digital hub,339,150,274.0
+2501153,Areia de Baraúnas,PB,238,507,135,218,Renewable-first compute,135,Colocation / digital hub,507,372,274.5
+2208403,Piripiri,PI,240,137,288,437,Colocation / digital hub,137,Low-water AI,437,300,275.5
+2800407,Arauá,SE,274,160,404,277,Colocation / digital hub,160,Renewable-first compute,404,244,278.75
+2307502,Lavras da Mangabeira,CE,296,166,305,348,Colocation / digital hub,166,Low-water AI,348,182,278.75
+2405504,Jardim de Angicos,RN,215,529,114,259,Renewable-first compute,114,Colocation / digital hub,529,415,279.25
+2918506,Jussara,BA,287,414,257,168,Low-water AI,168,Colocation / digital hub,414,246,281.5
+2409704,Pedro Avelino,RN,160,734,67,167,Renewable-first compute,67,Colocation / digital hub,734,667,282.0
+2511103,Pedra Lavrada,PB,257,419,182,276,Renewable-first compute,182,Colocation / digital hub,419,237,283.5
+2931053,Tanque Novo,BA,298,374,229,240,Renewable-first compute,229,Colocation / digital hub,374,145,285.25
+2708006,Santana do Ipanema,AL,269,249,398,230,Low-water AI,230,Renewable-first compute,398,168,286.5
+2611309,Pombos,PE,299,300,247,305,Renewable-first compute,247,Low-water AI,305,58,287.75
+2609907,Ouricuri,PE,309,252,230,367,Renewable-first compute,230,Low-water AI,367,137,289.5
+2931350,Teixeira de Freitas,BA,285,184,444,245,Colocation / digital hub,184,Renewable-first compute,444,260,289.5
+2401453,Baraúna,RN,229,439,159,333,Renewable-first compute,159,Colocation / digital hub,439,280,290.0
+2507804,Junco do Seridó,PB,196,705,98,164,Renewable-first compute,98,Colocation / digital hub,705,607,290.75
+2612208,Salgueiro,PE,306,164,347,352,Colocation / digital hub,164,Low-water AI,352,188,292.25
+2204154,Francisco Macedo,PI,280,323,220,347,Renewable-first compute,220,Low-water AI,347,127,292.5
+2101251,Bacabeira,MA,277,150,339,408,Colocation / digital hub,150,Low-water AI,408,258,293.5
+2511400,Picuí,PB,247,509,131,291,Renewable-first compute,131,Colocation / digital hub,509,378,294.5
+2404606,Ielmo Marinho,RN,243,458,192,288,Renewable-first compute,192,Colocation / digital hub,458,266,295.25
+2707206,Poço das Trincheiras,AL,271,296,394,225,Low-water AI,225,Renewable-first compute,394,169,296.5
+2606101,Glória do Goitá,PE,288,304,329,272,Low-water AI,272,Renewable-first compute,329,57,298.25
+2915353,Itaguaçu da Bahia,BA,262,664,113,154,Renewable-first compute,113,Colocation / digital hub,664,551,298.25
+2610806,Pedra,PE,270,528,224,171,Low-water AI,171,Colocation / digital hub,528,357,298.25
+2614105,Sertânia,PE,311,238,375,270,Colocation / digital hub,238,Renewable-first compute,375,137,298.5
+2901601,Antas,BA,283,272,369,271,Low-water AI,271,Renewable-first compute,369,98,298.75
+2202091,Caldeirão Grande do Piauí,PI,172,779,80,170,Renewable-first compute,80,Colocation / digital hub,779,699,300.25
+2908507,Conceição do Jacuípe,BA,292,170,430,314,Colocation / digital hub,170,Renewable-first compute,430,260,301.5
+2205565,Lagoa do Barro do Piauí,PI,186,772,66,183,Renewable-first compute,66,Colocation / digital hub,772,706,301.75
+2514701,São José do Sabugi,PB,197,745,88,180,Renewable-first compute,88,Colocation / digital hub,745,657,302.5
+2312908,Sobral,CE,293,183,299,441,Colocation / digital hub,183,Low-water AI,441,258,304.0
+2207934,Pedro Laurentino,PI,284,342,215,380,Renewable-first compute,215,Low-water AI,380,165,305.25
+2413003,São Vicente,RN,246,541,142,293,Renewable-first compute,142,Colocation / digital hub,541,399,305.5
+2404853,Itajá,RN,275,407,201,346,Renewable-first compute,201,Colocation / digital hub,407,206,307.25
+2612554,Santa Filomena,PE,286,412,243,298,Renewable-first compute,243,Colocation / digital hub,412,169,309.75
+2805109,Pedrinhas,SE,300,216,437,296,Colocation / digital hub,216,Renewable-first compute,437,221,312.25
+2304202,Crato,CE,291,270,366,324,Colocation / digital hub,270,Renewable-first compute,366,96,312.75
+2610202,Panelas,PE,321,294,392,248,Low-water AI,248,Renewable-first compute,392,144,313.75
+2701803,Carneiros,AL,297,403,311,246,Low-water AI,246,Colocation / digital hub,403,157,314.25
+2207959,Nova Santa Rita,PI,290,389,191,388,Renewable-first compute,191,Colocation / digital hub,389,198,314.5
+2105302,Imperatriz,MA,289,163,278,529,Colocation / digital hub,163,Low-water AI,529,366,314.75
+2106755,Miranda do Norte,MA,276,157,351,483,Colocation / digital hub,157,Low-water AI,483,326,316.75
+2203271,Curral Novo do Piauí,PI,249,645,122,256,Renewable-first compute,122,Colocation / digital hub,645,523,318.0
+2503209,Cabedelo,PB,312,242,275,449,Colocation / digital hub,242,Low-water AI,449,207,319.5
+2402501,Carnaubais,RN,278,436,207,359,Renewable-first compute,207,Colocation / digital hub,436,229,320.0
+2308005,Massapê,CE,295,201,332,452,Colocation / digital hub,201,Low-water AI,452,251,320.0
+2300150,Acarape,CE,318,310,449,210,Low-water AI,210,Renewable-first compute,449,239,321.75
+2608305,Jupi,PE,294,466,345,184,Low-water AI,184,Colocation / digital hub,466,282,322.25
+2414407,Touros,RN,201,814,78,199,Renewable-first compute,78,Colocation / digital hub,814,736,323.0
+2510303,Nova Palmeira,PB,282,522,188,306,Renewable-first compute,188,Colocation / digital hub,522,334,324.5
+2203602,Eliseu Martins,PI,305,283,241,470,Renewable-first compute,241,Low-water AI,470,229,324.75
+2302057,Barroquinha,CE,303,244,283,473,Colocation / digital hub,244,Low-water AI,473,229,325.75
+2408300,Nova Cruz,RN,331,224,302,448,Colocation / digital hub,224,Low-water AI,448,224,326.25
+2801009,Campo do Brito,SE,313,233,415,353,Colocation / digital hub,233,Renewable-first compute,415,182,328.5
+2706307,Palmeira dos Índios,AL,344,189,432,351,Colocation / digital hub,189,Renewable-first compute,432,243,329.0
+2503704,Cajazeiras,PB,367,225,314,421,Colocation / digital hub,225,Low-water AI,421,196,331.75
+2601904,Bezerros,PE,356,180,473,322,Colocation / digital hub,180,Renewable-first compute,473,293,332.75
+2704005,Junqueiro,AL,332,178,466,356,Colocation / digital hub,178,Renewable-first compute,466,288,333.0
+2610905,Pesqueira,PE,358,206,459,310,Colocation / digital hub,206,Renewable-first compute,459,253,333.25
+2926400,Riacho de Santana,BA,359,352,293,331,Renewable-first compute,293,Hyperscale AI,359,66,333.75
+2411056,Tibau,RN,263,548,161,363,Renewable-first compute,161,Colocation / digital hub,548,387,333.75
+2205706,Luís Correia,PI,304,256,265,511,Colocation / digital hub,256,Low-water AI,511,255,334.0
+2309607,Pacajus,CE,339,231,409,357,Colocation / digital hub,231,Renewable-first compute,409,178,334.0
+2411106,Ruy Barbosa,RN,233,736,132,237,Renewable-first compute,132,Colocation / digital hub,736,604,334.5
+2929008,São Félix,BA,307,284,433,315,Colocation / digital hub,284,Renewable-first compute,433,149,334.75
+2304251,Cruz,CE,322,292,300,428,Colocation / digital hub,292,Low-water AI,428,136,335.5
+2703106,Igaci,AL,325,360,367,290,Low-water AI,290,Renewable-first compute,367,77,335.5
+2922300,Muritiba,BA,310,308,412,313,Colocation / digital hub,308,Renewable-first compute,412,104,335.75
+2512705,Remígio,PB,326,393,284,340,Renewable-first compute,284,Colocation / digital hub,393,109,335.75
+2500775,Aparecida,PB,341,240,371,400,Colocation / digital hub,240,Low-water AI,400,160,338.0
+2928604,Santo Amaro,BA,320,159,519,361,Colocation / digital hub,159,Renewable-first compute,519,360,339.75
+2301703,Aurora,CE,327,355,348,337,Hyperscale AI,327,Colocation / digital hub,355,28,341.75
+2409902,Pendências,RN,279,597,155,341,Renewable-first compute,155,Colocation / digital hub,597,442,343.0
+2408805,Parazinho,RN,223,824,95,232,Renewable-first compute,95,Colocation / digital hub,824,729,343.5
+2414803,Vera Cruz,RN,314,425,253,399,Renewable-first compute,253,Colocation / digital hub,425,172,347.75
+2925600,Presidente Dutra,BA,337,536,326,197,Low-water AI,197,Colocation / digital hub,536,339,349.0
+2803203,Itaporanga d'Ajuda,SE,328,229,472,390,Colocation / digital hub,229,Renewable-first compute,472,243,354.75
+2111201,São José de Ribamar,MA,301,219,379,521,Colocation / digital hub,219,Low-water AI,521,302,355.0
+2107506,Paço do Lumiar,MA,302,208,393,518,Colocation / digital hub,208,Low-water AI,518,310,355.25
+2708402,São José da Tapera,AL,345,384,391,304,Low-water AI,304,Renewable-first compute,391,87,356.0
+2506905,Itabaiana,PB,368,237,389,432,Colocation / digital hub,237,Low-water AI,432,195,356.5
+2906824,Canudos,BA,324,611,222,274,Renewable-first compute,222,Colocation / digital hub,611,389,357.75
+2503001,Caaporã,PB,335,324,361,412,Colocation / digital hub,324,Low-water AI,412,88,358.0
+2509602,Monte Horebe,PB,346,426,297,364,Renewable-first compute,297,Colocation / digital hub,426,129,358.25
+2606507,Iati,PE,361,370,414,297,Low-water AI,297,Renewable-first compute,414,117,360.5
+2600500,Águas Belas,PE,379,291,462,321,Colocation / digital hub,291,Renewable-first compute,462,171,363.25
+2403756,Fernando Pedroza,RN,244,845,108,261,Renewable-first compute,108,Colocation / digital hub,845,737,364.5
+2910750,Fátima,BA,340,317,461,344,Colocation / digital hub,317,Renewable-first compute,461,144,365.5
+2301950,Barreira,CE,376,274,539,281,Colocation / digital hub,274,Renewable-first compute,539,265,367.5
+2803906,Malhador,SE,349,246,456,420,Colocation / digital hub,246,Renewable-first compute,456,210,367.75
+2312304,São Benedito,CE,366,267,285,560,Colocation / digital hub,267,Low-water AI,560,293,369.5
+2701605,Canapi,AL,383,260,502,335,Colocation / digital hub,260,Renewable-first compute,502,242,370.0
+2308906,Morrinhos,CE,357,285,357,488,Colocation / digital hub,285,Low-water AI,488,203,371.75
+2512002,Pocinhos,PB,330,602,267,292,Renewable-first compute,267,Colocation / digital hub,602,335,372.75
+2303402,Carnaubal,CE,352,387,228,525,Renewable-first compute,228,Low-water AI,525,297,373.0
+2312601,São Luís do Curu,CE,392,187,548,373,Colocation / digital hub,187,Renewable-first compute,548,361,375.0
+2929305,São Gonçalo dos Campos,BA,343,362,460,336,Low-water AI,336,Renewable-first compute,460,124,375.25
+2604601,Condado,PE,323,515,349,318,Low-water AI,318,Colocation / digital hub,515,197,376.25
+2501807,Bayeux,PB,350,222,422,512,Colocation / digital hub,222,Low-water AI,512,290,376.5
+2413300,Serra de São Bento,RN,329,559,249,374,Renewable-first compute,249,Colocation / digital hub,559,310,377.75
+2603801,Capoeiras,PE,347,565,362,238,Low-water AI,238,Colocation / digital hub,565,327,378.0
+2411601,São Bento do Norte,RN,250,889,104,269,Renewable-first compute,104,Colocation / digital hub,889,785,378.0
+2414159,Tenente Laurentino Cruz,RN,336,586,176,416,Renewable-first compute,176,Colocation / digital hub,586,410,378.5
+2704609,Maravilha,AL,342,354,514,308,Low-water AI,308,Renewable-first compute,514,206,379.5
+2921104,Medeiros Neto,BA,333,467,479,239,Low-water AI,239,Renewable-first compute,479,240,379.5
+2914505,Irará,BA,384,220,522,398,Colocation / digital hub,220,Renewable-first compute,522,302,381.0
+2708907,Satuba,AL,348,333,493,350,Colocation / digital hub,333,Renewable-first compute,493,160,381.0
+2409506,Pedra Grande,RN,254,901,106,273,Renewable-first compute,106,Colocation / digital hub,901,795,383.5
+2703304,Inhapi,AL,373,432,429,309,Low-water AI,309,Colocation / digital hub,432,123,385.75
+2605400,Feira Nova,PE,375,377,446,349,Low-water AI,349,Renewable-first compute,446,97,386.75
+2922052,Mulungu do Morro,BA,316,855,235,146,Low-water AI,146,Colocation / digital hub,855,709,388.0
+2515104,São Sebastião de Lagoa de Roça,PB,351,576,306,320,Renewable-first compute,306,Colocation / digital hub,576,270,388.25
+2905008,Caculé,BA,399,200,632,323,Colocation / digital hub,200,Renewable-first compute,632,432,388.5
+2507002,Itaporanga,PB,396,266,467,425,Colocation / digital hub,266,Renewable-first compute,467,201,388.5
+2110302,Santo Antônio dos Lopes,MA,334,195,434,593,Colocation / digital hub,195,Low-water AI,593,398,389.0
+2514503,São José de Piranhas,PB,400,376,363,423,Renewable-first compute,363,Low-water AI,423,60,390.5
+2902005,Aracatu,BA,380,431,525,227,Low-water AI,227,Renewable-first compute,525,298,390.75
+2913002,Ibitiara,BA,319,884,185,175,Low-water AI,175,Colocation / digital hub,884,709,390.75
+2901809,Antônio Gonçalves,BA,386,405,494,284,Low-water AI,284,Renewable-first compute,494,210,392.25
+2607505,Itaíba,PE,415,287,515,355,Colocation / digital hub,287,Renewable-first compute,515,228,393.0
+2920304,Malhada de Pedras,BA,398,318,578,283,Low-water AI,283,Renewable-first compute,578,295,394.25
+2404101,Galinhos,RN,266,883,117,312,Renewable-first compute,117,Colocation / digital hub,883,766,394.5
+2929503,São Sebastião do Passé,BA,362,232,601,383,Colocation / digital hub,232,Renewable-first compute,601,369,394.5
+2103000,Caxias,MA,353,209,378,639,Colocation / digital hub,209,Low-water AI,639,430,394.75
+2604403,Chã de Alegria,PE,371,430,403,376,Hyperscale AI,371,Colocation / digital hub,430,59,395.0
+2906204,Canarana,BA,411,421,486,263,Low-water AI,263,Renewable-first compute,486,223,395.25
+2306504,Itapiúna,CE,385,503,468,233,Low-water AI,233,Colocation / digital hub,503,270,397.25
+2411502,Santo Antônio,RN,391,366,333,509,Renewable-first compute,333,Low-water AI,509,176,399.75
+2401305,Campo Grande,RN,381,452,286,491,Renewable-first compute,286,Low-water AI,491,205,402.5
+2509503,Montadas,PB,308,825,251,228,Low-water AI,228,Colocation / digital hub,825,597,403.0
+2511301,Piancó,PB,387,476,407,372,Low-water AI,372,Colocation / digital hub,476,104,410.5
+2204352,Geminiano,PI,378,483,290,496,Renewable-first compute,290,Low-water AI,496,206,411.75
+2800670,Boquim,SE,407,234,583,424,Colocation / digital hub,234,Renewable-first compute,583,349,412.0
+2412559,São Miguel do Gostoso,RN,281,932,133,303,Renewable-first compute,133,Colocation / digital hub,932,799,412.25
+2100907,Araioses,MA,382,316,343,609,Colocation / digital hub,316,Low-water AI,609,293,412.5
+2602209,Bom Jardim,PE,434,280,568,368,Colocation / digital hub,280,Renewable-first compute,568,288,412.5
+2205201,Jaicós,PI,422,289,340,602,Colocation / digital hub,289,Low-water AI,602,313,413.25
+2908309,Conceição do Almeida,BA,388,391,500,375,Low-water AI,375,Renewable-first compute,500,125,413.5
+2402709,Cerro Corá,RN,338,729,183,407,Renewable-first compute,183,Colocation / digital hub,729,546,414.25
+2308708,Morada Nova,CE,416,321,370,551,Colocation / digital hub,321,Low-water AI,551,230,414.5
+2511202,Pedras de Fogo,PB,355,607,294,403,Renewable-first compute,294,Colocation / digital hub,607,313,414.75
+2927507,Santa Bárbara,BA,410,338,517,405,Colocation / digital hub,338,Renewable-first compute,517,179,417.5
+2803500,Lagarto,SE,413,211,593,456,Colocation / digital hub,211,Renewable-first compute,593,382,418.25
+2504801,Coremas,PB,315,882,197,282,Renewable-first compute,197,Colocation / digital hub,882,685,419.0
+2303956,Chorozinho,CE,449,271,530,430,Colocation / digital hub,271,Renewable-first compute,530,259,420.0
+2108454,Peritoró,MA,369,193,469,652,Colocation / digital hub,193,Low-water AI,652,459,420.75
+2915304,Itagimirim,BA,406,329,639,311,Low-water AI,311,Renewable-first compute,639,328,421.25
+2929206,São Francisco do Conde,BA,377,345,577,393,Colocation / digital hub,345,Renewable-first compute,577,232,423.0
+2306207,Itaiçaba,CE,372,460,271,590,Renewable-first compute,271,Low-water AI,590,319,423.25
+2500908,Arara,PB,417,438,385,463,Renewable-first compute,385,Low-water AI,463,78,425.75
+2603306,Calçado,PE,354,760,382,207,Low-water AI,207,Colocation / digital hub,760,553,425.75
+2314102,Viçosa do Ceará,CE,364,409,374,559,Hyperscale AI,364,Low-water AI,559,195,426.5
+2203107,Cristino Castro,PI,360,448,376,534,Hyperscale AI,360,Low-water AI,534,174,429.5
+2202752,Colônia do Gurguéia,PI,389,457,317,558,Renewable-first compute,317,Low-water AI,558,241,430.25
+2704708,Marechal Deodoro,AL,426,250,589,468,Colocation / digital hub,250,Renewable-first compute,589,339,433.25
+2612505,Santa Cruz do Capibaribe,PE,508,302,477,446,Colocation / digital hub,302,Hyperscale AI,508,206,433.25
+2916302,Itapebi,BA,408,373,668,294,Low-water AI,294,Renewable-first compute,668,374,435.75
+2513851,Santo André,PB,437,487,401,418,Renewable-first compute,401,Colocation / digital hub,487,86,435.75
+2807600,Umbaúba,SE,441,269,606,431,Colocation / digital hub,269,Renewable-first compute,606,337,436.75
+2301208,Aracoiaba,CE,462,307,656,330,Colocation / digital hub,307,Renewable-first compute,656,349,438.75
+2804607,Nossa Senhora das Dores,SE,439,290,504,527,Colocation / digital hub,290,Low-water AI,527,237,440.0
+2909703,Cristópolis,BA,472,346,505,442,Colocation / digital hub,346,Renewable-first compute,505,159,441.25
+2204204,Francisco Santos,PI,444,328,372,621,Colocation / digital hub,328,Low-water AI,621,293,441.25
+2401651,Bodó,RN,317,966,139,345,Renewable-first compute,139,Colocation / digital hub,966,827,441.75
+2501005,Araruna,PB,394,644,296,435,Renewable-first compute,296,Colocation / digital hub,644,348,442.25
+2407807,Monte Alegre,RN,412,523,319,516,Renewable-first compute,319,Colocation / digital hub,523,204,442.5
+2607653,Itambé,PE,390,616,354,414,Renewable-first compute,354,Colocation / digital hub,616,262,443.5
+2933307,Vitória da Conquista,BA,525,282,586,384,Colocation / digital hub,282,Renewable-first compute,586,304,444.25
+2205359,João Costa,PI,365,698,237,479,Renewable-first compute,237,Colocation / digital hub,698,461,444.75
+2205003,Itainópolis,PI,446,372,336,630,Renewable-first compute,336,Low-water AI,630,294,446.0
+2211605,Vila Nova do Piauí,PI,461,361,355,620,Renewable-first compute,355,Low-water AI,620,265,449.25
+2802304,Frei Paulo,SE,432,433,482,451,Hyperscale AI,432,Renewable-first compute,482,50,449.5
+2904753,Buritirama,BA,414,735,312,339,Renewable-first compute,312,Colocation / digital hub,735,423,450.0
+2803302,Japaratuba,SE,429,417,455,501,Colocation / digital hub,417,Low-water AI,501,84,450.5
+2705804,Olho d'Água do Casado,AL,374,780,387,265,Low-water AI,265,Colocation / digital hub,780,515,451.5
+2801504,Carmópolis,SE,430,369,490,519,Colocation / digital hub,369,Low-water AI,519,150,452.0
+2407906,Monte das Gameleiras,RN,404,728,221,455,Renewable-first compute,221,Colocation / digital hub,728,507,452.0
+2310605,Penaforte,CE,478,293,499,547,Colocation / digital hub,293,Low-water AI,547,254,454.25
+2501203,Areial,PB,363,886,272,302,Renewable-first compute,272,Colocation / digital hub,886,614,455.75
+2302305,Bela Cruz,CE,438,411,396,578,Renewable-first compute,396,Low-water AI,578,182,455.75
+2305704,Ipaumirim,CE,470,543,318,493,Renewable-first compute,318,Colocation / digital hub,543,225,456.0
+2702801,Flexeiras,AL,401,356,687,385,Colocation / digital hub,356,Renewable-first compute,687,331,457.25
+2405009,Jaçanã,RN,403,701,279,447,Renewable-first compute,279,Colocation / digital hub,701,422,457.5
+2706406,Pão de Açúcar,AL,435,508,496,391,Low-water AI,391,Colocation / digital hub,508,117,457.5
+2610004,Palmares,PE,455,175,766,436,Colocation / digital hub,175,Renewable-first compute,766,591,458.0
+2504900,Cruz do Espírito Santo,PB,424,445,413,552,Renewable-first compute,413,Low-water AI,552,139,458.5
+2805901,Riachuelo,SE,433,276,591,535,Colocation / digital hub,276,Renewable-first compute,591,315,458.75
+2512747,Riachão,PB,405,672,323,439,Renewable-first compute,323,Colocation / digital hub,672,349,459.75
+2203305,Demerval Lobão,PI,419,257,458,708,Colocation / digital hub,257,Low-water AI,708,451,460.5
+2412302,São José do Campestre,RN,425,678,240,500,Renewable-first compute,240,Colocation / digital hub,678,438,460.75
+2201988,Brejo do Piauí,PI,421,537,321,571,Renewable-first compute,321,Low-water AI,571,250,462.5
+2200400,Altos,PI,427,245,464,721,Colocation / digital hub,245,Low-water AI,721,476,464.25
+2305001,Guaraciaba do Norte,CE,481,335,334,711,Renewable-first compute,334,Low-water AI,711,377,465.25
+2807402,Tobias Barreto,SE,475,332,581,475,Colocation / digital hub,332,Renewable-first compute,581,249,465.75
+2921401,Mirangaba,BA,447,683,471,267,Low-water AI,267,Colocation / digital hub,683,416,467.0
+2108058,Paulino Neves,MA,370,730,209,568,Renewable-first compute,209,Colocation / digital hub,730,521,469.25
+2904407,Brejolândia,BA,480,380,575,444,Colocation / digital hub,380,Renewable-first compute,575,195,469.75
+2607604,Ilha de Itamaracá,PE,420,298,624,539,Colocation / digital hub,298,Renewable-first compute,624,326,470.25
+2603108,Cachoeirinha,PE,436,604,545,300,Low-water AI,300,Colocation / digital hub,604,304,471.25
+2506806,Ingá,PB,460,415,576,440,Colocation / digital hub,415,Renewable-first compute,576,161,472.75
+2913606,Ilhéus,BA,440,247,870,338,Colocation / digital hub,247,Renewable-first compute,870,623,473.75
+2513000,Salgadinho,PB,395,876,277,354,Renewable-first compute,277,Colocation / digital hub,876,599,475.5
+2604700,Correntes,PE,452,533,592,328,Low-water AI,328,Renewable-first compute,592,264,476.25
+2513927,São Bentinho,PB,488,347,495,577,Colocation / digital hub,347,Low-water AI,577,230,476.75
+2401800,Brejinho,RN,476,542,276,614,Renewable-first compute,276,Low-water AI,614,338,477.0
+2204659,Ilha Grande,PI,431,550,266,661,Renewable-first compute,266,Low-water AI,661,395,477.0
+2917508,Jacobina,BA,541,309,672,386,Colocation / digital hub,309,Renewable-first compute,672,363,477.0
+2516409,Tacima,PB,443,629,342,497,Renewable-first compute,342,Colocation / digital hub,629,287,477.75
+2506202,Frei Martinho,PB,442,666,301,507,Renewable-first compute,301,Colocation / digital hub,666,365,479.0
+2705002,Mata Grande,AL,501,486,510,419,Low-water AI,419,Renewable-first compute,510,91,479.0
+2700102,Água Branca,AL,459,658,457,343,Low-water AI,343,Colocation / digital hub,658,315,479.25
+2901502,Anguera,BA,484,320,645,478,Colocation / digital hub,320,Renewable-first compute,645,325,481.75
+2301901,Barbalha,CE,456,416,532,530,Colocation / digital hub,416,Renewable-first compute,532,116,483.5
+2904902,Cachoeira,BA,450,348,677,460,Colocation / digital hub,348,Renewable-first compute,677,329,483.75
+2804458,Nossa Senhora Aparecida,SE,479,385,540,531,Colocation / digital hub,385,Renewable-first compute,540,155,483.75
+2608255,Jucati,PE,409,859,425,250,Low-water AI,250,Colocation / digital hub,859,609,485.75
+2402006,Caicó,RN,524,311,410,704,Colocation / digital hub,311,Low-water AI,704,393,487.25
+2200954,Aroeiras do Itaim,PI,457,545,335,613,Renewable-first compute,335,Low-water AI,613,278,487.5
+2605905,Gameleira,PE,463,394,679,415,Colocation / digital hub,394,Renewable-first compute,679,285,487.75
+2708956,Senador Rui Palmeira,AL,464,675,453,362,Low-water AI,362,Colocation / digital hub,675,313,488.5
+2110203,Santa Rita,MA,423,259,595,678,Colocation / digital hub,259,Low-water AI,678,419,488.75
+2706422,Pariconha,AL,402,926,353,275,Low-water AI,275,Colocation / digital hub,926,651,489.0
+2806602,Santo Amaro das Brotas,SE,428,626,447,458,Hyperscale AI,428,Colocation / digital hub,626,198,489.75
+2302107,Baturité,CE,530,258,804,371,Colocation / digital hub,258,Renewable-first compute,804,546,490.75
+2505709,Dona Inês,PB,445,702,344,474,Renewable-first compute,344,Colocation / digital hub,702,358,491.25
+2305506,Iguatu,CE,537,261,564,605,Colocation / digital hub,261,Low-water AI,605,344,491.75
+2303907,Chaval,CE,451,365,476,676,Colocation / digital hub,365,Low-water AI,676,311,492.0
+2404309,Governador Dix-Sept Rosado,RN,466,465,402,641,Renewable-first compute,402,Low-water AI,641,239,493.5
+2408201,Nísia Floresta,RN,471,368,487,651,Colocation / digital hub,368,Low-water AI,651,283,494.25
+2600302,Agrestina,PE,496,677,454,365,Low-water AI,365,Colocation / digital hub,677,312,498.0
+2910503,Entre Rios,BA,492,254,734,523,Colocation / digital hub,254,Renewable-first compute,734,480,500.75
+2501500,Bananeiras,PB,489,498,442,575,Renewable-first compute,442,Low-water AI,575,133,501.0
+2515302,Sapé,PB,485,456,452,618,Renewable-first compute,452,Low-water AI,618,166,502.75
+2930766,Sítio do Quinto,BA,454,654,503,409,Low-water AI,409,Colocation / digital hub,654,245,505.0
+2614501,Surubim,PE,568,265,700,489,Colocation / digital hub,265,Renewable-first compute,700,435,505.5
+2702603,Feira Grande,AL,474,615,507,433,Low-water AI,433,Colocation / digital hub,615,182,507.25
+2209872,São João da Fronteira,PI,397,650,399,587,Hyperscale AI,397,Colocation / digital hub,650,253,508.25
+2412906,São Tomé,RN,393,1034,184,427,Renewable-first compute,184,Colocation / digital hub,1034,850,509.5
+2309201,Nova Olinda,CE,510,326,608,595,Colocation / digital hub,326,Renewable-first compute,608,282,509.75
+2709301,União dos Palmares,AL,469,400,774,396,Low-water AI,396,Renewable-first compute,774,378,509.75
+2930808,Souto Soares,BA,531,771,420,329,Low-water AI,329,Colocation / digital hub,771,442,512.75
+2313708,Umari,CE,497,684,390,480,Renewable-first compute,390,Colocation / digital hub,684,294,512.75
+2919926,Madre de Deus,BA,458,378,695,526,Colocation / digital hub,378,Renewable-first compute,695,317,514.25
+2924603,Pindobaçu,BA,543,340,786,395,Colocation / digital hub,340,Renewable-first compute,786,446,516.0
+2602407,Brejão,PE,448,865,465,289,Low-water AI,289,Colocation / digital hub,865,576,516.75
+2706448,Paripueira,AL,515,349,660,550,Colocation / digital hub,349,Renewable-first compute,660,311,518.5
+2703205,Igreja Nova,AL,511,402,604,563,Colocation / digital hub,402,Renewable-first compute,604,202,520.0
+2702355,Craíbas,AL,494,688,498,402,Low-water AI,402,Colocation / digital hub,688,286,520.5
+2704401,Major Isidoro,AL,528,451,643,465,Colocation / digital hub,451,Renewable-first compute,643,192,521.75
+2901106,Amélia Rodrigues,BA,514,357,683,537,Colocation / digital hub,357,Renewable-first compute,683,326,522.75
+2308203,Meruoca,CE,477,344,554,719,Colocation / digital hub,344,Low-water AI,719,375,523.5
+2904704,Buerarema,BA,532,277,902,389,Colocation / digital hub,277,Renewable-first compute,902,625,525.0
+2933174,Varzedo,BA,507,470,673,450,Low-water AI,450,Renewable-first compute,673,223,525.0
+2604502,Chã Grande,PE,546,532,552,490,Low-water AI,490,Renewable-first compute,552,62,530.0
+2409308,Patu,RN,548,502,397,673,Renewable-first compute,397,Low-water AI,673,276,530.0
+2901205,Anagé,BA,580,435,728,379,Low-water AI,379,Renewable-first compute,728,349,530.5
+2400307,Afonso Bezerra,RN,418,1049,190,467,Renewable-first compute,190,Colocation / digital hub,1049,859,531.0
+2502409,Bonito de Santa Fé,PB,521,676,431,502,Renewable-first compute,431,Colocation / digital hub,676,245,532.5
+2102754,Capinzal do Norte,MA,473,390,536,732,Colocation / digital hub,390,Low-water AI,732,342,532.75
+2305332,Ibicuitinga,CE,505,752,405,469,Renewable-first compute,405,Colocation / digital hub,752,347,532.75
+2804003,Maruim,SE,502,463,587,584,Colocation / digital hub,463,Renewable-first compute,587,124,534.0
+2103208,Chapadinha,MA,491,306,565,776,Colocation / digital hub,306,Low-water AI,776,470,534.5
+2612406,Sanharó,PE,581,423,675,459,Colocation / digital hub,423,Renewable-first compute,675,252,534.5
+2913903,Ipiaú,BA,547,263,918,411,Colocation / digital hub,263,Renewable-first compute,918,655,534.75
+2927101,Rodelas,BA,495,818,421,413,Low-water AI,413,Colocation / digital hub,818,405,536.75
+2912004,Ibiassucê,BA,545,521,704,378,Low-water AI,378,Renewable-first compute,704,326,537.0
+2201572,Belém do Piauí,PI,500,739,324,588,Renewable-first compute,324,Colocation / digital hub,739,415,537.75
+2907400,Catolândia,BA,453,952,417,332,Low-water AI,332,Colocation / digital hub,952,620,538.5
+2932309,Ubatã,BA,517,404,857,377,Low-water AI,377,Renewable-first compute,857,480,538.75
+2708600,São Miguel dos Campos,AL,560,281,718,597,Colocation / digital hub,281,Renewable-first compute,718,437,539.0
+2602100,Bom Conselho,PE,534,685,534,404,Low-water AI,404,Colocation / digital hub,685,281,539.25
+2904852,Cabaceiras do Paraguaçu,BA,468,716,560,417,Low-water AI,417,Colocation / digital hub,716,299,540.25
+2304301,Farias Brito,CE,583,322,616,643,Colocation / digital hub,322,Low-water AI,643,321,541.0
+2103802,Dom Pedro,MA,483,429,529,729,Colocation / digital hub,429,Low-water AI,729,300,542.5
+2109452,Raposa,MA,482,420,518,750,Colocation / digital hub,420,Low-water AI,750,330,542.5
+2516706,Teixeira,PB,552,620,439,565,Renewable-first compute,439,Colocation / digital hub,620,181,544.0
+2303808,Cedro,CE,566,492,527,594,Colocation / digital hub,492,Low-water AI,594,102,544.75
+2402402,Carnaúba dos Dantas,RN,498,790,331,567,Renewable-first compute,331,Colocation / digital hub,790,459,546.5
+2509107,Mari,PB,565,418,526,682,Colocation / digital hub,418,Low-water AI,682,264,547.75
+2309805,Pacoti,CE,591,504,697,401,Low-water AI,401,Renewable-first compute,697,296,548.25
+2926707,Rio de Contas,BA,513,746,610,327,Low-water AI,327,Colocation / digital hub,746,419,549.0
+2406601,Lagoa Salgada,RN,551,567,428,662,Renewable-first compute,428,Low-water AI,662,234,552.0
+2504405,Conceição,PB,561,566,535,549,Renewable-first compute,535,Colocation / digital hub,566,31,552.75
+2111102,São João dos Patos,MA,499,485,481,746,Renewable-first compute,481,Low-water AI,746,265,552.75
+2701209,Cacimbinhas,AL,570,511,650,492,Low-water AI,492,Renewable-first compute,650,158,555.75
+2615409,Toritama,PE,607,279,799,538,Colocation / digital hub,279,Renewable-first compute,799,520,555.75
+2304004,Coreaú,CE,553,297,599,777,Colocation / digital hub,297,Low-water AI,777,480,556.5
+2304509,Frecheirinha,CE,536,363,596,733,Colocation / digital hub,363,Low-water AI,733,370,557.0
+2923035,Novo Horizonte,BA,520,1101,291,316,Renewable-first compute,291,Colocation / digital hub,1101,810,557.0
+2109007,Porto Franco,MA,516,286,622,804,Colocation / digital hub,286,Low-water AI,804,518,557.0
+2414605,Upanema,RN,512,721,373,624,Renewable-first compute,373,Colocation / digital hub,721,348,557.5
+2607752,Itapissuma,PE,509,401,723,604,Colocation / digital hub,401,Renewable-first compute,723,322,559.25
+2615003,Taquaritinga do Norte,PE,612,397,692,536,Colocation / digital hub,397,Renewable-first compute,692,295,559.25
+2600807,Altinho,PE,539,719,612,369,Low-water AI,369,Colocation / digital hub,719,350,559.75
+2611408,Primavera,PE,522,655,621,454,Low-water AI,454,Colocation / digital hub,655,201,563.0
+2501906,Belém,PB,576,514,509,656,Renewable-first compute,509,Low-water AI,656,147,563.75
+2311355,Quixelô,CE,606,424,561,665,Colocation / digital hub,424,Low-water AI,665,241,564.0
+2112209,Timon,MA,519,358,558,822,Colocation / digital hub,358,Low-water AI,822,464,564.25
+2912202,Ibicoara,BA,467,923,617,254,Low-water AI,254,Colocation / digital hub,923,669,565.25
+2406809,Lajes Pintadas,RN,465,992,328,482,Renewable-first compute,328,Colocation / digital hub,992,664,566.75
+2502151,Boa Vista,PB,490,977,435,366,Low-water AI,366,Colocation / digital hub,977,611,567.0
+2106631,Matões do Norte,MA,518,330,609,811,Colocation / digital hub,330,Low-water AI,811,481,567.0
+2101707,Barreirinhas,MA,506,428,506,830,Colocation / digital hub,428,Low-water AI,830,402,567.5
+2401701,Bom Jesus,RN,550,720,359,642,Renewable-first compute,359,Colocation / digital hub,720,361,567.75
+2912103,Ibicaraí,BA,574,379,938,382,Colocation / digital hub,379,Renewable-first compute,938,559,568.25
+2615508,Tracunhaém,PE,535,660,571,513,Low-water AI,513,Colocation / digital hub,660,147,569.75
+2404408,Grossos,RN,504,863,281,635,Renewable-first compute,281,Colocation / digital hub,863,582,570.75
+2701704,Capela,AL,529,618,705,434,Low-water AI,434,Renewable-first compute,705,271,571.5
+2615805,Tupanatinga,PE,567,587,648,484,Low-water AI,484,Renewable-first compute,648,164,571.5
+2801306,Capela,SE,557,461,636,634,Colocation / digital hub,461,Renewable-first compute,636,175,572.0
+2708303,São José da Laje,AL,571,406,851,461,Colocation / digital hub,406,Renewable-first compute,851,445,572.25
+2505907,Emas,PB,544,747,512,495,Low-water AI,495,Colocation / digital hub,747,252,574.5
+2706000,Olivença,AL,593,524,666,515,Low-water AI,515,Renewable-first compute,666,151,574.5
+2503407,Cacimba de Areia,PB,549,839,368,544,Renewable-first compute,368,Colocation / digital hub,839,471,575.0
+2801702,Cristinápolis,SE,601,364,746,589,Colocation / digital hub,364,Renewable-first compute,746,382,575.0
+2303931,Choró,CE,600,582,681,438,Low-water AI,438,Renewable-first compute,681,243,575.25
+2930154,Serra do Ramalho,BA,582,569,588,562,Low-water AI,562,Renewable-first compute,588,26,575.25
+2403400,Equador,RN,503,1030,315,466,Renewable-first compute,315,Colocation / digital hub,1030,715,578.5
+2806107,Rosário do Catete,SE,526,671,549,570,Hyperscale AI,526,Colocation / digital hub,671,145,579.0
+2311959,Salitre,CE,569,494,567,686,Colocation / digital hub,494,Low-water AI,686,192,579.0
+2508554,Logradouro,PB,596,562,478,688,Renewable-first compute,478,Low-water AI,688,210,581.0
+2926806,Rio do Antônio,BA,633,434,783,476,Colocation / digital hub,434,Renewable-first compute,783,349,581.5
+2304707,Granja,CE,572,408,544,806,Colocation / digital hub,408,Low-water AI,806,398,582.5
+2208874,Ribeira do Piauí,PI,538,864,264,669,Renewable-first compute,264,Colocation / digital hub,864,600,583.75
+2202133,Campo Grande do Piauí,PI,619,395,528,794,Colocation / digital hub,395,Low-water AI,794,399,584.0
+2908903,Coração de Maria,BA,564,659,626,499,Low-water AI,499,Colocation / digital hub,659,160,587.0
+2916203,Itapé,BA,595,449,912,392,Low-water AI,392,Renewable-first compute,912,520,587.0
+2408953,Rio do Fogo,RN,487,1124,214,524,Renewable-first compute,214,Colocation / digital hub,1124,910,587.25
+2923704,Paratinga,BA,629,661,485,576,Renewable-first compute,485,Colocation / digital hub,661,176,587.75
+2100055,Açailândia,MA,589,327,547,889,Colocation / digital hub,327,Low-water AI,889,562,588.0
+2515401,São Vicente do Seridó,PB,527,1059,310,485,Renewable-first compute,310,Colocation / digital hub,1059,749,595.25
+2803609,Laranjeiras,SE,554,595,629,606,Hyperscale AI,554,Renewable-first compute,629,75,596.0
+2706109,Ouro Branco,AL,605,479,755,545,Colocation / digital hub,479,Renewable-first compute,755,276,596.0
+2931707,Terra Nova,BA,575,767,537,505,Low-water AI,505,Colocation / digital hub,767,262,596.0
+2307205,Jati,CE,610,551,607,617,Colocation / digital hub,551,Low-water AI,617,66,596.25
+2605103,Custódia,PE,646,413,720,608,Colocation / digital hub,413,Renewable-first compute,720,307,596.75
+2401859,Caiçara do Norte,RN,493,1110,231,554,Renewable-first compute,231,Colocation / digital hub,1110,879,597.0
+2916500,Itapicuru,BA,562,674,623,533,Low-water AI,533,Colocation / digital hub,674,141,598.0
+2902054,Araçás,BA,584,478,776,555,Colocation / digital hub,478,Renewable-first compute,776,298,598.25
+2615102,Terezinha,PE,556,955,523,360,Low-water AI,360,Colocation / digital hub,955,595,598.5
+2500700,São João do Rio do Peixe,PB,648,584,497,670,Renewable-first compute,497,Low-water AI,670,173,599.75
+2509206,Massaranduba,PB,585,635,640,540,Low-water AI,540,Renewable-first compute,640,100,600.0
+2505352,Damião,PB,587,722,470,626,Renewable-first compute,470,Colocation / digital hub,722,252,601.25
+2915205,Itagibá,BA,578,603,866,358,Low-water AI,358,Renewable-first compute,866,508,601.25
+2800506,Areia Branca,SE,540,334,875,659,Colocation / digital hub,334,Renewable-first compute,875,541,602.0
+2917201,Ituaçu,BA,555,982,579,307,Low-water AI,307,Colocation / digital hub,982,675,605.75
+2611200,Poção,PE,650,806,450,517,Renewable-first compute,450,Colocation / digital hub,806,356,605.75
+2903003,Barra do Mendes,BA,620,783,642,387,Low-water AI,387,Colocation / digital hub,783,396,608.0
+2501534,Baraúna,PB,604,731,441,657,Renewable-first compute,441,Colocation / digital hub,731,290,608.25
+2311603,Redenção,CE,661,477,841,457,Low-water AI,457,Renewable-first compute,841,384,609.0
+2306306,Itapajé,CE,688,359,694,696,Colocation / digital hub,359,Low-water AI,696,337,609.25
+2931905,Tucano,BA,559,1054,381,443,Renewable-first compute,381,Colocation / digital hub,1054,673,609.25
+2603009,Cabrobó,PE,640,519,627,655,Colocation / digital hub,519,Low-water AI,655,136,610.25
+2300507,Alcântaras,CE,592,474,572,817,Colocation / digital hub,474,Low-water AI,817,343,613.75
+2512754,Riachão do Bacamarte,PB,622,493,733,610,Colocation / digital hub,493,Renewable-first compute,733,240,614.5
+2702009,Coité do Nóia,AL,615,714,613,520,Low-water AI,520,Colocation / digital hub,714,194,615.5
+2512606,Quixaba,PB,563,1041,337,522,Renewable-first compute,337,Colocation / digital hub,1041,704,615.75
+2510105,Nova Floresta,PB,597,810,423,640,Renewable-first compute,423,Colocation / digital hub,810,387,617.5
+2513968,São Domingos,PB,613,628,605,627,Renewable-first compute,605,Colocation / digital hub,628,23,618.25
+2610509,Passira,PE,628,583,757,508,Low-water AI,508,Renewable-first compute,757,249,619.0
+2930303,Serra Dourada,BA,637,558,674,607,Colocation / digital hub,558,Renewable-first compute,674,116,619.0
+2109601,Rosário,MA,523,410,761,786,Colocation / digital hub,410,Low-water AI,786,376,620.0
+2401602,Bento Fernandes,RN,542,1103,258,583,Renewable-first compute,258,Colocation / digital hub,1103,845,621.5
+2611101,Petrolina,PE,675,453,631,730,Colocation / digital hub,453,Low-water AI,730,277,622.25
+2502607,Igaracy,PB,603,777,559,556,Low-water AI,556,Colocation / digital hub,777,221,623.75
+2606705,Ibirajuba,PE,616,757,699,426,Low-water AI,426,Colocation / digital hub,757,331,624.5
+2414456,Triunfo Potiguar,RN,643,647,438,770,Renewable-first compute,438,Low-water AI,770,332,624.5
+2904100,Boquira,BA,627,801,600,472,Low-water AI,472,Colocation / digital hub,801,329,625.0
+2912707,Ibirapitanga,BA,630,314,1026,532,Colocation / digital hub,314,Renewable-first compute,1026,712,625.5
+2705101,Matriz de Camaragibe,AL,636,396,867,603,Colocation / digital hub,396,Renewable-first compute,867,471,625.5
+2410405,Pureza,RN,533,1108,298,564,Renewable-first compute,298,Colocation / digital hub,1108,810,625.75
+2602605,Brejo da Madre de Deus,PE,611,755,701,445,Low-water AI,445,Colocation / digital hub,755,310,628.0
+2613602,São José do Egito,PE,721,481,603,707,Colocation / digital hub,481,Hyperscale AI,721,240,628.0
+2615300,Timbaúba,PE,602,700,628,582,Low-water AI,582,Colocation / digital hub,700,118,628.0
+2803708,Macambira,SE,617,601,664,631,Colocation / digital hub,601,Renewable-first compute,664,63,628.25
+2804508,Nossa Senhora da Glória,SE,681,383,726,724,Colocation / digital hub,383,Renewable-first compute,726,343,628.5
+2918605,Jussiape,BA,573,996,637,319,Low-water AI,319,Colocation / digital hub,996,677,631.25
+2708501,São Luís do Quitunde,AL,608,632,743,543,Low-water AI,543,Renewable-first compute,743,200,631.5
+2900355,Adustina,BA,641,580,671,637,Colocation / digital hub,580,Renewable-first compute,671,91,632.25
+2303006,Caridade,CE,728,480,777,546,Colocation / digital hub,480,Renewable-first compute,777,297,632.75
+2504355,Caturité,PB,598,979,550,410,Low-water AI,410,Colocation / digital hub,979,569,634.25
+2209757,São Gonçalo do Gurguéia,PI,486,1083,395,573,Renewable-first compute,395,Colocation / digital hub,1083,688,634.25
+2707909,Santa Luzia do Norte,AL,579,732,685,542,Low-water AI,542,Colocation / digital hub,732,190,634.5
+2203909,Floriano,PI,678,501,383,980,Renewable-first compute,383,Low-water AI,980,597,635.5
+2309003,Mucambo,CE,632,353,713,847,Colocation / digital hub,353,Low-water AI,847,494,636.25
+2615607,Trindade,PE,660,506,659,720,Colocation / digital hub,506,Low-water AI,720,214,636.25
+2406106,Jucurutu,RN,669,527,513,837,Renewable-first compute,513,Low-water AI,837,324,636.5
+2204303,Fronteiras,PI,645,608,543,755,Renewable-first compute,543,Low-water AI,755,212,637.75
+2705507,Murici,AL,558,693,823,477,Low-water AI,477,Renewable-first compute,823,346,637.75
+2933208,Vera Cruz,BA,618,337,891,712,Colocation / digital hub,337,Renewable-first compute,891,554,639.5
+2901403,Angical,BA,588,1070,475,429,Low-water AI,429,Colocation / digital hub,1070,641,640.5
+2410256,Porto do Mangue,RN,599,866,384,713,Renewable-first compute,384,Colocation / digital hub,866,482,640.5
+2929404,São Miguel das Matas,BA,639,531,816,581,Colocation / digital hub,531,Renewable-first compute,816,285,641.75
+2205524,Júlio Borges,PI,590,1076,443,481,Renewable-first compute,443,Colocation / digital hub,1076,633,647.5
+2930501,Serrinha,BA,704,371,794,727,Colocation / digital hub,371,Renewable-first compute,794,423,649.0
+2704104,Lagoa da Canoa,AL,638,775,615,572,Low-water AI,572,Colocation / digital hub,775,203,650.0
+2926608,Ribeira do Pombal,BA,653,546,764,638,Colocation / digital hub,546,Renewable-first compute,764,218,650.25
+2110856,São Francisco do Brejão,MA,626,441,649,894,Colocation / digital hub,441,Low-water AI,894,453,652.5
+2210805,Simplício Mendes,PI,696,496,520,901,Colocation / digital hub,496,Low-water AI,901,405,653.25
+2503308,Cachoeira dos Índios,PB,687,577,676,677,Colocation / digital hub,577,Hyperscale AI,687,110,654.25
+2314003,Várzea Alegre,CE,706,520,654,738,Colocation / digital hub,520,Low-water AI,738,218,654.5
+2916104,Itaparica,BA,621,499,814,685,Colocation / digital hub,499,Renewable-first compute,814,315,654.75
+2902401,Aurelino Leal,BA,634,637,929,422,Low-water AI,422,Renewable-first compute,929,507,655.5
+2201804,Bocaina,PI,647,525,630,821,Colocation / digital hub,525,Low-water AI,821,296,655.75
+2916856,Itatim,BA,710,473,813,629,Colocation / digital hub,473,Renewable-first compute,813,340,656.25
+2611903,Rio Formoso,PE,651,341,966,667,Colocation / digital hub,341,Renewable-first compute,966,625,656.25
+2403004,Cruzeta,RN,682,621,538,799,Renewable-first compute,538,Low-water AI,799,261,660.0
+2901007,Amargosa,BA,707,455,837,644,Colocation / digital hub,455,Renewable-first compute,837,382,660.75
+2928505,Santa Terezinha,BA,665,709,708,561,Low-water AI,561,Colocation / digital hub,709,148,660.75
+2502508,Boqueirão,PB,656,833,653,503,Low-water AI,503,Colocation / digital hub,833,330,661.25
+2914653,Itabela,BA,692,388,986,579,Colocation / digital hub,388,Renewable-first compute,986,598,661.25
+2407500,Maxaranguape,RN,577,1131,341,598,Renewable-first compute,341,Colocation / digital hub,1131,790,661.75
+2709400,Viçosa,AL,697,444,879,628,Colocation / digital hub,444,Renewable-first compute,879,435,662.0
+2913705,Inhambupe,BA,676,539,788,648,Colocation / digital hub,539,Renewable-first compute,788,249,662.75
+2207801,Paulistana,PI,671,922,316,744,Renewable-first compute,316,Colocation / digital hub,922,606,663.25
+2412104,São João do Sabugi,RN,659,758,511,725,Renewable-first compute,511,Colocation / digital hub,758,247,663.25
+2600609,Alagoinha,PE,680,809,662,504,Low-water AI,504,Colocation / digital hub,809,305,663.75
+2517100,Várzea,PB,594,1118,352,591,Renewable-first compute,352,Colocation / digital hub,1118,766,663.75
+2806800,São Domingos,SE,666,570,748,672,Colocation / digital hub,570,Renewable-first compute,748,178,664.0
+2922508,Nazaré,BA,686,303,930,739,Colocation / digital hub,303,Renewable-first compute,930,627,664.5
+2921302,Milagres,BA,741,375,865,679,Colocation / digital hub,375,Renewable-first compute,865,490,665.0
+2615201,Terra Nova,PE,732,639,533,756,Renewable-first compute,533,Low-water AI,756,223,665.0
+2206506,Monsenhor Hipólito,PI,698,518,584,866,Colocation / digital hub,518,Low-water AI,866,348,666.5
+2608404,Jurema,PE,625,1051,598,397,Low-water AI,397,Colocation / digital hub,1051,654,667.75
+2100436,Alto Alegre do Maranhão,MA,655,336,735,954,Colocation / digital hub,336,Low-water AI,954,618,670.0
+2503803,Caldas Brandão,PB,694,585,625,778,Colocation / digital hub,585,Low-water AI,778,193,670.5
+2505105,Cuité,PB,649,827,516,692,Renewable-first compute,516,Colocation / digital hub,827,311,671.0
+2910107,Dom Basílio,BA,667,1121,491,406,Low-water AI,406,Colocation / digital hub,1121,715,671.25
+2920403,Manoel Vitorino,BA,723,554,921,487,Low-water AI,487,Renewable-first compute,921,434,671.25
+2608503,Lagoa de Itaenga,PE,609,1005,570,506,Low-water AI,506,Colocation / digital hub,1005,499,672.5
+2915502,Itajuípe,BA,644,382,1173,494,Colocation / digital hub,382,Renewable-first compute,1173,791,673.25
+2516755,Tenório,PB,623,1080,426,580,Renewable-first compute,426,Colocation / digital hub,1080,654,677.25
+2706901,Pilar,AL,663,682,752,623,Low-water AI,623,Renewable-first compute,752,129,680.0
+2513208,Santa Cruz,PB,719,588,652,762,Colocation / digital hub,588,Low-water AI,762,174,680.25
+2504207,Catingueira,PB,664,805,594,660,Renewable-first compute,594,Colocation / digital hub,805,211,680.75
+2601052,Araçoiaba,PE,586,960,638,541,Low-water AI,541,Colocation / digital hub,960,419,681.25
+2310001,Palhano,CE,624,894,436,774,Renewable-first compute,436,Colocation / digital hub,894,458,682.0
+2916005,Itanhém,BA,668,846,753,462,Low-water AI,462,Colocation / digital hub,846,384,682.25
+2513984,São Francisco,PB,711,638,619,761,Renewable-first compute,619,Low-water AI,761,142,682.25
+2609303,Mirandiba,PE,631,1095,492,514,Renewable-first compute,492,Colocation / digital hub,1095,603,683.0
+2600401,Água Preta,PE,689,547,881,615,Colocation / digital hub,547,Renewable-first compute,881,334,683.0
+2802106,Estância,SE,718,351,886,781,Colocation / digital hub,351,Renewable-first compute,886,535,684.0
+2608602,Lagoa do Ouro,PE,677,842,719,498,Low-water AI,498,Colocation / digital hub,842,344,684.0
+2210300,São Julião,PI,720,648,542,832,Renewable-first compute,542,Low-water AI,832,290,685.5
+2921054,Matina,BA,654,1153,474,464,Low-water AI,464,Colocation / digital hub,1153,689,686.25
+2802502,General Maynard,SE,652,764,644,687,Renewable-first compute,644,Colocation / digital hub,764,120,686.75
+2607802,Itaquitinga,PE,614,1032,551,557,Renewable-first compute,551,Colocation / digital hub,1032,481,688.5
+2701407,Campo Alegre,AL,722,475,848,710,Colocation / digital hub,475,Renewable-first compute,848,373,688.75
+2311405,Quixeramobim,CE,744,440,839,735,Colocation / digital hub,440,Renewable-first compute,839,399,689.5
+2804201,Monte Alegre de Sergipe,SE,724,594,741,700,Colocation / digital hub,594,Renewable-first compute,741,147,689.75
+2901700,Antônio Cardoso,BA,662,738,765,600,Low-water AI,600,Renewable-first compute,765,165,691.25
+2312809,Senador Sá,CE,684,596,651,835,Colocation / digital hub,596,Low-water AI,835,239,691.5
+2707503,Porto Real do Colégio,AL,715,579,738,742,Colocation / digital hub,579,Low-water AI,742,163,693.5
+2805703,Propriá,SE,725,488,769,797,Colocation / digital hub,488,Low-water AI,797,309,694.75
+2928901,São Desidério,BA,642,1099,569,471,Low-water AI,471,Colocation / digital hub,1099,628,695.25
+2920452,Mansidão,BA,683,911,585,611,Renewable-first compute,585,Colocation / digital hub,911,326,697.5
+2312007,Santana do Acaraú,CE,658,813,541,783,Renewable-first compute,541,Colocation / digital hub,813,272,698.75
+2202117,Campo Alegre do Fidalgo,PI,674,936,424,767,Renewable-first compute,424,Colocation / digital hub,936,512,700.25
+2210938,Sussuapara,PI,670,769,580,782,Renewable-first compute,580,Low-water AI,782,202,700.25
+2401008,Apodi,RN,712,663,582,853,Renewable-first compute,582,Low-water AI,853,271,702.5
+2304350,Forquilha,CE,679,619,657,855,Colocation / digital hub,619,Low-water AI,855,236,702.5
+2503506,Cacimba de Dentro,PB,700,808,574,736,Renewable-first compute,574,Colocation / digital hub,808,234,704.5
+2510709,Passagem,PB,673,1104,416,625,Renewable-first compute,416,Colocation / digital hub,1104,688,704.5
+2303105,Cariré,CE,709,471,739,908,Colocation / digital hub,471,Low-water AI,908,437,706.75
+2305266,Ibaretama,CE,672,1072,634,453,Low-water AI,453,Colocation / digital hub,1072,619,707.75
+2926004,Remanso,BA,755,641,661,775,Colocation / digital hub,641,Low-water AI,775,134,708.0
+2302800,Canindé,CE,789,447,955,650,Colocation / digital hub,447,Renewable-first compute,955,508,710.25
+2500205,Aguiar,PB,690,896,614,646,Renewable-first compute,614,Colocation / digital hub,896,282,711.5
+2514602,São José do Bonfim,PB,699,903,553,703,Renewable-first compute,553,Colocation / digital hub,903,350,714.5
+2709152,Teotônio Vilela,AL,737,600,809,716,Colocation / digital hub,600,Renewable-first compute,809,209,715.5
+2202307,Canto do Buriti,PI,714,513,691,948,Colocation / digital hub,513,Low-water AI,948,435,716.5
+2504504,Condado,PB,747,634,667,820,Colocation / digital hub,634,Low-water AI,820,186,717.0
+2210904,Socorro do Piauí,PI,703,848,483,840,Renewable-first compute,483,Colocation / digital hub,848,365,718.5
+2201556,Bela Vista do Piauí,PI,738,763,501,881,Renewable-first compute,501,Low-water AI,881,380,720.75
+2700409,Atalaia,AL,705,725,821,633,Low-water AI,633,Renewable-first compute,821,188,721.0
+2909604,Crisópolis,BA,716,761,756,654,Low-water AI,654,Colocation / digital hub,761,107,721.75
+2509156,Marizópolis,PB,759,564,772,795,Colocation / digital hub,564,Low-water AI,795,231,722.5
+2402808,Coronel Ezequiel,RN,657,1130,445,663,Renewable-first compute,445,Colocation / digital hub,1130,685,723.75
+2201919,Bom Princípio do Piauí,PI,635,1168,358,737,Renewable-first compute,358,Colocation / digital hub,1168,810,724.5
+2700607,Barra de São Miguel,AL,749,589,807,759,Colocation / digital hub,589,Renewable-first compute,807,218,726.0
+2922201,Muniz Ferreira,BA,726,591,878,714,Colocation / digital hub,591,Renewable-first compute,878,287,727.25
+2929107,São Felipe,BA,708,776,780,658,Low-water AI,658,Renewable-first compute,780,122,730.5
+2910859,Filadélfia,BA,769,578,965,619,Colocation / digital hub,578,Renewable-first compute,965,387,732.75
+2806206,Salgado,SE,742,598,840,752,Colocation / digital hub,598,Renewable-first compute,840,242,733.0
+2609105,Machados,PE,729,826,811,586,Low-water AI,586,Colocation / digital hub,826,240,738.0
+2105401,Itapecuru Mirim,MA,727,437,798,996,Colocation / digital hub,437,Low-water AI,996,559,739.5
+2408706,Paraú,RN,691,1125,419,731,Renewable-first compute,419,Colocation / digital hub,1125,706,741.5
+2404200,Goianinha,RN,775,422,782,993,Colocation / digital hub,422,Low-water AI,993,571,743.0
+2701308,Cajueiro,AL,735,689,920,632,Low-water AI,632,Renewable-first compute,920,288,744.0
+2914109,Ipupiara,BA,746,1222,524,486,Low-water AI,486,Colocation / digital hub,1222,736,744.5
+2301802,Baixio,CE,743,840,670,726,Renewable-first compute,670,Colocation / digital hub,840,170,744.75
+2612000,Sairé,PE,751,908,724,601,Low-water AI,601,Colocation / digital hub,908,307,746.0
+2918803,Laje,BA,756,568,969,702,Colocation / digital hub,568,Renewable-first compute,969,401,748.75
+2505006,Cubati,PB,701,1159,489,647,Renewable-first compute,489,Colocation / digital hub,1159,670,749.0
+2500536,Alcantil,PB,770,821,787,622,Low-water AI,622,Colocation / digital hub,821,199,750.0
+2911857,Heliópolis,BA,713,887,760,645,Low-water AI,645,Colocation / digital hub,887,242,751.25
+2313005,Solonópole,CE,798,497,847,865,Colocation / digital hub,497,Low-water AI,865,368,751.75
+2405702,Jardim do Seridó,RN,693,1207,411,697,Renewable-first compute,411,Colocation / digital hub,1207,796,752.0
+2406205,Lagoa d'Anta,RN,695,1139,480,694,Renewable-first compute,480,Colocation / digital hub,1139,659,752.0
+2927606,Santa Brígida,BA,702,1079,680,548,Low-water AI,548,Colocation / digital hub,1079,531,752.25
+2202554,Caridade do Piauí,PI,745,956,484,828,Renewable-first compute,484,Colocation / digital hub,956,472,753.25
+2515807,Serra Redonda,PB,750,787,759,718,Low-water AI,718,Colocation / digital hub,787,69,753.5
+2709103,Taquarana,AL,753,871,750,649,Low-water AI,649,Colocation / digital hub,871,222,755.75
+2112506,Tutóia,MA,731,651,663,981,Colocation / digital hub,651,Low-water AI,981,330,756.5
+2400505,Alexandria,RN,822,574,702,929,Colocation / digital hub,574,Low-water AI,929,355,756.75
+2405405,Japi,RN,734,961,556,780,Renewable-first compute,556,Colocation / digital hub,961,405,757.75
+2707602,Quebrangulo,AL,780,656,898,705,Colocation / digital hub,656,Renewable-first compute,898,242,759.75
+2516508,Taperoá,PB,717,1185,521,616,Renewable-first compute,521,Colocation / digital hub,1185,664,759.75
+2918001,Jequié,BA,828,381,1161,671,Colocation / digital hub,381,Renewable-first compute,1161,780,760.25
+2908408,Conceição do Coité,BA,812,491,960,779,Colocation / digital hub,491,Renewable-first compute,960,469,760.5
+2910602,Esplanada,BA,816,464,888,874,Colocation / digital hub,464,Renewable-first compute,888,424,760.5
+2506301,Guarabira,PB,805,450,838,951,Colocation / digital hub,450,Low-water AI,951,501,761.0
+2903706,Boa Nova,BA,685,1033,939,394,Low-water AI,394,Colocation / digital hub,1033,639,762.75
+2930204,Sento Sé,BA,730,1294,463,569,Renewable-first compute,463,Colocation / digital hub,1294,831,764.0
+2414506,Umarizal,RN,823,556,716,965,Colocation / digital hub,556,Low-water AI,965,409,765.0
+2604205,Catende,PE,796,482,1057,728,Colocation / digital hub,482,Renewable-first compute,1057,575,765.75
+2930402,Serra Preta,BA,807,544,925,789,Colocation / digital hub,544,Renewable-first compute,925,381,766.25
+2414209,Tibau do Sul,RN,801,557,714,1004,Colocation / digital hub,557,Low-water AI,1004,447,769.0
+2408409,Olho d'Água do Borges,RN,797,741,633,915,Renewable-first compute,633,Low-water AI,915,282,771.5
+2803401,Japoatã,SE,771,711,770,839,Colocation / digital hub,711,Low-water AI,839,128,772.75
+2108207,Pedreiras,MA,757,442,845,1059,Colocation / digital hub,442,Low-water AI,1059,617,775.75
+2929909,Seabra,BA,802,835,871,596,Low-water AI,596,Renewable-first compute,871,275,776.0
+2313559,Tururu,CE,818,535,941,814,Colocation / digital hub,535,Renewable-first compute,941,406,777.0
+2209302,Santa Luz,PI,733,748,730,906,Renewable-first compute,730,Low-water AI,906,176,779.25
+2516151,Sossêgo,PB,764,935,620,803,Renewable-first compute,620,Colocation / digital hub,935,315,780.5
+2903102,Barra do Rocha,BA,763,737,1059,566,Low-water AI,566,Renewable-first compute,1059,493,781.25
+2913200,Ibotirama,BA,835,796,778,734,Low-water AI,734,Hyperscale AI,835,101,785.75
+2406304,Lagoa de Pedras,RN,761,964,573,848,Renewable-first compute,573,Colocation / digital hub,964,391,786.5
+2804409,Neópolis,SE,752,907,725,764,Renewable-first compute,725,Colocation / digital hub,907,182,787.0
+2408508,Ouro Branco,RN,736,1223,448,741,Renewable-first compute,448,Colocation / digital hub,1223,775,787.0
+2605608,Flores,PE,863,704,731,854,Colocation / digital hub,704,Hyperscale AI,863,159,788.0
+2601409,Barreiros,PE,832,392,1073,857,Colocation / digital hub,392,Renewable-first compute,1073,681,788.5
+2906600,Candiba,BA,739,1177,729,510,Low-water AI,510,Colocation / digital hub,1177,667,788.75
+2925956,Rafael Jambeiro,BA,817,665,972,701,Colocation / digital hub,665,Renewable-first compute,972,307,788.75
+2301505,Arneiroz,CE,772,933,696,757,Renewable-first compute,696,Colocation / digital hub,933,237,789.5
+2506103,Fagundes,PB,740,1123,749,553,Low-water AI,553,Colocation / digital hub,1123,570,791.25
+2202406,Capitão de Campos,PI,774,614,737,1042,Colocation / digital hub,614,Low-water AI,1042,428,791.75
+2100154,Água Doce do Maranhão,MA,785,560,773,1052,Colocation / digital hub,560,Low-water AI,1052,492,792.5
+2507200,Itatuba,PB,779,854,868,674,Low-water AI,674,Renewable-first compute,868,194,793.75
+2503605,Caiçara,PB,784,899,635,860,Renewable-first compute,635,Colocation / digital hub,899,264,794.5
+2503753,Cajazeirinhas,PB,768,930,722,760,Renewable-first compute,722,Colocation / digital hub,930,208,795.0
+2203404,Dom Expedito Lopes,PI,810,708,618,1044,Renewable-first compute,618,Low-water AI,1044,426,795.0
+2207553,Paquetá,PI,804,740,641,995,Renewable-first compute,641,Low-water AI,995,354,795.0
+2805802,Riachão do Dantas,SE,783,849,826,722,Low-water AI,722,Colocation / digital hub,849,127,795.0
+2209401,Santo Antônio de Lisboa,PI,793,781,665,943,Renewable-first compute,665,Low-water AI,943,278,795.5
+2933257,Vereda,BA,748,1107,801,528,Low-water AI,528,Colocation / digital hub,1107,579,796.0
+2910206,Dom Macedo Costa,BA,765,880,829,715,Low-water AI,715,Colocation / digital hub,880,165,797.25
+2702900,Girau do Ponciano,AL,787,938,747,723,Low-water AI,723,Colocation / digital hub,938,215,798.75
+2902203,Aramari,BA,776,847,882,698,Low-water AI,698,Renewable-first compute,882,184,800.75
+2109908,Santa Inês,MA,781,443,889,1095,Colocation / digital hub,443,Low-water AI,1095,652,802.0
+2104057,Estreito,MA,782,468,884,1078,Colocation / digital hub,468,Low-water AI,1078,610,803.0
+2308377,Miraíma,CE,814,744,740,914,Renewable-first compute,740,Low-water AI,914,174,803.0
+2915601,Itamaraju,BA,839,517,1116,754,Colocation / digital hub,517,Renewable-first compute,1116,599,806.5
+2706802,Piaçabuçu,AL,788,686,893,863,Colocation / digital hub,686,Renewable-first compute,893,207,807.5
+2403806,Florânia,RN,792,1002,546,891,Renewable-first compute,546,Colocation / digital hub,1002,456,807.75
+2702504,Dois Riachos,AL,811,877,854,693,Low-water AI,693,Colocation / digital hub,877,184,808.75
+2306108,Irauçuba,CE,837,768,742,899,Renewable-first compute,742,Low-water AI,899,157,811.5
+2206050,Massapê do Piauí,PI,824,879,602,945,Renewable-first compute,602,Low-water AI,945,343,812.5
+2500577,Algodão de Jandaíra,PB,754,1212,590,695,Renewable-first compute,590,Colocation / digital hub,1212,622,812.75
+2917409,Jacaraci,BA,846,793,953,664,Low-water AI,664,Renewable-first compute,953,289,814.0
+2307635,Madalena,CE,877,592,961,829,Colocation / digital hub,592,Renewable-first compute,961,369,814.75
+2901908,Aporá,BA,829,692,923,816,Colocation / digital hub,692,Renewable-first compute,923,231,815.0
+2404804,Ipueira,RN,777,1146,566,792,Renewable-first compute,566,Colocation / digital hub,1146,580,820.25
+2903607,Biritinga,BA,778,1241,597,668,Renewable-first compute,597,Colocation / digital hub,1241,644,821.0
+2906907,Caravelas,BA,760,1019,895,612,Low-water AI,612,Colocation / digital hub,1019,407,821.5
+2110708,São Domingos do Maranhão,MA,809,526,855,1098,Colocation / digital hub,526,Low-water AI,1098,572,822.0
+2313757,Umirim,CE,885,427,1084,893,Colocation / digital hub,427,Renewable-first compute,1084,657,822.25
+2410108,Poço Branco,RN,762,1188,531,809,Renewable-first compute,531,Colocation / digital hub,1188,657,822.5
+2904209,Botuporã,BA,888,717,876,812,Colocation / digital hub,717,Hyperscale AI,888,171,823.25
+2608206,Joaquim Nabuco,PE,800,816,990,689,Low-water AI,689,Renewable-first compute,990,301,823.75
+2614857,Tamandaré,PE,820,500,1140,838,Colocation / digital hub,500,Renewable-first compute,1140,640,824.5
+2515971,Sobrado,PB,803,900,712,884,Renewable-first compute,712,Colocation / digital hub,900,188,824.75
+2501575,Barra de Santana,PB,795,1132,775,599,Low-water AI,599,Colocation / digital hub,1132,533,825.25
+2702306,Coruripe,AL,834,774,862,834,Colocation / digital hub,774,Renewable-first compute,862,88,826.0
+2203354,Dirceu Arcoverde,PI,874,749,727,955,Renewable-first compute,727,Low-water AI,955,228,826.25
+2929701,Sátiro Dias,BA,790,944,834,747,Low-water AI,747,Colocation / digital hub,944,197,828.75
+2202455,Capitão Gervásio Oliveira,PI,767,1236,488,825,Renewable-first compute,488,Colocation / digital hub,1236,748,829.0
+2407708,Montanhas,RN,841,819,706,953,Renewable-first compute,706,Low-water AI,953,247,829.75
+2902302,Aratuípe,BA,836,581,1042,869,Colocation / digital hub,581,Renewable-first compute,1042,461,832.0
+2508802,Malta,PB,852,1016,555,913,Renewable-first compute,555,Colocation / digital hub,1016,461,834.0
+2909307,Correntina,BA,887,670,942,844,Colocation / digital hub,670,Renewable-first compute,942,272,835.75
+2608107,João Alfredo,PE,845,878,931,690,Low-water AI,690,Renewable-first compute,931,241,836.0
+2401503,Barcelona,RN,766,1232,563,788,Renewable-first compute,563,Colocation / digital hub,1232,669,837.25
+2702207,Coqueiro Seco,AL,758,1082,825,684,Low-water AI,684,Colocation / digital hub,1082,398,837.25
+2802205,Feira Nova,SE,871,573,947,960,Colocation / digital hub,573,Low-water AI,960,387,837.75
+2101004,Arari,MA,773,549,949,1082,Colocation / digital hub,549,Low-water AI,1082,533,838.25
+2309102,Mulungu,CE,889,724,1036,706,Low-water AI,706,Renewable-first compute,1036,330,838.75
+2923407,Palmas de Monte Alto,BA,862,1009,736,748,Renewable-first compute,736,Colocation / digital hub,1009,273,838.75
+2312106,Santana do Cariri,CE,830,798,850,880,Colocation / digital hub,798,Low-water AI,880,82,839.5
+2706505,Passo de Camaragibe,AL,844,712,996,807,Colocation / digital hub,712,Renewable-first compute,996,284,839.75
+2503555,Cacimbas,PB,808,1272,557,740,Renewable-first compute,557,Colocation / digital hub,1272,715,844.25
+2512903,Rio Tinto,PB,872,563,869,1073,Colocation / digital hub,563,Low-water AI,1073,510,844.25
+2805208,Pinhão,SE,849,727,916,888,Colocation / digital hub,727,Renewable-first compute,916,189,845.0
+2933000,Valente,BA,912,446,1136,887,Colocation / digital hub,446,Renewable-first compute,1136,690,845.25
+2903300,Barro Preto,BA,825,822,1155,592,Low-water AI,592,Renewable-first compute,1155,563,848.5
+2928109,Santa Maria da Vitória,BA,924,555,997,919,Colocation / digital hub,555,Renewable-first compute,997,442,848.75
+2109239,Presidente Médici,MA,813,694,846,1046,Colocation / digital hub,694,Low-water AI,1046,352,849.75
+2204402,Gilbués,PI,786,1029,688,898,Renewable-first compute,688,Colocation / digital hub,1029,341,850.25
+2402204,Canguaretama,RN,899,490,896,1124,Colocation / digital hub,490,Low-water AI,1124,634,852.25
+2206720,Nazária,PI,821,697,790,1104,Colocation / digital hub,697,Low-water AI,1104,407,853.0
+2902104,Araci,BA,826,1240,669,680,Renewable-first compute,669,Colocation / digital hub,1240,571,853.75
+2513802,Santa Teresinha,PB,842,1038,678,858,Renewable-first compute,678,Colocation / digital hub,1038,360,854.0
+2202208,Campo Maior,PI,880,505,819,1218,Colocation / digital hub,505,Low-water AI,1218,713,855.5
+2600104,Afogados da Ingazeira,PE,936,538,1007,942,Colocation / digital hub,538,Renewable-first compute,1007,469,855.75
+2515708,Serra Grande,PB,853,1014,715,842,Renewable-first compute,715,Colocation / digital hub,1014,299,856.0
+2301604,Assaré,CE,928,571,926,1003,Colocation / digital hub,571,Low-water AI,1003,432,857.0
+2405306,Januário Cicco,RN,857,897,690,985,Renewable-first compute,690,Low-water AI,985,295,857.25
+2917805,Jaguaripe,BA,854,630,1048,902,Colocation / digital hub,630,Renewable-first compute,1048,418,858.5
+2303600,Catarina,CE,866,934,754,886,Renewable-first compute,754,Colocation / digital hub,934,180,860.0
+2205581,Lagoa do Piauí,PI,831,733,779,1105,Colocation / digital hub,733,Low-water AI,1105,372,862.0
+2503100,Cabaceiras,PB,858,985,844,766,Low-water AI,766,Colocation / digital hub,985,219,863.25
+2708105,Santana do Mundaú,AL,791,1154,936,574,Low-water AI,574,Colocation / digital hub,1154,580,863.75
+2106003,Lima Campos,MA,833,617,890,1121,Colocation / digital hub,617,Low-water AI,1121,504,865.25
+2614204,Sirinhaém,PE,827,841,1006,790,Low-water AI,790,Renewable-first compute,1006,216,866.0
+2602704,Buenos Aires,PE,799,1200,800,666,Low-water AI,666,Colocation / digital hub,1200,534,866.25
+2514305,São José de Caiana,PB,859,1001,763,849,Renewable-first compute,763,Colocation / digital hub,1001,238,868.0
+2411700,São Bento do Trairí,RN,794,1219,646,815,Renewable-first compute,646,Colocation / digital hub,1219,573,868.5
+2413102,Senador Elói de Souza,RN,806,1265,562,846,Renewable-first compute,562,Colocation / digital hub,1265,703,869.75
+2501104,Areia,PB,860,959,767,895,Renewable-first compute,767,Colocation / digital hub,959,192,870.25
+2307106,Jardim,CE,815,918,917,831,Hyperscale AI,815,Colocation / digital hub,918,103,870.25
+2917003,Itiúba,BA,921,699,1067,800,Colocation / digital hub,699,Renewable-first compute,1067,368,871.75
+2911204,Gandu,BA,898,512,1271,808,Colocation / digital hub,512,Renewable-first compute,1271,759,872.25
+2914307,Iramaia,BA,891,713,1204,681,Low-water AI,681,Renewable-first compute,1204,523,872.25
+2701506,Campo Grande,AL,851,948,861,843,Low-water AI,843,Colocation / digital hub,948,105,875.75
+2412401,São José do Seridó,RN,855,1055,647,946,Renewable-first compute,647,Colocation / digital hub,1055,408,875.75
+2209104,Santa Cruz do Piauí,PI,893,811,698,1102,Renewable-first compute,698,Low-water AI,1102,404,876.0
+2407609,Messias Targino,RN,867,987,682,969,Renewable-first compute,682,Colocation / digital hub,987,305,876.25
+2509396,Maturéia,PB,903,947,744,918,Renewable-first compute,744,Colocation / digital hub,947,203,878.0
+2504108,Carrapateira,PB,884,1011,762,872,Renewable-first compute,762,Colocation / digital hub,1011,249,882.25
+2412609,São Paulo do Potengi,RN,819,1239,611,862,Renewable-first compute,611,Colocation / digital hub,1239,628,882.75
+2614600,Tabira,PE,968,561,1017,988,Colocation / digital hub,561,Renewable-first compute,1017,456,883.5
+2616100,Verdejante,PE,848,1238,689,769,Renewable-first compute,689,Colocation / digital hub,1238,549,886.0
+2805505,Poço Verde,SE,861,949,887,850,Low-water AI,850,Colocation / digital hub,949,99,886.75
+2106102,Loreto,MA,879,631,927,1128,Colocation / digital hub,631,Low-water AI,1128,497,891.25
+2413201,Senador Georgino Avelino,RN,878,830,812,1051,Renewable-first compute,812,Low-water AI,1051,239,892.75
+2414753,Venha-Ver,RN,906,968,768,932,Renewable-first compute,768,Colocation / digital hub,968,200,893.5
+2912905,Ibirataia,BA,864,858,1181,675,Low-water AI,675,Renewable-first compute,1181,506,894.5
+2921450,Mirante,BA,931,829,1125,699,Low-water AI,699,Renewable-first compute,1125,426,896.0
+2927705,Santa Cruz Cabrália,BA,916,642,1235,791,Colocation / digital hub,642,Renewable-first compute,1235,593,896.0
+2517001,Umbuzeiro,PB,923,1010,880,771,Low-water AI,771,Colocation / digital hub,1010,239,896.0
+2303303,Cariús,CE,948,718,922,997,Colocation / digital hub,718,Low-water AI,997,279,896.25
+2920502,Maracás,BA,937,795,1106,749,Low-water AI,749,Renewable-first compute,1106,357,896.75
+2313906,Uruoca,CE,907,623,932,1126,Colocation / digital hub,623,Low-water AI,1126,503,897.0
+2111763,Senador La Rocque,MA,870,627,935,1158,Colocation / digital hub,627,Low-water AI,1158,531,897.5
+2927309,Salinas da Margarida,BA,869,773,1029,920,Colocation / digital hub,773,Renewable-first compute,1029,256,897.75
+2914901,Itacaré,BA,896,681,1210,810,Colocation / digital hub,681,Renewable-first compute,1210,529,899.25
+2807501,Tomar do Geru,SE,838,1190,860,709,Low-water AI,709,Colocation / digital hub,1190,481,899.25
+2304236,Croatá,CE,930,823,710,1143,Renewable-first compute,710,Low-water AI,1143,433,901.5
+2911501,Gongogi,BA,843,1087,1092,585,Low-water AI,585,Renewable-first compute,1092,507,901.75
+2201903,Bom Jesus,PI,865,902,784,1057,Renewable-first compute,784,Low-water AI,1057,273,902.0
+2104677,Governador Nunes Freire,MA,897,553,993,1167,Colocation / digital hub,553,Low-water AI,1167,614,902.5
+2910008,Dário Meira,BA,882,885,1208,636,Low-water AI,636,Renewable-first compute,1208,572,902.75
+2514453,São José dos Ramos,PB,873,1043,791,905,Renewable-first compute,791,Colocation / digital hub,1043,252,903.0
+2920601,Maragogipe,BA,892,742,1074,911,Colocation / digital hub,742,Renewable-first compute,1074,332,904.75
+2918902,Lajedão,BA,847,1199,924,653,Low-water AI,653,Colocation / digital hub,1199,546,905.75
+2929800,Saúde,BA,951,667,1227,785,Colocation / digital hub,667,Renewable-first compute,1227,560,907.5
+2407401,Martins,RN,960,593,934,1145,Colocation / digital hub,593,Low-water AI,1145,552,908.0
+2609006,Macaparana,PE,901,1251,684,802,Renewable-first compute,684,Colocation / digital hub,1251,567,909.5
+2931103,Tanquinho,BA,905,912,979,861,Low-water AI,861,Renewable-first compute,979,118,914.25
+2513109,Salgado de São Félix,PB,913,1069,795,882,Renewable-first compute,795,Colocation / digital hub,1069,274,914.75
+2510501,Olivedos,PB,868,1290,703,801,Renewable-first compute,703,Colocation / digital hub,1290,587,915.5
+2513604,Santana dos Garrotes,PB,917,1064,796,885,Renewable-first compute,796,Colocation / digital hub,1064,268,915.5
+2900306,Acajutiba,BA,955,590,1130,991,Colocation / digital hub,590,Renewable-first compute,1130,540,916.5
+2609709,Orobó,PE,895,1246,842,691,Low-water AI,691,Colocation / digital hub,1246,555,918.5
+2903409,Belmonte,BA,922,789,1209,765,Low-water AI,765,Renewable-first compute,1209,444,921.25
+2209351,Santana do Piauí,PI,908,888,810,1081,Renewable-first compute,810,Low-water AI,1081,271,921.75
+2510006,Nazarezinho,PB,926,1024,818,921,Renewable-first compute,818,Colocation / digital hub,1024,206,922.25
+2302404,Boa Viagem,CE,993,572,1090,1035,Colocation / digital hub,572,Renewable-first compute,1090,518,922.5
+2927002,Rio Real,BA,915,890,1015,873,Low-water AI,873,Renewable-first compute,1015,142,923.25
+2302909,Capistrano,CE,958,916,1108,717,Low-water AI,717,Renewable-first compute,1108,391,924.75
+2207603,Parnaguá,PI,925,1091,717,967,Renewable-first compute,717,Colocation / digital hub,1091,374,925.0
+2306900,Jaguaribe,CE,943,906,849,1010,Renewable-first compute,849,Low-water AI,1010,161,927.0
+2703601,Japaratinga,AL,990,575,1132,1011,Colocation / digital hub,575,Renewable-first compute,1132,557,927.0
+2101103,Axixá,MA,840,679,1082,1108,Colocation / digital hub,679,Low-water AI,1108,429,927.25
+2802809,Indiaroba,SE,933,754,1088,934,Colocation / digital hub,754,Renewable-first compute,1088,334,927.25
+2406403,Lagoa de Velhos,RN,856,1300,658,896,Renewable-first compute,658,Colocation / digital hub,1300,642,927.5
+2922904,Nova Soure,BA,850,1224,852,787,Low-water AI,787,Colocation / digital hub,1224,437,928.25
+2932903,Valença,BA,927,495,1308,986,Colocation / digital hub,495,Renewable-first compute,1308,813,929.0
+2915809,Itambé,BA,965,691,1302,763,Colocation / digital hub,691,Renewable-first compute,1302,611,930.25
+2908804,Contendas do Sincorá,BA,962,726,1286,751,Colocation / digital hub,726,Renewable-first compute,1286,560,931.25
+2300606,Altaneira,CE,950,803,992,983,Colocation / digital hub,803,Renewable-first compute,992,189,932.0
+2112704,Vargem Grande,MA,953,669,858,1252,Colocation / digital hub,669,Low-water AI,1252,583,933.0
+2922003,Mucuri,BA,971,622,1213,935,Colocation / digital hub,622,Renewable-first compute,1213,591,935.25
+2514206,São José da Lagoa Tapada,PB,883,1297,745,818,Renewable-first compute,745,Colocation / digital hub,1297,552,935.75
+2805604,Porto da Folha,SE,935,941,944,926,Low-water AI,926,Renewable-first compute,944,18,936.5
+2205102,Itaueira,PI,997,680,789,1285,Colocation / digital hub,680,Low-water AI,1285,605,937.75
+2928000,Santaluz,BA,1007,613,1182,950,Colocation / digital hub,613,Renewable-first compute,1182,569,938.0
+2307908,Martinópole,CE,941,828,864,1120,Colocation / digital hub,828,Low-water AI,1120,292,938.25
+2104552,Governador Edison Lobão,MA,920,649,977,1208,Colocation / digital hub,649,Low-water AI,1208,559,938.5
+2103406,Coelho Neto,MA,876,788,933,1160,Colocation / digital hub,788,Low-water AI,1160,372,939.25
+2305100,Guaramiranga,CE,956,945,1109,753,Low-water AI,753,Renewable-first compute,1109,356,940.75
+2204501,Guadalupe,PI,881,995,785,1110,Renewable-first compute,785,Low-water AI,1110,325,942.75
+2307403,Jucás,CE,1009,633,1065,1071,Colocation / digital hub,633,Low-water AI,1071,438,944.5
+2601607,Belém do São Francisco,PE,1000,872,900,1014,Colocation / digital hub,872,Low-water AI,1014,142,946.5
+2612901,São Benedito do Sul,PE,944,904,1126,819,Low-water AI,819,Renewable-first compute,1126,307,948.25
+2310803,Pereiro,CE,1010,860,793,1132,Renewable-first compute,793,Low-water AI,1132,339,948.75
+2705408,Monteirópolis,AL,910,1261,859,772,Low-water AI,772,Colocation / digital hub,1261,489,950.5
+2612455,Santa Cruz,PE,954,1007,877,964,Renewable-first compute,877,Colocation / digital hub,1007,130,950.5
+2502052,Bernardino Batista,PB,959,1084,808,959,Renewable-first compute,808,Colocation / digital hub,1084,276,952.5
+2923050,Novo Triunfo,BA,938,1000,983,890,Low-water AI,890,Colocation / digital hub,1000,110,952.75
+2510402,Olho d'Água,PB,914,1120,874,903,Renewable-first compute,874,Colocation / digital hub,1120,246,952.75
+2616209,Vertentes,PE,1016,766,1105,924,Colocation / digital hub,766,Renewable-first compute,1105,339,952.75
+2100709,Anajatuba,MA,919,640,1044,1210,Colocation / digital hub,640,Low-water AI,1210,570,953.25
+2202703,Cocal,PI,894,874,906,1140,Colocation / digital hub,874,Low-water AI,1140,266,953.5
+2805000,Pedra Mole,SE,929,983,976,927,Low-water AI,927,Colocation / digital hub,983,56,953.75
+2607000,Inajá,PE,969,1056,948,845,Low-water AI,845,Colocation / digital hub,1056,211,954.5
+2922409,Mutuípe,BA,985,612,1274,947,Colocation / digital hub,612,Renewable-first compute,1274,662,954.5
+2905800,Camamu,BA,977,469,1398,975,Colocation / digital hub,469,Renewable-first compute,1398,929,954.75
+2604155,Casinhas,PE,981,1057,957,824,Low-water AI,824,Colocation / digital hub,1057,233,954.75
+2506400,Gurinhém,PB,984,817,954,1064,Colocation / digital hub,817,Low-water AI,1064,247,954.75
+2905602,Camacan,BA,1014,534,1399,877,Colocation / digital hub,534,Renewable-first compute,1399,865,956.0
+2806404,Santana do São Francisco,SE,886,1253,832,859,Renewable-first compute,832,Colocation / digital hub,1253,421,957.5
+2903235,Barro Alto,BA,999,1062,1004,768,Low-water AI,768,Colocation / digital hub,1062,294,958.25
+2924108,Pedrão,BA,939,1025,994,876,Low-water AI,876,Colocation / digital hub,1025,149,958.5
+2510204,Nova Olinda,PB,996,1067,805,970,Renewable-first compute,805,Colocation / digital hub,1067,262,959.5
+2202083,Cajueiro da Praia,PI,932,815,905,1188,Colocation / digital hub,815,Low-water AI,1188,373,960.0
+2928307,Santanópolis,BA,904,1244,894,798,Low-water AI,798,Colocation / digital hub,1244,446,960.0
+2616308,Vicência,PE,890,1210,959,784,Low-water AI,784,Colocation / digital hub,1210,426,960.75
+2509339,Matinhas,PB,918,1283,824,827,Renewable-first compute,824,Colocation / digital hub,1283,459,963.0
+2929354,São José da Vitória,BA,957,852,1290,758,Low-water AI,758,Renewable-first compute,1290,532,964.25
+2919900,Macururé,BA,974,1181,797,907,Renewable-first compute,797,Colocation / digital hub,1181,384,964.75
+2208908,Ribeiro Gonçalves,PI,976,1017,709,1157,Renewable-first compute,709,Low-water AI,1157,448,964.75
+2614006,Serrita,PE,978,1151,771,963,Renewable-first compute,771,Colocation / digital hub,1151,380,965.75
+2413706,Sítio Novo,RN,911,1353,655,944,Renewable-first compute,655,Colocation / digital hub,1353,698,965.75
+2602506,Brejinho,PE,989,1128,802,949,Renewable-first compute,802,Colocation / digital hub,1128,326,967.0
+2501609,Barra de Santa Rosa,PB,949,1111,815,994,Renewable-first compute,815,Colocation / digital hub,1111,296,967.25
+2205904,Manoel Emídio,PI,947,905,883,1135,Renewable-first compute,883,Low-water AI,1135,252,967.5
+2906873,Capim Grosso,BA,1066,516,1319,971,Colocation / digital hub,516,Renewable-first compute,1319,803,968.0
+2311108,Porteiras,CE,875,1278,897,823,Low-water AI,823,Colocation / digital hub,1278,455,968.25
+2515005,São Miguel de Taipu,PB,902,1298,758,917,Renewable-first compute,758,Colocation / digital hub,1298,540,968.75
+2109700,Sambaíba,MA,961,765,989,1162,Colocation / digital hub,765,Low-water AI,1162,397,969.25
+2501302,Aroeiras,PB,942,1284,907,745,Low-water AI,745,Colocation / digital hub,1284,539,969.5
+2504033,Capim,PB,945,1037,853,1049,Renewable-first compute,853,Low-water AI,1049,196,971.0
+2516805,Triunfo,PB,980,1003,903,999,Renewable-first compute,903,Colocation / digital hub,1003,100,971.25
+2902500,Baianópolis,BA,940,1337,817,793,Low-water AI,793,Colocation / digital hub,1337,544,971.75
+2111250,São José dos Basílios,MA,900,974,909,1115,Hyperscale AI,900,Low-water AI,1115,215,974.5
+2504306,Catolé do Rocha,PB,1034,723,964,1180,Colocation / digital hub,723,Low-water AI,1180,457,975.25
+2916401,Itapetinga,BA,1044,624,1361,879,Colocation / digital hub,624,Renewable-first compute,1361,737,977.0
+2210607,São Raimundo Nonato,PI,1038,609,1025,1236,Colocation / digital hub,609,Low-water AI,1236,627,977.0
+2207777,Patos do Piauí,PI,1042,804,843,1221,Colocation / digital hub,804,Low-water AI,1221,417,977.5
+2613404,São José da Coroa Grande,PE,1024,662,1188,1036,Colocation / digital hub,662,Renewable-first compute,1188,526,977.5
+2509909,Natuba,PB,963,1313,831,813,Low-water AI,813,Colocation / digital hub,1313,500,980.0
+2511905,Pitimbu,PB,909,1303,781,941,Renewable-first compute,781,Colocation / digital hub,1303,522,983.5
+2902708,Barra,BA,970,1169,946,852,Low-water AI,852,Colocation / digital hub,1169,317,984.25
+2105500,João Lisboa,MA,975,706,1011,1253,Colocation / digital hub,706,Low-water AI,1253,547,986.25
+2500403,Alagoa Nova,PB,946,1291,835,875,Renewable-first compute,835,Colocation / digital hub,1291,456,986.75
+2605152,Dormentes,PE,991,1142,822,992,Renewable-first compute,822,Colocation / digital hub,1142,320,986.75
+2309458,Ocara,CE,1055,750,1124,1030,Colocation / digital hub,750,Renewable-first compute,1124,374,989.75
+2512788,Riacho de Santo Antônio,PB,1015,1096,998,867,Low-water AI,867,Colocation / digital hub,1096,229,994.0
+2106375,Maranhãozinho,MA,966,799,1009,1204,Colocation / digital hub,799,Low-water AI,1204,405,994.5
+2412807,São Rafael,RN,934,1351,686,1012,Renewable-first compute,686,Colocation / digital hub,1351,665,995.75
+2603603,Camutanga,PE,967,1257,827,933,Renewable-first compute,827,Colocation / digital hub,1257,430,996.0
+2700508,Barra de Santo Antônio,AL,972,1044,1043,928,Low-water AI,928,Colocation / digital hub,1044,116,996.75
+2918555,Jussari,BA,998,940,1277,773,Low-water AI,773,Renewable-first compute,1277,504,997.0
+2807105,Simão Dias,SE,1005,951,1030,1019,Colocation / digital hub,951,Renewable-first compute,1030,79,1001.25
+2511608,Pilões,PB,992,1085,899,1033,Renewable-first compute,899,Colocation / digital hub,1085,186,1002.25
+2311900,Saboeiro,CE,1050,792,1054,1116,Colocation / digital hub,792,Low-water AI,1116,324,1003.0
+2702553,Estrela de Alagoas,AL,1018,1092,978,925,Low-water AI,925,Colocation / digital hub,1092,167,1003.25
+2917607,Jaguaquara,BA,1072,606,1359,977,Colocation / digital hub,606,Renewable-first compute,1359,753,1003.5
+2601508,Belém de Maria,PE,1051,802,1211,956,Colocation / digital hub,802,Renewable-first compute,1211,409,1005.0
+2412708,São Pedro,RN,952,1355,707,1007,Renewable-first compute,707,Colocation / digital hub,1355,648,1005.25
+2926103,Retirolândia,BA,1068,703,1232,1025,Colocation / digital hub,703,Renewable-first compute,1232,529,1007.0
+2304806,Granjeiro,CE,979,1340,792,923,Renewable-first compute,792,Colocation / digital hub,1340,548,1008.5
+2110609,São Bernardo,MA,1045,605,1031,1355,Colocation / digital hub,605,Low-water AI,1355,750,1009.0
+2928406,Santa Rita de Cássia,BA,1003,1167,901,968,Renewable-first compute,901,Colocation / digital hub,1167,266,1009.75
+2928208,Santana,BA,1049,843,1098,1058,Colocation / digital hub,843,Renewable-first compute,1098,255,1012.0
+2410306,Serra Caiada,RN,973,1314,732,1037,Renewable-first compute,732,Colocation / digital hub,1314,582,1014.0
+2413508,Serrinha,RN,964,1383,711,1008,Renewable-first compute,711,Colocation / digital hub,1383,672,1016.5
+2902906,Barra do Choça,BA,995,1256,1134,683,Low-water AI,683,Colocation / digital hub,1256,573,1017.0
+2312205,Santa Quitéria,CE,1079,707,1119,1170,Colocation / digital hub,707,Low-water AI,1170,463,1018.75
+2806909,São Francisco,SE,1027,867,1058,1123,Colocation / digital hub,867,Low-water AI,1123,256,1018.75
+2507101,Itapororoca,PB,1033,909,975,1159,Colocation / digital hub,909,Low-water AI,1159,250,1019.0
+2510659,Parari,PB,1036,1158,919,966,Renewable-first compute,919,Colocation / digital hub,1158,239,1019.75
+2918753,Lagoa Real,BA,994,1281,1063,743,Low-water AI,743,Colocation / digital hub,1281,538,1020.25
+2511806,Pirpirituba,PB,1012,994,985,1090,Renewable-first compute,985,Low-water AI,1090,105,1020.25
+2613800,São Vicente Férrer,PE,983,1307,956,841,Low-water AI,841,Colocation / digital hub,1307,466,1021.75
+2901353,Andorinha,BA,1030,1143,1021,900,Low-water AI,900,Colocation / digital hub,1143,243,1023.5
+2308807,Moraújo,CE,1008,928,982,1183,Colocation / digital hub,928,Low-water AI,1183,255,1025.25
+2600203,Afrânio,PE,1001,1422,721,958,Renewable-first compute,721,Colocation / digital hub,1422,701,1025.5
+2910305,Elísio Medrado,BA,1028,1023,1114,937,Low-water AI,937,Renewable-first compute,1114,177,1025.5
+2605509,Ferreiros,PE,986,1296,885,938,Renewable-first compute,885,Colocation / digital hub,1296,411,1026.25
+2515930,Sertãozinho,PB,1019,1089,911,1087,Renewable-first compute,911,Colocation / digital hub,1089,178,1026.5
+2206605,Monte Alegre do Piauí,PI,1004,1119,856,1133,Renewable-first compute,856,Low-water AI,1133,277,1028.0
+2308351,Milhã,CE,1067,925,1064,1094,Colocation / digital hub,925,Low-water AI,1094,169,1037.5
+2916708,Itaquara,BA,1102,695,1330,1024,Colocation / digital hub,695,Renewable-first compute,1330,635,1037.75
+2603504,Camocim de São Félix,PE,1025,1327,968,833,Low-water AI,833,Colocation / digital hub,1327,494,1038.25
+2100477,Alto Alegre do Pindaré,MA,1032,668,1154,1300,Colocation / digital hub,668,Low-water AI,1300,632,1038.5
+2301307,Araripe,CE,1052,920,1047,1137,Colocation / digital hub,920,Low-water AI,1137,217,1039.0
+2511509,Pilar,PB,988,1360,828,982,Renewable-first compute,828,Colocation / digital hub,1360,532,1039.5
+2102705,Cantanhede,MA,982,991,980,1207,Renewable-first compute,980,Low-water AI,1207,227,1040.0
+2925303,Porto Seguro,BA,1065,646,1447,1005,Colocation / digital hub,646,Renewable-first compute,1447,801,1040.75
+2312700,Senador Pompeu,CE,1115,636,1234,1182,Colocation / digital hub,636,Renewable-first compute,1234,598,1041.75
+2919801,Macaúbas,BA,1097,914,1113,1045,Colocation / digital hub,914,Renewable-first compute,1113,199,1042.25
+2209658,São Francisco de Assis do Piauí,PI,1002,1413,693,1063,Renewable-first compute,693,Colocation / digital hub,1413,720,1042.75
+2922730,Nova Fátima,BA,1136,599,1358,1080,Colocation / digital hub,599,Renewable-first compute,1358,759,1043.25
+2507606,Juarez Távora,PB,1035,1088,1035,1022,Low-water AI,1022,Colocation / digital hub,1088,66,1045.0
+2930006,Sebastião Laranjeiras,BA,1023,1412,914,836,Low-water AI,836,Colocation / digital hub,1412,576,1046.25
+2802700,Ilha das Flores,SE,1022,1148,963,1054,Renewable-first compute,963,Colocation / digital hub,1148,185,1046.75
+2313807,Uruburetama,CE,1094,715,1258,1122,Colocation / digital hub,715,Renewable-first compute,1258,543,1047.25
+2513356,Santa Inês,PB,1039,1414,803,936,Renewable-first compute,803,Colocation / digital hub,1414,611,1048.0
+2605004,Cupira,PE,1059,1122,1104,910,Low-water AI,910,Colocation / digital hub,1122,212,1048.75
+2512077,Poço de José de Moura,PB,1070,978,1033,1114,Colocation / digital hub,978,Low-water AI,1114,136,1048.75
+2401206,Arez,RN,1040,1136,873,1148,Renewable-first compute,873,Low-water AI,1148,275,1049.25
+2205300,Jerumenha,PI,1021,1066,872,1244,Renewable-first compute,872,Low-water AI,1244,372,1050.75
+2108009,Pastos Bons,MA,1082,643,1091,1390,Colocation / digital hub,643,Low-water AI,1390,747,1051.5
+2709004,Tanque d'Arca,AL,1020,1301,1014,878,Low-water AI,878,Colocation / digital hub,1301,423,1053.25
+2609154,Manari,PE,1091,1161,995,973,Low-water AI,973,Colocation / digital hub,1161,188,1055.0
+2103257,Cidelândia,MA,1048,782,1076,1321,Colocation / digital hub,782,Low-water AI,1321,539,1056.75
+2405207,Janduís,RN,1017,1375,751,1086,Renewable-first compute,751,Colocation / digital hub,1375,624,1057.25
+2603405,Calumbi,PE,1106,946,1112,1074,Colocation / digital hub,946,Renewable-first compute,1112,166,1059.5
+2104404,Gonçalves Dias,MA,1029,898,1038,1274,Colocation / digital hub,898,Low-water AI,1274,376,1059.75
+2505808,Duas Estradas,PB,1046,1180,913,1109,Renewable-first compute,913,Colocation / digital hub,1180,267,1062.0
+2505204,Cuitegi,PB,1075,931,1079,1164,Colocation / digital hub,931,Low-water AI,1164,233,1062.25
+2917359,Jaborandi,BA,1057,1160,1102,931,Low-water AI,931,Colocation / digital hub,1160,229,1062.5
+2508901,Mamanguape,PB,1095,759,1127,1270,Colocation / digital hub,759,Low-water AI,1270,511,1062.75
+2701100,Branquinha,AL,987,1280,1185,805,Low-water AI,805,Colocation / digital hub,1280,475,1064.25
+2704500,Maragogi,AL,1129,652,1339,1151,Colocation / digital hub,652,Renewable-first compute,1339,687,1067.75
+2613008,São Bento do Una,PE,1047,1349,1055,826,Low-water AI,826,Colocation / digital hub,1349,523,1069.25
+2403707,Felipe Guerra,RN,1006,1352,820,1100,Renewable-first compute,820,Colocation / digital hub,1352,532,1069.5
+2310506,Pedra Branca,CE,1137,836,1131,1185,Colocation / digital hub,836,Low-water AI,1185,349,1072.25
+2103752,Davinópolis,MA,1011,1035,1016,1231,Hyperscale AI,1011,Low-water AI,1231,220,1073.25
+2932101,Ubaíra,BA,1118,696,1420,1061,Colocation / digital hub,696,Renewable-first compute,1420,724,1073.75
+2508703,Mãe d'Água,PB,1056,1220,952,1072,Renewable-first compute,952,Colocation / digital hub,1220,268,1075.0
+2900801,Alcobaça,BA,1074,1171,1072,990,Low-water AI,990,Colocation / digital hub,1171,181,1076.75
+2504157,Casserengue,PB,1041,1400,836,1032,Renewable-first compute,836,Colocation / digital hub,1400,564,1077.25
+2207793,Pau D'Arco do Piauí,PI,1037,1048,958,1267,Renewable-first compute,958,Low-water AI,1267,309,1077.5
+2102556,Campestre do Maranhão,MA,1043,919,1069,1281,Colocation / digital hub,919,Low-water AI,1281,362,1078.0
+2302701,Campos Sales,CE,1123,881,1117,1193,Colocation / digital hub,881,Low-water AI,1193,312,1078.5
+2103604,Coroatá,MA,1053,873,1077,1312,Colocation / digital hub,873,Low-water AI,1312,439,1078.75
+2920908,Mascote,BA,1073,1031,1348,870,Low-water AI,870,Renewable-first compute,1348,478,1080.5
+2806305,Santa Luzia do Itanhy,SE,1061,1060,1174,1027,Low-water AI,1027,Renewable-first compute,1174,147,1080.5
+2312502,São João do Jaguaribe,CE,1026,1397,830,1069,Renewable-first compute,830,Colocation / digital hub,1397,567,1080.5
+2926301,Riachão do Jacuípe,BA,1134,785,1287,1118,Colocation / digital hub,785,Renewable-first compute,1287,502,1081.0
+2508406,Lastro,PB,1076,1147,999,1103,Renewable-first compute,999,Colocation / digital hub,1147,148,1081.25
+2600906,Amaraji,PE,1031,1333,1066,897,Low-water AI,897,Colocation / digital hub,1333,436,1081.75
+2200251,Alagoinha do Piauí,PI,1107,1008,973,1240,Renewable-first compute,973,Low-water AI,1240,267,1082.0
+2409803,Pedro Velho,RN,1088,984,1032,1234,Colocation / digital hub,984,Low-water AI,1234,250,1084.5
+2103307,Codó,MA,1098,673,1171,1404,Colocation / digital hub,673,Low-water AI,1404,731,1086.5
+2204907,Isaías Coelho,PI,1114,1109,863,1271,Renewable-first compute,863,Low-water AI,1271,408,1089.25
+2511707,Pilõezinhos,PB,1083,1112,1024,1139,Renewable-first compute,1024,Low-water AI,1139,115,1089.5
+2805307,Pirambu,SE,1013,1363,951,1031,Renewable-first compute,951,Colocation / digital hub,1363,412,1089.5
+2506251,Gado Bravo,PB,1071,1370,1050,871,Low-water AI,871,Colocation / digital hub,1370,499,1090.5
+2929057,São Félix do Coribe,BA,1133,1061,1071,1101,Colocation / digital hub,1061,Hyperscale AI,1133,72,1091.5
+2932705,Uruçuca,BA,1084,743,1565,976,Colocation / digital hub,743,Renewable-first compute,1565,822,1092.0
+2210359,São Lourenço do Piauí,PI,1152,844,1087,1288,Colocation / digital hub,844,Low-water AI,1288,444,1092.75
+2900207,Abaré,BA,1105,1201,987,1079,Renewable-first compute,987,Colocation / digital hub,1201,214,1093.0
+2101509,Barão de Grajaú,MA,1064,1221,806,1282,Renewable-first compute,806,Low-water AI,1282,476,1093.25
+2516904,Uiraúna,PB,1135,929,1100,1211,Colocation / digital hub,929,Low-water AI,1211,282,1093.75
+2112902,Vitória do Mearim,MA,1058,657,1285,1375,Colocation / digital hub,657,Low-water AI,1375,718,1093.75
+2502805,Brejo do Cruz,PB,1159,857,1040,1323,Colocation / digital hub,857,Low-water AI,1323,466,1094.75
+2111508,São Mateus do Maranhão,MA,1085,753,1159,1383,Colocation / digital hub,753,Low-water AI,1383,630,1095.0
+2110039,Santa Luzia do Paruá,MA,1077,831,1148,1334,Colocation / digital hub,831,Low-water AI,1334,503,1097.5
+2900405,Água Fria,BA,1069,1179,1122,1021,Low-water AI,1021,Colocation / digital hub,1179,158,1097.75
+2922805,Nova Itarana,BA,1151,893,1281,1070,Colocation / digital hub,893,Renewable-first compute,1281,388,1098.75
+2932002,Uauá,BA,1108,1183,1085,1020,Low-water AI,1020,Colocation / digital hub,1183,163,1099.0
+2924207,Pedro Alexandre,BA,1054,1391,1012,940,Low-water AI,940,Colocation / digital hub,1391,451,1099.25
+2931509,Teofilândia,BA,1060,1371,1008,961,Low-water AI,961,Colocation / digital hub,1371,410,1100.0
+2508505,Livramento,PB,1081,1439,892,989,Renewable-first compute,892,Colocation / digital hub,1439,547,1100.25
+2203800,Flores do Piauí,PI,1120,958,974,1354,Colocation / digital hub,958,Low-water AI,1354,396,1101.5
+2705309,Minador do Negrão,AL,1104,1165,1139,998,Low-water AI,998,Colocation / digital hub,1165,167,1101.5
+2932804,Utinga,BA,1126,993,1406,883,Low-water AI,883,Renewable-first compute,1406,523,1102.0
+2905503,Caldeirão Grande,BA,1182,778,1415,1034,Colocation / digital hub,778,Renewable-first compute,1415,637,1102.25
+2911659,Guajeru,BA,1158,980,1299,978,Low-water AI,978,Renewable-first compute,1299,321,1103.75
+2913804,Ipecaetá,BA,1099,1105,1178,1048,Low-water AI,1048,Renewable-first compute,1178,130,1107.5
+2110237,Santana do Maranhão,MA,1110,832,1103,1386,Colocation / digital hub,832,Low-water AI,1386,554,1107.75
+2919504,Livramento de Nossa Senhora,BA,1124,1193,1189,930,Low-water AI,930,Colocation / digital hub,1193,263,1109.0
+2409407,Pau dos Ferros,RN,1192,784,1149,1315,Colocation / digital hub,784,Low-water AI,1315,531,1110.0
+2603900,Carnaíba,PE,1179,962,1168,1147,Colocation / digital hub,962,Hyperscale AI,1179,217,1114.0
+2204709,Inhuma,PI,1173,850,1018,1417,Colocation / digital hub,850,Low-water AI,1417,567,1114.5
+2105609,Joselândia,MA,1086,891,1157,1329,Colocation / digital hub,891,Low-water AI,1329,438,1115.75
+2507408,Jericó,PB,1161,953,1099,1257,Colocation / digital hub,953,Low-water AI,1257,304,1117.5
+2700805,Belém,AL,1101,1389,1034,957,Low-water AI,957,Colocation / digital hub,1389,432,1120.25
+2111953,Sucupira do Riachão,MA,1063,1140,1000,1278,Renewable-first compute,1000,Low-water AI,1278,278,1120.25
+2500106,Água Branca,PB,1149,1258,962,1112,Renewable-first compute,962,Colocation / digital hub,1258,296,1120.25
+2704203,Limoeiro de Anadia,AL,1090,1338,1081,979,Low-water AI,979,Colocation / digital hub,1338,359,1122.0
+2916609,Itapitanga,BA,1078,1302,1313,796,Low-water AI,796,Renewable-first compute,1313,517,1122.25
+2306603,Itatira,CE,1168,986,1268,1068,Colocation / digital hub,986,Renewable-first compute,1268,282,1122.5
+2923803,Paripiranga,BA,1116,1195,1060,1119,Renewable-first compute,1060,Colocation / digital hub,1195,135,1122.5
+2613305,São Joaquim do Monte,PE,1100,1362,1121,909,Low-water AI,909,Colocation / digital hub,1362,453,1123.0
+2919553,Luís Eduardo Magalhães,BA,1200,791,1260,1246,Colocation / digital hub,791,Renewable-first compute,1260,469,1124.25
+2200459,Alvorada do Gurguéia,PI,1096,1164,991,1249,Renewable-first compute,991,Low-water AI,1249,258,1125.0
+2300705,Alto Santo,CE,1121,1204,967,1212,Renewable-first compute,967,Low-water AI,1212,245,1126.0
+2906808,Cansanção,BA,1208,770,1365,1161,Colocation / digital hub,770,Renewable-first compute,1365,595,1126.0
+2917102,Itororó,BA,1196,820,1496,1000,Colocation / digital hub,820,Renewable-first compute,1496,676,1128.0
+2802007,Divina Pastora,SE,1062,1372,1027,1060,Renewable-first compute,1027,Colocation / digital hub,1372,345,1130.25
+2507903,Juripiranga,PB,1093,1407,915,1107,Renewable-first compute,915,Colocation / digital hub,1407,492,1130.5
+2921807,Mortugaba,BA,1111,1368,1175,868,Low-water AI,868,Colocation / digital hub,1368,500,1130.5
+2502102,Boa Ventura,PB,1178,939,1219,1191,Colocation / digital hub,939,Renewable-first compute,1219,280,1131.75
+2307254,Jijoca de Jericoacoara,CE,1112,1022,1120,1273,Colocation / digital hub,1022,Low-water AI,1273,251,1131.75
+2804300,Muribeca,SE,1146,924,1217,1245,Colocation / digital hub,924,Low-water AI,1245,321,1133.0
+2612604,Santa Maria da Boa Vista,PE,1195,869,1221,1250,Colocation / digital hub,869,Low-water AI,1250,381,1133.75
+2313203,Tamboril,CE,1202,862,1180,1301,Colocation / digital hub,862,Low-water AI,1301,439,1136.25
+2403509,Espírito Santo,RN,1109,1211,1010,1222,Renewable-first compute,1010,Low-water AI,1222,212,1138.0
+2930758,Sítio do Mato,BA,1125,1230,1111,1092,Low-water AI,1092,Colocation / digital hub,1230,138,1139.5
+2208304,Piracuruca,PI,1092,834,1255,1378,Colocation / digital hub,834,Low-water AI,1378,544,1139.75
+2113009,Vitorino Freire,MA,1131,794,1222,1414,Colocation / digital hub,794,Low-water AI,1414,620,1140.25
+2506509,Gurjão,PB,1117,1458,970,1017,Renewable-first compute,970,Colocation / digital hub,1458,488,1140.5
+2909208,Coronel João Sá,BA,1087,1405,1045,1029,Low-water AI,1029,Colocation / digital hub,1405,376,1141.5
+2706208,Palestina,AL,1130,1187,1166,1085,Low-water AI,1085,Colocation / digital hub,1187,102,1142.0
+2500304,Alagoa Grande,PB,1122,1152,1170,1136,Hyperscale AI,1122,Renewable-first compute,1170,48,1145.0
+2203750,Fartura do Piauí,PI,1184,1068,1101,1228,Colocation / digital hub,1068,Low-water AI,1228,160,1145.25
+2512762,Riachão do Poço,PB,1103,1402,950,1130,Renewable-first compute,950,Colocation / digital hub,1402,452,1146.25
+2607307,Ipubi,PE,1113,1248,1093,1134,Renewable-first compute,1093,Colocation / digital hub,1248,155,1147.0
+2911907,Iaçu,BA,1239,762,1423,1168,Colocation / digital hub,762,Renewable-first compute,1423,661,1148.0
+2202802,Conceição do Canindé,PI,1190,1129,937,1339,Renewable-first compute,937,Low-water AI,1339,402,1148.75
+2610400,Parnamirim,PE,1209,942,1198,1247,Colocation / digital hub,942,Low-water AI,1247,305,1149.0
+2515203,São Sebastião do Umbuzeiro,PB,1145,1450,1039,962,Low-water AI,962,Colocation / digital hub,1450,488,1149.0
+2104503,Governador Archer,MA,1080,1178,1052,1287,Renewable-first compute,1052,Low-water AI,1287,235,1149.25
+2301406,Aratuba,CE,1139,1467,1128,864,Low-water AI,864,Colocation / digital hub,1467,603,1149.5
+2902252,Arataca,BA,1141,1018,1503,939,Low-water AI,939,Renewable-first compute,1503,564,1150.25
+2502300,Bom Sucesso,PB,1165,1218,1022,1200,Renewable-first compute,1022,Colocation / digital hub,1218,196,1151.25
+2106326,Maracaçumé,MA,1142,838,1237,1388,Colocation / digital hub,838,Low-water AI,1388,550,1151.25
+2412500,São Miguel,RN,1189,1150,1046,1224,Renewable-first compute,1046,Low-water AI,1224,178,1152.25
+2905909,Campo Alegre de Lourdes,BA,1210,970,1110,1320,Colocation / digital hub,970,Low-water AI,1320,350,1152.5
+2509800,Mulungu,PB,1175,1042,1143,1251,Colocation / digital hub,1042,Low-water AI,1251,209,1152.75
+2926509,Ribeira do Amparo,BA,1089,1330,1147,1050,Low-water AI,1050,Colocation / digital hub,1330,280,1154.0
+2604304,Cedro,PE,1154,1133,1176,1156,Colocation / digital hub,1133,Renewable-first compute,1176,43,1154.75
+2921203,Miguel Calmon,BA,1207,1077,1354,984,Low-water AI,984,Renewable-first compute,1354,370,1155.5
+2918308,Jitaúna,BA,1172,1046,1456,952,Low-water AI,952,Renewable-first compute,1456,504,1156.5
+2513901,São Bento,PB,1203,1039,1078,1310,Colocation / digital hub,1039,Low-water AI,1310,271,1157.5
+2704906,Mar Vermelho,AL,1138,1406,1083,1006,Low-water AI,1006,Colocation / digital hub,1406,400,1158.25
+2513307,Santa Helena,PB,1166,1213,1086,1169,Renewable-first compute,1086,Colocation / digital hub,1213,127,1158.5
+2515609,Serra da Raiz,PB,1128,1418,945,1152,Renewable-first compute,945,Colocation / digital hub,1418,473,1160.75
+2931004,Tanhaçu,BA,1144,1409,1240,851,Low-water AI,851,Colocation / digital hub,1409,558,1161.0
+2300309,Acopiara,CE,1238,861,1238,1311,Colocation / digital hub,861,Low-water AI,1311,450,1162.0
+2304608,General Sampaio,CE,1232,989,1360,1067,Colocation / digital hub,989,Renewable-first compute,1360,371,1162.0
+2606606,Ibimirim,PE,1163,1516,943,1026,Renewable-first compute,943,Colocation / digital hub,1516,573,1162.0
+2608701,Lagoa dos Gatos,PE,1191,1141,1261,1062,Low-water AI,1062,Renewable-first compute,1261,199,1163.75
+2305902,Ipueiras,CE,1227,963,1056,1410,Colocation / digital hub,963,Low-water AI,1410,447,1164.0
+2603926,Carnaubeira da Penha,PE,1140,1469,1013,1041,Renewable-first compute,1013,Colocation / digital hub,1469,456,1165.75
+2511004,Pedra Branca,PB,1204,1229,1061,1175,Renewable-first compute,1061,Colocation / digital hub,1229,168,1167.25
+2616183,Vertente do Lério,PE,1201,1250,1177,1053,Low-water AI,1053,Colocation / digital hub,1250,197,1170.25
+2707305,Porto Calvo,AL,1212,913,1383,1179,Colocation / digital hub,913,Renewable-first compute,1383,470,1171.75
+2202109,Campinas do Piauí,PI,1188,1264,908,1328,Renewable-first compute,908,Low-water AI,1328,420,1172.0
+2201101,Avelino Lopes,PI,1156,1505,940,1088,Renewable-first compute,940,Colocation / digital hub,1505,565,1172.25
+2921500,Monte Santo,BA,1243,950,1322,1176,Colocation / digital hub,950,Renewable-first compute,1322,372,1172.75
+2207355,Pajeú do Piauí,PI,1157,1217,1001,1317,Renewable-first compute,1001,Low-water AI,1317,316,1173.0
+2508604,Lucena,PB,1127,1463,904,1201,Renewable-first compute,904,Colocation / digital hub,1463,559,1173.75
+2205151,Jacobina do Piauí,PI,1237,1093,1002,1364,Renewable-first compute,1002,Low-water AI,1364,362,1174.0
+2906899,Caraíbas,BA,1244,957,1454,1043,Colocation / digital hub,957,Renewable-first compute,1454,497,1174.5
+2303659,Catunda,CE,1236,973,1183,1306,Colocation / digital hub,973,Low-water AI,1306,333,1174.5
+2207900,Pedro II,PI,1147,988,1145,1418,Colocation / digital hub,988,Low-water AI,1418,430,1174.5
+2505402,Desterro,PB,1153,1500,971,1076,Renewable-first compute,971,Colocation / digital hub,1500,529,1175.0
+2206407,Monsenhor Gil,PI,1174,943,1151,1432,Colocation / digital hub,943,Low-water AI,1432,489,1175.0
+2924306,Piatã,BA,1181,1490,1118,916,Low-water AI,916,Colocation / digital hub,1490,574,1176.25
+2200053,Acauã,PI,1169,1535,833,1172,Renewable-first compute,833,Colocation / digital hub,1535,702,1177.25
+2104008,Esperantinópolis,MA,1206,751,1304,1448,Colocation / digital hub,751,Low-water AI,1448,697,1177.25
+2614402,Solidão,PE,1242,1074,1195,1203,Colocation / digital hub,1074,Hyperscale AI,1242,168,1178.5
+2409209,Passagem,RN,1148,1455,910,1202,Renewable-first compute,910,Colocation / digital hub,1455,545,1178.75
+2906402,Candeal,BA,1186,1175,1229,1131,Low-water AI,1131,Renewable-first compute,1229,98,1180.25
+2514107,São João do Tigre,PB,1183,1520,1005,1013,Renewable-first compute,1005,Colocation / digital hub,1520,515,1180.25
+2914406,Iraquara,BA,1170,1456,1187,912,Low-water AI,912,Colocation / digital hub,1456,544,1181.25
+2925758,Presidente Tancredo Neves,BA,1230,807,1513,1177,Colocation / digital hub,807,Renewable-first compute,1513,706,1181.75
+2310902,Piquet Carneiro,CE,1266,812,1327,1325,Colocation / digital hub,812,Renewable-first compute,1327,515,1182.5
+2807006,São Miguel do Aleixo,SE,1132,1392,1095,1113,Renewable-first compute,1095,Colocation / digital hub,1392,297,1183.0
+2612109,Salgadinho,PE,1167,1381,1220,972,Low-water AI,972,Colocation / digital hub,1381,409,1185.0
+2304103,Crateús,CE,1250,853,1280,1360,Colocation / digital hub,853,Low-water AI,1360,507,1185.75
+2211506,Vera Mendes,PI,1231,1156,981,1377,Renewable-first compute,981,Low-water AI,1377,396,1186.25
+2922706,Nova Canaã,BA,1162,1398,1340,856,Low-water AI,856,Colocation / digital hub,1398,542,1189.0
+2515906,Serraria,PB,1160,1459,988,1155,Renewable-first compute,988,Colocation / digital hub,1459,471,1190.5
+2914000,Ipirá,BA,1199,1191,1331,1047,Low-water AI,1047,Renewable-first compute,1331,284,1192.0
+2109502,Riachão,MA,1240,756,1323,1450,Colocation / digital hub,756,Low-water AI,1450,694,1192.25
+2605301,Exu,PE,1221,965,1314,1276,Colocation / digital hub,965,Renewable-first compute,1314,349,1194.0
+2304905,Groaíras,CE,1150,1192,1137,1305,Renewable-first compute,1137,Low-water AI,1305,168,1196.0
+2601300,Barra de Guabiraba,PE,1171,1449,1160,1009,Low-water AI,1009,Colocation / digital hub,1449,440,1197.25
+2909505,Cravolândia,BA,1254,969,1431,1146,Colocation / digital hub,969,Renewable-first compute,1431,462,1200.0
+2509404,Mogeiro,PB,1164,1379,1144,1117,Low-water AI,1117,Colocation / digital hub,1379,262,1201.0
+2414100,Tenente Ananias,RN,1263,1004,1205,1333,Colocation / digital hub,1004,Low-water AI,1333,329,1201.25
+2101400,Balsas,MA,1258,797,1311,1444,Colocation / digital hub,797,Low-water AI,1444,647,1202.5
+2112274,Tufilândia,MA,1185,975,1242,1411,Colocation / digital hub,975,Low-water AI,1411,436,1203.25
+2404903,Itaú,RN,1217,1243,1028,1327,Renewable-first compute,1028,Low-water AI,1327,299,1203.75
+2506608,Ibiara,PB,1215,1203,1215,1184,Low-water AI,1184,Hyperscale AI,1215,31,1204.25
+2110005,Santa Luzia,MA,1198,910,1288,1429,Colocation / digital hub,910,Low-water AI,1429,519,1206.25
+2921906,Mucugê,BA,1155,1454,1321,904,Low-water AI,904,Colocation / digital hub,1454,550,1208.5
+2203859,Floresta do Piauí,PI,1255,1170,1003,1413,Renewable-first compute,1003,Low-water AI,1413,410,1210.25
+2926202,Riachão das Neves,BA,1177,1480,1129,1056,Low-water AI,1056,Colocation / digital hub,1480,424,1210.5
+2602001,Bodocó,PE,1233,1144,1218,1254,Colocation / digital hub,1144,Low-water AI,1254,110,1212.25
+2910909,Firmino Alves,BA,1256,1081,1484,1028,Low-water AI,1028,Renewable-first compute,1484,456,1212.25
+2905107,Caém,BA,1298,875,1540,1138,Colocation / digital hub,875,Renewable-first compute,1540,665,1212.75
+2104701,Graça Aranha,MA,1119,1442,1041,1264,Renewable-first compute,1041,Colocation / digital hub,1442,401,1216.5
+2607406,Itacuruba,PE,1220,1536,984,1127,Renewable-first compute,984,Colocation / digital hub,1536,552,1216.75
+2911006,Floresta Azul,BA,1248,1098,1505,1018,Low-water AI,1018,Renewable-first compute,1505,487,1217.25
+2101608,Barra do Corda,MA,1282,710,1390,1490,Colocation / digital hub,710,Low-water AI,1490,780,1218.0
+2912509,Ibipitanga,BA,1225,1496,1152,1001,Low-water AI,1001,Colocation / digital hub,1496,495,1218.5
+2921609,Morpará,BA,1241,1547,1051,1040,Low-water AI,1040,Colocation / digital hub,1547,507,1219.75
+2505501,Vista Serrana,PB,1259,1275,1049,1296,Renewable-first compute,1049,Low-water AI,1296,247,1219.75
+2308500,Mombaça,CE,1278,967,1329,1307,Colocation / digital hub,967,Renewable-first compute,1329,362,1220.25
+2211357,Várzea Branca,PI,1292,998,1228,1368,Colocation / digital hub,998,Low-water AI,1368,370,1221.5
+2202901,Corrente,PI,1143,1470,1094,1181,Renewable-first compute,1094,Colocation / digital hub,1470,376,1222.0
+2300804,Antonina do Norte,CE,1296,921,1336,1341,Colocation / digital hub,921,Low-water AI,1341,420,1223.5
+2300903,Apuiarés,CE,1268,1198,1363,1066,Low-water AI,1066,Renewable-first compute,1363,297,1223.75
+2604809,Cortês,PE,1187,1438,1244,1039,Low-water AI,1039,Colocation / digital hub,1438,399,1227.0
+2200202,Água Branca,PI,1306,786,1283,1533,Colocation / digital hub,786,Low-water AI,1533,747,1227.0
+2509701,Monteiro,PB,1267,1227,1262,1154,Low-water AI,1154,Hyperscale AI,1267,113,1227.5
+2106409,Mata Roma,MA,1211,1090,1186,1430,Colocation / digital hub,1090,Low-water AI,1430,340,1229.25
+2703403,Jacaré dos Homens,AL,1197,1444,1196,1084,Low-water AI,1084,Colocation / digital hub,1444,360,1230.25
+2410207,Portalegre,RN,1284,1263,1020,1356,Renewable-first compute,1020,Low-water AI,1356,336,1230.75
+2912806,Ibirapuã,BA,1193,1441,1275,1023,Low-water AI,1023,Colocation / digital hub,1441,418,1233.0
+2900603,Aiquara,BA,1205,1378,1437,922,Low-water AI,922,Renewable-first compute,1437,515,1235.5
+2505600,Diamante,PB,1288,1050,1328,1279,Colocation / digital hub,1050,Renewable-first compute,1328,278,1236.25
+2700706,Batalha,AL,1249,1226,1284,1187,Low-water AI,1187,Renewable-first compute,1284,97,1236.5
+2202653,Caxingó,PI,1180,1163,1230,1376,Colocation / digital hub,1163,Low-water AI,1376,213,1237.25
+2907707,Chorrochó,BA,1270,1269,1191,1220,Renewable-first compute,1191,Hyperscale AI,1270,79,1237.5
+2913507,Iguaí,BA,1194,1415,1449,892,Low-water AI,892,Renewable-first compute,1449,557,1237.5
+2100402,Altamira do Maranhão,MA,1176,1215,1200,1370,Hyperscale AI,1176,Low-water AI,1370,194,1240.25
+2513505,Santana de Mangueira,PB,1275,1344,1135,1216,Renewable-first compute,1135,Colocation / digital hub,1344,209,1242.5
+2910701,Euclides da Cunha,BA,1224,1483,1184,1093,Low-water AI,1093,Colocation / digital hub,1483,390,1246.0
+2202711,Cocal de Telha,PI,1222,1176,1165,1423,Renewable-first compute,1165,Low-water AI,1423,258,1246.5
+2103505,Colinas,MA,1289,868,1335,1496,Colocation / digital hub,868,Low-water AI,1496,628,1247.0
+2801405,Carira,SE,1216,1477,1153,1153,Renewable-first compute,1153,Colocation / digital hub,1477,324,1249.75
+2513158,Santa Cecília,PB,1269,1464,1192,1075,Low-water AI,1075,Colocation / digital hub,1464,389,1250.0
+2210623,Sebastião Barros,PI,1261,1254,1190,1295,Renewable-first compute,1190,Low-water AI,1295,105,1250.0
+2609808,Orocó,PE,1286,1310,1146,1260,Renewable-first compute,1146,Colocation / digital hub,1310,164,1250.5
+2509305,Mataraca,PB,1299,1386,928,1391,Renewable-first compute,928,Low-water AI,1391,463,1251.0
+2100808,Anapurus,MA,1300,895,1305,1509,Colocation / digital hub,895,Low-water AI,1509,614,1252.25
+2502706,Borborema,PB,1219,1513,1068,1209,Renewable-first compute,1068,Colocation / digital hub,1513,445,1252.25
+2512036,Poço Dantas,PB,1246,1515,1053,1198,Renewable-first compute,1053,Colocation / digital hub,1515,462,1253.0
+2313955,Varjota,CE,1317,870,1362,1464,Colocation / digital hub,870,Low-water AI,1464,594,1253.25
+2211704,Wall Ferraz,PI,1304,1189,1075,1446,Renewable-first compute,1075,Low-water AI,1446,371,1253.5
+2701902,Chã Preta,AL,1223,1453,1307,1038,Low-water AI,1038,Colocation / digital hub,1453,415,1255.25
+2414704,Várzea,RN,1213,1472,1070,1277,Renewable-first compute,1070,Colocation / digital hub,1472,402,1258.0
+2706604,Paulo Jacinto,AL,1295,1197,1344,1197,Colocation / digital hub,1197,Renewable-first compute,1344,147,1258.25
+2500809,Araçagi,PB,1265,1268,1172,1331,Renewable-first compute,1172,Low-water AI,1331,159,1259.0
+2207306,Paes Landim,PI,1279,1312,1037,1408,Renewable-first compute,1037,Low-water AI,1408,371,1259.0
+2210201,São José do Piauí,PI,1262,1350,1023,1401,Renewable-first compute,1023,Low-water AI,1401,378,1259.0
+2110278,Santo Amaro do Maranhão,MA,1228,915,1407,1488,Colocation / digital hub,915,Low-water AI,1488,573,1259.5
+2922102,Mundo Novo,BA,1330,976,1583,1150,Colocation / digital hub,976,Renewable-first compute,1583,607,1259.75
+2514404,São José de Espinharas,PB,1245,1543,1019,1232,Renewable-first compute,1019,Colocation / digital hub,1543,524,1259.75
+2702702,Feliz Deserto,AL,1218,1443,1194,1186,Low-water AI,1186,Colocation / digital hub,1443,257,1260.25
+2207108,Olho D'Água do Piauí,PI,1324,851,1324,1542,Colocation / digital hub,851,Low-water AI,1542,691,1260.25
+2931608,Teolândia,BA,1322,837,1625,1262,Colocation / digital hub,837,Renewable-first compute,1625,788,1261.5
+2601805,Betânia,PE,1253,1532,1156,1106,Low-water AI,1106,Colocation / digital hub,1532,426,1261.75
+2701001,Boca da Mata,AL,1226,1434,1264,1125,Low-water AI,1125,Colocation / digital hub,1434,309,1262.25
+2926905,Rio do Pires,BA,1285,1551,1158,1055,Low-water AI,1055,Colocation / digital hub,1551,496,1262.25
+2923605,Paramirim,BA,1294,1542,1141,1077,Low-water AI,1077,Colocation / digital hub,1542,465,1263.5
+2202851,Coronel José Dias,PI,1252,1322,1150,1348,Renewable-first compute,1150,Low-water AI,1348,198,1268.0
+2608008,Jataúba,PE,1264,1510,1226,1083,Low-water AI,1083,Colocation / digital hub,1510,427,1270.75
+2904001,Boninal,BA,1280,1530,1266,1015,Low-water AI,1015,Colocation / digital hub,1530,515,1272.75
+2807303,Telha,SE,1273,1287,1251,1284,Renewable-first compute,1251,Colocation / digital hub,1287,36,1273.75
+2211308,Valença do Piauí,PI,1368,856,1318,1558,Colocation / digital hub,856,Low-water AI,1558,702,1275.0
+2931400,Teodoro Sampaio,BA,1235,1475,1263,1129,Low-water AI,1129,Colocation / digital hub,1475,346,1275.5
+2607950,Jaqueira,PE,1303,1135,1487,1178,Colocation / digital hub,1135,Renewable-first compute,1487,352,1275.75
+2917334,Iuiu,BA,1325,1274,1301,1205,Low-water AI,1205,Hyperscale AI,1325,120,1276.25
+2907905,Cipó,BA,1234,1462,1243,1173,Low-water AI,1173,Colocation / digital hub,1462,289,1278.0
+2908002,Coaraci,BA,1271,1174,1602,1065,Low-water AI,1065,Renewable-first compute,1602,537,1278.0
+2920809,Marcionílio Souza,BA,1309,1184,1508,1111,Low-water AI,1111,Renewable-first compute,1508,397,1278.0
+2607703,Itapetim,PE,1277,1545,1123,1171,Renewable-first compute,1123,Colocation / digital hub,1545,422,1279.0
+2801603,Cedro de São João,SE,1281,1231,1298,1314,Colocation / digital hub,1231,Low-water AI,1314,83,1281.0
+2201929,Bonfim do Piauí,PI,1337,1094,1272,1427,Colocation / digital hub,1094,Low-water AI,1427,333,1282.5
+2208205,Pio IX,PI,1314,1309,1133,1374,Renewable-first compute,1133,Low-water AI,1374,241,1282.5
+2105427,Itinga do Maranhão,MA,1301,972,1375,1486,Colocation / digital hub,972,Low-water AI,1486,514,1283.5
+2900108,Abaíra,BA,1257,1473,1433,974,Low-water AI,974,Colocation / digital hub,1473,499,1284.25
+2929750,Saubara,BA,1214,1484,1278,1165,Low-water AI,1165,Colocation / digital hub,1484,319,1285.25
+2611705,Riacho das Almas,PE,1290,1512,1249,1091,Low-water AI,1091,Colocation / digital hub,1512,421,1285.5
+2502201,Bom Jesus,PB,1320,1285,1246,1298,Renewable-first compute,1246,Hyperscale AI,1320,74,1287.25
+2801900,Cumbe,SE,1297,1286,1250,1316,Renewable-first compute,1250,Low-water AI,1316,66,1287.25
+2923308,Ouriçangas,BA,1260,1485,1257,1149,Low-water AI,1149,Colocation / digital hub,1485,336,1287.75
+2707008,Pindoba,AL,1276,1429,1309,1142,Low-water AI,1142,Colocation / digital hub,1429,287,1289.0
+2313252,Tarrafas,CE,1336,1173,1312,1343,Colocation / digital hub,1173,Low-water AI,1343,170,1291.0
+2207405,Palmeira do Piauí,PI,1283,1354,1138,1392,Renewable-first compute,1138,Low-water AI,1392,254,1291.75
+2807204,Siriri,SE,1247,1499,1206,1225,Renewable-first compute,1206,Colocation / digital hub,1499,293,1294.25
+2308609,Monsenhor Tabosa,CE,1353,1086,1352,1387,Colocation / digital hub,1086,Low-water AI,1387,301,1294.5
+2201507,Batalha,PI,1326,1006,1334,1513,Colocation / digital hub,1006,Low-water AI,1513,507,1294.75
+2200707,Anísio de Abreu,PI,1348,1117,1276,1442,Colocation / digital hub,1117,Low-water AI,1442,325,1295.75
+2614303,Moreilândia,PE,1307,1266,1310,1302,Colocation / digital hub,1266,Renewable-first compute,1310,44,1296.25
+2930600,Serrolândia,BA,1388,981,1590,1226,Colocation / digital hub,981,Renewable-first compute,1590,609,1296.25
+2902807,Barra da Estiva,BA,1293,1471,1438,987,Low-water AI,987,Colocation / digital hub,1471,484,1297.25
+2211100,União,PI,1332,990,1333,1535,Colocation / digital hub,990,Low-water AI,1535,545,1297.5
+2800704,Brejo Grande,SE,1272,1539,1142,1239,Renewable-first compute,1142,Colocation / digital hub,1539,397,1298.0
+2806503,Santa Rosa de Lima,SE,1251,1491,1224,1229,Renewable-first compute,1224,Colocation / digital hub,1491,267,1298.75
+2910404,Encruzilhada,BA,1335,1255,1511,1097,Low-water AI,1097,Renewable-first compute,1511,414,1299.5
+2205805,Luzilândia,PI,1376,892,1374,1566,Colocation / digital hub,892,Low-water AI,1566,674,1302.0
+2903276,Barrocas,BA,1291,1514,1239,1166,Low-water AI,1166,Colocation / digital hub,1514,348,1302.5
+2908606,Conde,BA,1351,937,1536,1398,Colocation / digital hub,937,Renewable-first compute,1536,599,1305.5
+2505303,Curral Velho,PB,1342,1384,1202,1299,Renewable-first compute,1202,Colocation / digital hub,1384,182,1306.75
+2703809,Joaquim Gomes,AL,1229,1461,1439,1099,Low-water AI,1099,Colocation / digital hub,1461,362,1307.0
+2609204,Maraial,PE,1329,1202,1491,1214,Colocation / digital hub,1202,Renewable-first compute,1491,289,1309.0
+2612471,Santa Cruz da Baixa Verde,PE,1331,1592,1096,1217,Renewable-first compute,1096,Colocation / digital hub,1592,496,1309.0
+2923001,Nova Viçosa,BA,1316,1237,1469,1215,Low-water AI,1215,Renewable-first compute,1469,254,1309.25
+2109809,Santa Helena,MA,1312,954,1474,1498,Colocation / digital hub,954,Low-water AI,1498,544,1309.5
+2905156,Caetanos,BA,1315,1504,1405,1016,Low-water AI,1016,Colocation / digital hub,1504,488,1310.0
+2917300,Ituberá,BA,1378,800,1663,1399,Colocation / digital hub,800,Renewable-first compute,1663,863,1310.0
+2929370,São José do Jacuípe,BA,1397,1036,1553,1258,Colocation / digital hub,1036,Renewable-first compute,1553,517,1311.0
+2505238,Cuité de Mamanguape,PB,1287,1552,1107,1304,Renewable-first compute,1107,Colocation / digital hub,1552,445,1312.5
+2102358,Buritirana,MA,1319,1106,1332,1494,Colocation / digital hub,1106,Low-water AI,1494,388,1312.75
+2504074,Caraúbas,PB,1354,1343,1316,1238,Low-water AI,1238,Hyperscale AI,1354,116,1312.75
+2509008,Manaíra,PB,1338,1584,1089,1242,Renewable-first compute,1089,Colocation / digital hub,1584,495,1313.25
+2405603,Jardim de Piranhas,RN,1366,1234,1193,1463,Renewable-first compute,1193,Low-water AI,1463,270,1314.0
+2208858,Riacho Frio,PI,1313,1342,1201,1402,Renewable-first compute,1201,Low-water AI,1402,201,1314.5
+2708709,São Miguel dos Milagres,AL,1350,1126,1459,1324,Colocation / digital hub,1126,Renewable-first compute,1459,333,1314.75
+2309409,Novo Oriente,CE,1385,1012,1409,1458,Colocation / digital hub,1012,Low-water AI,1458,446,1316.0
+2907558,Caturama,BA,1361,1348,1350,1206,Low-water AI,1206,Hyperscale AI,1361,155,1316.25
+2904803,Caatiba,BA,1308,1474,1482,1002,Low-water AI,1002,Renewable-first compute,1482,480,1316.5
+2607109,Ingazeira,PE,1344,1356,1320,1255,Low-water AI,1255,Colocation / digital hub,1356,101,1318.75
+2205409,Joaquim Pires,PI,1359,1040,1349,1527,Colocation / digital hub,1040,Low-water AI,1527,487,1318.75
+2918456,Jucuruçu,BA,1305,1502,1389,1089,Low-water AI,1089,Colocation / digital hub,1502,413,1321.25
+2202737,Coivaras,PI,1328,1205,1248,1505,Colocation / digital hub,1205,Low-water AI,1505,300,1321.5
+2517407,Zabelê,PB,1321,1528,1297,1144,Low-water AI,1144,Colocation / digital hub,1528,384,1322.5
+2705903,Olho d'Água Grande,AL,1302,1492,1241,1256,Renewable-first compute,1241,Colocation / digital hub,1492,251,1322.75
+2909901,Curaçá,BA,1334,1425,1233,1303,Renewable-first compute,1233,Colocation / digital hub,1425,192,1323.75
+2209005,Rio Grande do Piauí,PI,1386,1149,1231,1532,Colocation / digital hub,1149,Low-water AI,1532,383,1324.5
+2204808,Ipiranga do Piauí,PI,1373,1242,1169,1519,Renewable-first compute,1169,Low-water AI,1519,350,1325.75
+2508208,Lagoa de Dentro,PB,1311,1568,1115,1318,Renewable-first compute,1115,Colocation / digital hub,1568,453,1328.0
+2107258,Nova Colinas,MA,1364,1065,1396,1503,Colocation / digital hub,1065,Low-water AI,1503,438,1332.0
+2933059,Várzea da Roça,BA,1423,1075,1574,1266,Colocation / digital hub,1075,Renewable-first compute,1574,499,1334.5
+2502904,Brejo dos Santos,PB,1382,1289,1247,1424,Renewable-first compute,1247,Low-water AI,1424,177,1335.5
+2114007,Zé Doca,MA,1395,917,1473,1561,Colocation / digital hub,917,Low-water AI,1561,644,1336.5
+2102325,Buriticupu,MA,1393,927,1471,1559,Colocation / digital hub,927,Low-water AI,1559,632,1337.5
+2206209,Miguel Alves,PI,1323,1292,1253,1489,Renewable-first compute,1253,Low-water AI,1489,236,1339.25
+2906709,Cândido Sales,BA,1428,1113,1581,1237,Colocation / digital hub,1113,Renewable-first compute,1581,468,1339.75
+2407302,Marcelino Vieira,RN,1398,1155,1357,1449,Colocation / digital hub,1155,Low-water AI,1449,294,1339.75
+2501708,Barra de São Miguel,PB,1349,1544,1294,1174,Low-water AI,1174,Colocation / digital hub,1544,370,1340.25
+2933406,Wagner,BA,1365,1270,1588,1141,Low-water AI,1141,Renewable-first compute,1588,447,1341.0
+2109551,Ribamar Fiquene,MA,1343,1145,1376,1514,Colocation / digital hub,1145,Low-water AI,1514,369,1344.5
+2804904,Pacatuba,SE,1318,1546,1225,1294,Renewable-first compute,1225,Colocation / digital hub,1546,321,1345.75
+2914703,Itaberaba,BA,1419,1028,1609,1330,Colocation / digital hub,1028,Renewable-first compute,1609,581,1346.5
+2920106,Mairi,BA,1446,1020,1628,1293,Colocation / digital hub,1020,Renewable-first compute,1628,608,1346.75
+2306801,Jaguaribara,CE,1345,1376,1289,1381,Renewable-first compute,1289,Low-water AI,1381,92,1347.75
+2406155,Jundiá,RN,1341,1582,1097,1379,Renewable-first compute,1097,Colocation / digital hub,1582,485,1349.75
+2410603,Rafael Godeiro,RN,1355,1586,1080,1382,Renewable-first compute,1080,Colocation / digital hub,1586,506,1350.75
+2105450,Jatobá,MA,1367,1134,1387,1521,Colocation / digital hub,1134,Low-water AI,1521,387,1352.25
+2112308,Tuntum,MA,1358,1172,1384,1500,Colocation / digital hub,1172,Low-water AI,1500,328,1353.5
+2413557,Serrinha dos Pintos,RN,1403,1419,1163,1440,Renewable-first compute,1163,Low-water AI,1440,277,1356.25
+2707800,Roteiro,AL,1339,1559,1270,1265,Low-water AI,1265,Colocation / digital hub,1559,294,1358.25
+2913309,Ichu,BA,1389,1282,1427,1337,Colocation / digital hub,1282,Renewable-first compute,1427,145,1358.75
+2313351,Tejuçuoca,CE,1390,1382,1394,1272,Low-water AI,1272,Renewable-first compute,1394,122,1359.5
+2517209,Vieirópolis,PB,1380,1388,1303,1369,Renewable-first compute,1303,Colocation / digital hub,1388,85,1360.0
+2414308,Timbaúba dos Batistas,RN,1363,1613,1062,1405,Renewable-first compute,1062,Colocation / digital hub,1613,551,1360.75
+2500502,Alagoinha,PB,1372,1299,1366,1407,Colocation / digital hub,1299,Low-water AI,1407,108,1361.0
+2903508,Belo Campo,BA,1429,1326,1490,1199,Low-water AI,1199,Renewable-first compute,1490,291,1361.0
+2109205,Presidente Juscelino,MA,1274,1293,1436,1441,Hyperscale AI,1274,Low-water AI,1441,167,1361.0
+2933455,Wanderley,BA,1406,1365,1364,1313,Low-water AI,1313,Hyperscale AI,1406,93,1362.0
+2400901,Antônio Martins,RN,1410,1374,1216,1451,Renewable-first compute,1216,Low-water AI,1451,235,1362.75
+2407005,Luís Gomes,RN,1384,1364,1300,1403,Renewable-first compute,1300,Low-water AI,1403,103,1362.75
+2927903,Santa Inês,BA,1440,1052,1613,1350,Colocation / digital hub,1052,Renewable-first compute,1613,561,1363.75
+2924405,Pilão Arcado,BA,1377,1482,1279,1319,Renewable-first compute,1279,Colocation / digital hub,1482,203,1364.25
+2311264,Quiterianópolis,CE,1409,1216,1386,1452,Colocation / digital hub,1216,Low-water AI,1452,236,1365.75
+2909406,Cotegipe,BA,1360,1596,1282,1227,Low-water AI,1227,Colocation / digital hub,1596,369,1366.25
+2612802,Santa Terezinha,PE,1408,1390,1306,1361,Renewable-first compute,1306,Hyperscale AI,1408,102,1366.25
+2514552,São José de Princesa,PB,1401,1620,1162,1289,Renewable-first compute,1162,Colocation / digital hub,1620,458,1368.0
+2108801,Pirapemas,MA,1340,1332,1317,1487,Renewable-first compute,1317,Low-water AI,1487,170,1369.0
+2606309,Granito,PE,1394,1324,1381,1380,Colocation / digital hub,1324,Hyperscale AI,1394,70,1369.75
+2917904,Jandaíra,BA,1347,1347,1478,1309,Low-water AI,1309,Renewable-first compute,1478,169,1370.25
+2310407,Paramoti,CE,1422,1385,1480,1196,Low-water AI,1196,Renewable-first compute,1480,284,1370.75
+2803807,Malhada dos Bois,SE,1375,1315,1382,1412,Colocation / digital hub,1315,Low-water AI,1412,97,1371.0
+2602308,Bonito,PE,1362,1523,1408,1194,Low-water AI,1194,Colocation / digital hub,1523,329,1371.75
+2508109,Lagoa,PB,1356,1581,1212,1346,Renewable-first compute,1212,Colocation / digital hub,1581,369,1373.75
+2207850,Pavussu,PI,1381,1452,1179,1483,Renewable-first compute,1179,Low-water AI,1483,304,1373.75
+2102200,Buriti,MA,1400,997,1524,1575,Colocation / digital hub,997,Low-water AI,1575,578,1374.0
+2933109,Várzea do Poço,BA,1467,1102,1646,1283,Colocation / digital hub,1102,Renewable-first compute,1646,544,1374.5
+2102101,Brejo,MA,1468,971,1455,1609,Colocation / digital hub,971,Low-water AI,1609,638,1375.75
+2902609,Baixa Grande,BA,1415,1276,1585,1230,Low-water AI,1230,Renewable-first compute,1585,355,1376.5
+2802601,Graccho Cardoso,SE,1404,1311,1371,1420,Colocation / digital hub,1311,Low-water AI,1420,109,1376.5
+2209500,Santo Inácio do Piauí,PI,1447,1277,1236,1546,Renewable-first compute,1236,Low-water AI,1546,310,1376.5
+2203255,Curralinhos,PI,1370,1288,1326,1523,Colocation / digital hub,1288,Low-water AI,1523,235,1376.75
+2703700,Jaramataia,AL,1352,1567,1353,1235,Low-water AI,1235,Colocation / digital hub,1567,332,1376.75
+2305803,Ipu,CE,1458,999,1498,1553,Colocation / digital hub,999,Low-water AI,1553,554,1377.0
+2208700,Redenção do Gurguéia,PI,1333,1421,1337,1421,Hyperscale AI,1333,Colocation / digital hub,1421,88,1378.0
+2108108,Paulo Ramos,MA,1426,1026,1495,1570,Colocation / digital hub,1026,Low-water AI,1570,544,1379.25
+2101939,Bernardo do Mearim,MA,1357,1295,1370,1501,Colocation / digital hub,1295,Low-water AI,1501,206,1380.75
+2516607,Tavares,PB,1412,1625,1167,1322,Renewable-first compute,1167,Colocation / digital hub,1625,458,1381.5
+2915106,Itagi,BA,1374,1538,1520,1096,Low-water AI,1096,Colocation / digital hub,1538,442,1382.0
+2512200,Prata,PB,1427,1373,1393,1338,Low-water AI,1338,Hyperscale AI,1427,89,1382.75
+2913457,Igrapiúna,BA,1418,1078,1670,1373,Colocation / digital hub,1078,Renewable-first compute,1670,592,1384.75
+2507309,Jacaraú,PB,1371,1608,1164,1397,Renewable-first compute,1164,Colocation / digital hub,1608,444,1385.0
+2919108,Lamarão,BA,1369,1517,1367,1290,Low-water AI,1290,Colocation / digital hub,1517,227,1385.75
+2502003,Belém do Brejo do Cruz,PB,1416,1460,1197,1471,Renewable-first compute,1197,Low-water AI,1471,274,1386.0
+2203503,Elesbão Veloso,PI,1476,1045,1422,1601,Colocation / digital hub,1045,Low-water AI,1601,556,1386.0
+2402907,Coronel João Pessoa,RN,1411,1377,1338,1419,Renewable-first compute,1338,Low-water AI,1419,81,1386.25
+2604908,Cumaru,PE,1392,1580,1378,1195,Low-water AI,1195,Colocation / digital hub,1580,385,1386.25
+2311207,Potengi,CE,1402,1346,1372,1425,Colocation / digital hub,1346,Low-water AI,1425,79,1386.25
+2707404,Porto de Pedras,AL,1405,1305,1493,1344,Colocation / digital hub,1305,Renewable-first compute,1493,188,1386.75
+2201408,Barro Duro,PI,1452,1071,1434,1596,Colocation / digital hub,1071,Low-water AI,1596,525,1388.25
+2203420,Domingos Mourão,PI,1310,1602,1207,1435,Renewable-first compute,1207,Colocation / digital hub,1602,395,1388.5
+2514800,São José dos Cordeiros,PB,1396,1610,1273,1275,Renewable-first compute,1273,Colocation / digital hub,1610,337,1388.5
+2513653,Joca Claudino,PB,1379,1557,1269,1351,Renewable-first compute,1269,Colocation / digital hub,1557,288,1389.0
+2513943,São Domingos do Cariri,PB,1399,1560,1355,1243,Low-water AI,1243,Colocation / digital hub,1560,317,1389.25
+2915908,Itanagra,BA,1346,1521,1440,1261,Low-water AI,1261,Colocation / digital hub,1521,260,1392.0
+2925253,Ponto Novo,BA,1441,1328,1555,1248,Low-water AI,1248,Renewable-first compute,1555,307,1393.0
+2911253,Gavião,BA,1444,1331,1535,1269,Low-water AI,1269,Renewable-first compute,1535,266,1394.75
+2908101,Cocos,BA,1420,1396,1472,1292,Low-water AI,1292,Renewable-first compute,1472,180,1395.0
+2102036,Bom Jesus das Selvas,MA,1455,1013,1521,1592,Colocation / digital hub,1013,Low-water AI,1592,579,1395.25
+2311009,Poranga,CE,1462,1319,1254,1549,Renewable-first compute,1254,Low-water AI,1549,295,1396.0
+2508000,Juru,PB,1407,1631,1223,1335,Renewable-first compute,1223,Colocation / digital hub,1631,408,1399.0
+2207009,Oeiras,PI,1493,1127,1377,1604,Colocation / digital hub,1127,Low-water AI,1604,477,1400.25
+2900504,Érico Cardoso,BA,1445,1638,1295,1223,Low-water AI,1223,Colocation / digital hub,1638,415,1400.25
+2512721,Pedro Régis,PB,1383,1618,1199,1406,Renewable-first compute,1199,Colocation / digital hub,1618,419,1401.5
+2203230,Currais,PI,1413,1457,1259,1478,Renewable-first compute,1259,Low-water AI,1478,219,1401.75
+2105658,Junco do Maranhão,MA,1451,1116,1489,1567,Colocation / digital hub,1116,Low-water AI,1567,451,1405.75
+2206001,Marcos Parente,PI,1461,1194,1404,1576,Colocation / digital hub,1194,Low-water AI,1576,382,1408.75
+2403202,Doutor Severiano,RN,1442,1424,1325,1445,Renewable-first compute,1325,Low-water AI,1445,120,1409.0
+2927804,Santa Cruz da Vitória,BA,1456,1317,1633,1233,Low-water AI,1233,Renewable-first compute,1633,400,1409.75
+2512309,Princesa Isabel,PB,1448,1643,1214,1340,Renewable-first compute,1214,Colocation / digital hub,1643,429,1411.25
+2902658,Banzaê,BA,1391,1579,1410,1268,Low-water AI,1268,Colocation / digital hub,1579,311,1412.0
+2205573,Lagoa de São Francisco,PI,1327,1569,1292,1461,Renewable-first compute,1292,Colocation / digital hub,1569,277,1412.25
+2606903,Iguaracy,PE,1424,1607,1341,1280,Low-water AI,1280,Colocation / digital hub,1607,327,1413.0
+2105005,Humberto de Campos,MA,1431,1262,1395,1571,Colocation / digital hub,1262,Low-water AI,1571,309,1414.75
+2305654,Ipaporanga,CE,1479,1208,1432,1540,Colocation / digital hub,1208,Low-water AI,1540,332,1414.75
+2309904,Pacujá,CE,1417,1334,1413,1497,Colocation / digital hub,1334,Low-water AI,1497,163,1415.25
+2210508,São Pedro do Piauí,PI,1475,1157,1430,1600,Colocation / digital hub,1157,Low-water AI,1600,443,1415.5
+2911808,Guaratinga,BA,1387,1541,1550,1189,Low-water AI,1189,Renewable-first compute,1550,361,1416.75
+2209856,São João da Canabrava,PI,1432,1440,1291,1511,Renewable-first compute,1291,Low-water AI,1511,220,1418.5
+2112233,Trizidela do Vale,MA,1438,1225,1448,1568,Colocation / digital hub,1225,Low-water AI,1568,343,1419.75
+2509370,Mato Grosso,PB,1453,1417,1343,1475,Renewable-first compute,1343,Low-water AI,1475,132,1422.0
+2924900,Planaltino,BA,1436,1600,1442,1213,Low-water AI,1213,Colocation / digital hub,1600,387,1422.75
+2901957,Apuarema,BA,1450,1345,1638,1259,Low-water AI,1259,Renewable-first compute,1638,379,1423.0
+2506707,Imaculada,PB,1434,1640,1252,1366,Renewable-first compute,1252,Colocation / digital hub,1640,388,1423.0
+2111532,São Pedro da Água Branca,MA,1474,1097,1531,1590,Colocation / digital hub,1097,Low-water AI,1590,493,1423.0
+2918704,Lafaiete Coutinho,BA,1499,1214,1648,1332,Colocation / digital hub,1214,Renewable-first compute,1648,434,1423.25
+2104107,Fortaleza dos Nogueiras,MA,1515,1021,1558,1608,Colocation / digital hub,1021,Low-water AI,1608,587,1425.5
+2800209,Aquidabã,SE,1454,1387,1419,1459,Colocation / digital hub,1387,Low-water AI,1459,72,1429.75
+2102804,Carolina,MA,1460,1114,1559,1587,Colocation / digital hub,1114,Low-water AI,1587,473,1430.0
+2210631,Sebastião Leal,PI,1449,1428,1315,1528,Renewable-first compute,1315,Low-water AI,1528,213,1430.0
+2925402,Potiraguá,BA,1430,1572,1556,1163,Low-water AI,1163,Colocation / digital hub,1572,409,1430.25
+2107407,Olho d'Água das Cunhãs,MA,1504,1073,1530,1626,Colocation / digital hub,1073,Low-water AI,1626,553,1433.25
+2406007,José da Penha,RN,1483,1358,1412,1481,Colocation / digital hub,1358,Hyperscale AI,1483,125,1433.5
+2107100,Morros,MA,1425,1186,1567,1562,Colocation / digital hub,1186,Renewable-first compute,1567,381,1435.0
+2305605,Independência,CE,1459,1489,1356,1437,Renewable-first compute,1356,Colocation / digital hub,1489,133,1435.25
+2102002,Bom Jardim,MA,1495,1015,1619,1615,Colocation / digital hub,1015,Renewable-first compute,1619,604,1436.0
+2209559,São Braz do Piauí,PI,1480,1511,1245,1512,Renewable-first compute,1245,Low-water AI,1512,267,1437.0
+2111607,São Raimundo das Mangabeiras,MA,1528,1027,1578,1619,Colocation / digital hub,1027,Low-water AI,1619,592,1438.0
+2107704,Paraibano,MA,1437,1420,1351,1551,Renewable-first compute,1351,Low-water AI,1551,200,1439.75
+2100600,Amarante do Maranhão,MA,1500,1100,1554,1606,Colocation / digital hub,1100,Low-water AI,1606,506,1440.0
+2516300,Sumé,PB,1489,1652,1256,1363,Renewable-first compute,1256,Colocation / digital hub,1652,396,1440.0
+2210102,São José do Peixe,PI,1487,1446,1267,1560,Renewable-first compute,1267,Low-water AI,1560,293,1440.0
+2925709,Presidente Jânio Quadros,BA,1465,1588,1518,1192,Low-water AI,1192,Colocation / digital hub,1588,396,1440.75
+2100303,Aldeias Altas,MA,1478,1259,1445,1588,Colocation / digital hub,1259,Low-water AI,1588,329,1442.5
+2708204,São Brás,AL,1421,1585,1380,1385,Renewable-first compute,1380,Colocation / digital hub,1585,205,1442.75
+2802403,Gararu,SE,1469,1436,1428,1439,Renewable-first compute,1428,Hyperscale AI,1469,41,1443.0
+2505279,Curral de Cima,PB,1439,1632,1265,1443,Renewable-first compute,1265,Colocation / digital hub,1632,367,1444.75
+2922755,Nova Ibiá,BA,1433,1525,1606,1219,Low-water AI,1219,Renewable-first compute,1606,387,1445.75
+2919959,Maetinga,BA,1470,1591,1534,1190,Low-water AI,1190,Colocation / digital hub,1591,401,1446.25
+2111805,Sítio Novo,MA,1526,1053,1576,1633,Colocation / digital hub,1053,Low-water AI,1633,580,1447.0
+2112605,Urbano Santos,MA,1486,1166,1549,1602,Colocation / digital hub,1166,Low-water AI,1602,436,1450.75
+2405900,João Dias,RN,1485,1666,1203,1453,Renewable-first compute,1203,Colocation / digital hub,1666,463,1451.75
+2301257,Ararendá,CE,1520,1196,1523,1569,Colocation / digital hub,1196,Low-water AI,1569,373,1452.0
+2909109,Coribe,BA,1507,1451,1435,1416,Low-water AI,1416,Hyperscale AI,1507,91,1452.25
+2304657,Graça,CE,1443,1395,1470,1504,Colocation / digital hub,1395,Low-water AI,1504,109,1453.0
+2309300,Nova Russas,CE,1527,1162,1560,1563,Colocation / digital hub,1162,Low-water AI,1563,401,1453.0
+2918209,Jiquiriçá,BA,1471,1341,1651,1358,Colocation / digital hub,1341,Renewable-first compute,1651,310,1455.25
+2612703,Santa Maria do Cambucá,PE,1491,1617,1416,1297,Low-water AI,1297,Colocation / digital hub,1617,320,1455.25
+2111631,São Raimundo do Doca Bezerra,MA,1530,1115,1570,1624,Colocation / digital hub,1115,Low-water AI,1624,509,1459.75
+2933505,Wenceslau Guimarães,BA,1502,1182,1740,1415,Colocation / digital hub,1182,Renewable-first compute,1740,558,1459.75
+2306009,Iracema,CE,1510,1426,1397,1510,Renewable-first compute,1397,Hyperscale AI,1510,113,1460.75
+2514008,São João do Cariri,PB,1481,1642,1385,1336,Low-water AI,1336,Colocation / digital hub,1642,306,1461.0
+2608750,Lagoa Grande,PE,1497,1308,1551,1491,Colocation / digital hub,1308,Renewable-first compute,1551,243,1461.75
+2103901,Duque Bacelar,MA,1414,1399,1483,1555,Colocation / digital hub,1399,Low-water AI,1555,156,1462.75
+2203701,Esperantina,PI,1543,1138,1525,1645,Colocation / digital hub,1138,Low-water AI,1645,507,1462.75
+2928950,São Domingos,BA,1503,1393,1601,1357,Low-water AI,1357,Renewable-first compute,1601,244,1463.5
+2914208,Irajuba,BA,1514,1329,1640,1372,Colocation / digital hub,1329,Renewable-first compute,1640,311,1463.75
+2804706,Nossa Senhora de Lourdes,SE,1496,1427,1466,1468,Colocation / digital hub,1427,Hyperscale AI,1496,69,1464.25
+2704807,Maribondo,AL,1464,1601,1451,1345,Low-water AI,1345,Colocation / digital hub,1601,256,1465.25
+2700904,Belo Monte,AL,1490,1465,1476,1433,Low-water AI,1433,Hyperscale AI,1490,57,1466.0
+2107357,Nova Olinda do Maranhão,MA,1551,1058,1618,1646,Colocation / digital hub,1058,Low-water AI,1646,588,1468.25
+2932507,Una,BA,1484,1366,1719,1308,Low-water AI,1308,Renewable-first compute,1719,411,1469.25
+2709202,Traipu,AL,1472,1623,1402,1396,Low-water AI,1396,Colocation / digital hub,1623,227,1473.25
+2509057,Marcação,PB,1466,1616,1342,1477,Renewable-first compute,1342,Colocation / digital hub,1616,274,1475.25
+2104800,Grajaú,MA,1566,1063,1629,1650,Colocation / digital hub,1063,Low-water AI,1650,587,1477.0
+2101202,Bacabal,MA,1545,1137,1580,1648,Colocation / digital hub,1137,Low-water AI,1648,511,1477.5
+2700201,Anadia,AL,1473,1598,1479,1362,Low-water AI,1362,Colocation / digital hub,1598,236,1478.0
+2111748,Senador Alexandre Costa,MA,1517,1252,1532,1618,Colocation / digital hub,1252,Low-water AI,1618,366,1479.75
+2407252,Major Sales,RN,1518,1437,1468,1499,Colocation / digital hub,1437,Hyperscale AI,1518,81,1480.5
+2515500,Serra Branca,PB,1511,1654,1391,1371,Low-water AI,1371,Colocation / digital hub,1654,283,1481.75
+2105104,Icatu,MA,1435,1435,1515,1544,Hyperscale AI,1435,Low-water AI,1544,109,1482.25
+2105351,Itaipava do Grajaú,MA,1583,1047,1642,1661,Colocation / digital hub,1047,Low-water AI,1661,614,1483.25
+2915007,Itaeté,BA,1488,1574,1643,1241,Low-water AI,1241,Renewable-first compute,1643,402,1486.5
+2206696,Murici dos Portelas,PI,1477,1590,1346,1536,Renewable-first compute,1346,Colocation / digital hub,1590,244,1487.25
+2411007,Rodolfo Fernandes,RN,1521,1518,1373,1538,Renewable-first compute,1373,Low-water AI,1538,165,1487.5
+2203206,Curimatá,PI,1494,1501,1443,1516,Renewable-first compute,1443,Low-water AI,1516,73,1488.5
+2206308,Miguel Leão,PI,1505,1431,1425,1595,Renewable-first compute,1425,Low-water AI,1595,170,1489.0
+2300408,Aiuaba,CE,1519,1468,1475,1495,Colocation / digital hub,1468,Hyperscale AI,1519,51,1489.25
+2413409,Serra Negra do Norte,RN,1506,1673,1296,1482,Renewable-first compute,1296,Colocation / digital hub,1673,377,1489.25
+2410801,Riacho de Santana,RN,1522,1488,1452,1502,Renewable-first compute,1452,Hyperscale AI,1522,70,1491.0
+2304269,Deputado Irapuan Pinheiro,CE,1532,1447,1494,1493,Colocation / digital hub,1447,Hyperscale AI,1532,85,1491.5
+2904308,Brejões,BA,1509,1605,1502,1353,Low-water AI,1353,Colocation / digital hub,1605,252,1492.25
+2310308,Parambu,CE,1508,1509,1429,1525,Renewable-first compute,1429,Low-water AI,1525,96,1492.75
+2109759,Santa Filomena do Maranhão,MA,1463,1597,1392,1522,Renewable-first compute,1392,Colocation / digital hub,1597,205,1493.5
+2923902,Pau Brasil,BA,1547,1394,1677,1359,Low-water AI,1359,Renewable-first compute,1677,318,1494.25
+2512804,Riacho dos Cavalos,PB,1531,1495,1414,1539,Renewable-first compute,1414,Low-water AI,1539,125,1494.75
+2927200,Ruy Barbosa,BA,1579,1247,1697,1457,Colocation / digital hub,1247,Renewable-first compute,1697,450,1495.0
+2305209,Hidrolândia,CE,1568,1235,1593,1593,Colocation / digital hub,1235,Renewable-first compute,1593,358,1497.25
+2703007,Ibateguara,AL,1482,1606,1577,1326,Low-water AI,1326,Colocation / digital hub,1606,280,1497.75
+2403905,Francisco Dantas,RN,1538,1561,1369,1526,Renewable-first compute,1369,Colocation / digital hub,1561,192,1498.5
+2401404,Baía Formosa,RN,1534,1556,1368,1550,Renewable-first compute,1368,Colocation / digital hub,1556,188,1502.0
+2201606,Beneditinos,PI,1513,1486,1418,1594,Renewable-first compute,1418,Low-water AI,1594,176,1502.75
+2615904,Tuparetama,PE,1524,1668,1421,1400,Low-water AI,1400,Colocation / digital hub,1668,268,1503.25
+2909000,Cordeiros,BA,1536,1656,1547,1286,Low-water AI,1286,Colocation / digital hub,1656,370,1506.25
+2616506,Xexéu,PE,1498,1609,1571,1347,Low-water AI,1347,Colocation / digital hub,1609,262,1506.25
+2200608,Angical do Piauí,PI,1573,1249,1552,1656,Colocation / digital hub,1249,Low-water AI,1656,407,1507.5
+2209450,Santo Antônio dos Milagres,PI,1570,1267,1539,1654,Colocation / digital hub,1267,Low-water AI,1654,387,1507.5
+2925931,Quixabeira,BA,1565,1410,1662,1395,Low-water AI,1395,Renewable-first compute,1662,267,1508.0
+2202729,Cocal dos Alves,PI,1457,1663,1388,1529,Renewable-first compute,1388,Colocation / digital hub,1663,275,1509.25
+2908705,Condeúba,BA,1533,1630,1586,1291,Low-water AI,1291,Colocation / digital hub,1630,339,1510.0
+2410009,Pilões,RN,1550,1548,1411,1534,Renewable-first compute,1411,Hyperscale AI,1550,139,1510.75
+2200103,Agricolândia,PI,1546,1430,1446,1630,Colocation / digital hub,1430,Low-water AI,1630,200,1513.0
+2105476,Jenipapo dos Vieiras,MA,1564,1245,1610,1636,Colocation / digital hub,1245,Low-water AI,1636,391,1513.75
+2200301,Alto Longá,PI,1554,1369,1492,1641,Colocation / digital hub,1369,Low-water AI,1641,272,1514.0
+2705606,Novo Lino,AL,1501,1595,1596,1365,Low-water AI,1365,Renewable-first compute,1596,231,1514.25
+2110658,São Domingos do Azeitão,MA,1562,1359,1500,1637,Colocation / digital hub,1359,Low-water AI,1637,278,1514.5
+2207751,Passagem Franca do Piauí,PI,1574,1304,1528,1655,Colocation / digital hub,1304,Low-water AI,1655,351,1515.25
+2304277,Ereré,CE,1561,1487,1458,1557,Renewable-first compute,1458,Hyperscale AI,1561,103,1515.75
+2400406,Água Nova,RN,1552,1494,1497,1524,Colocation / digital hub,1494,Hyperscale AI,1552,58,1516.75
+2912301,Ibicuí,BA,1529,1619,1657,1263,Low-water AI,1263,Renewable-first compute,1657,394,1517.0
+2410504,Rafael Fernandes,RN,1559,1481,1488,1545,Colocation / digital hub,1481,Hyperscale AI,1559,78,1518.25
+2504850,Coxixola,PB,1544,1665,1457,1409,Low-water AI,1409,Colocation / digital hub,1665,256,1518.75
+2112852,Vila Nova dos Martírios,MA,1582,1233,1607,1653,Colocation / digital hub,1233,Low-water AI,1653,420,1518.75
+2106300,Magalhães de Almeida,MA,1535,1534,1417,1591,Renewable-first compute,1417,Low-water AI,1591,174,1519.25
+2924678,Piraí do Norte,BA,1539,1411,1693,1434,Colocation / digital hub,1411,Renewable-first compute,1693,282,1519.25
+2201200,Barras,PI,1587,1271,1557,1663,Colocation / digital hub,1271,Low-water AI,1663,392,1519.5
+2203008,Cristalândia do Piauí,PI,1516,1664,1426,1476,Renewable-first compute,1426,Colocation / digital hub,1664,238,1520.5
+2403301,Encanto,RN,1560,1478,1507,1543,Colocation / digital hub,1478,Hyperscale AI,1560,82,1522.0
+2803104,Itabi,SE,1549,1522,1512,1506,Low-water AI,1506,Hyperscale AI,1549,43,1522.25
+2906857,Capela do Alto Alegre,BA,1581,1433,1652,1426,Low-water AI,1426,Renewable-first compute,1652,226,1523.0
+2907103,Carinhanha,BA,1569,1479,1579,1467,Low-water AI,1467,Renewable-first compute,1579,112,1523.5
+2209807,São Gonçalo do Piauí,PI,1586,1325,1526,1659,Colocation / digital hub,1325,Low-water AI,1659,334,1524.0
+2104651,Governador Newton Bello,MA,1556,1339,1572,1631,Colocation / digital hub,1339,Low-water AI,1631,292,1524.5
+2800100,Amparo do São Francisco,SE,1525,1644,1460,1473,Renewable-first compute,1460,Colocation / digital hub,1644,184,1525.5
+2104602,Governador Eugênio Barros,MA,1492,1639,1424,1547,Renewable-first compute,1424,Colocation / digital hub,1639,215,1525.5
+2200509,Amarante,PI,1597,1306,1546,1664,Colocation / digital hub,1306,Low-water AI,1664,358,1528.25
+2411809,São Fernando,RN,1563,1703,1293,1554,Renewable-first compute,1293,Colocation / digital hub,1703,410,1528.25
+2201705,Bertolínia,PI,1542,1526,1464,1584,Renewable-first compute,1464,Low-water AI,1584,120,1529.0
+2101772,Bela Vista do Maranhão,MA,1537,1401,1562,1621,Colocation / digital hub,1401,Low-water AI,1621,220,1530.25
+2107001,Montes Altos,MA,1548,1416,1538,1622,Colocation / digital hub,1416,Low-water AI,1622,206,1531.0
+2100873,Araguanã,MA,1605,1206,1639,1676,Colocation / digital hub,1206,Low-water AI,1676,470,1531.5
+2924801,Piritiba,BA,1593,1448,1696,1389,Low-water AI,1389,Renewable-first compute,1696,307,1531.5
+2605806,Frei Miguelinho,PE,1555,1627,1561,1394,Low-water AI,1394,Colocation / digital hub,1627,233,1534.25
+2112001,Tasso Fragoso,MA,1609,1279,1623,1640,Colocation / digital hub,1279,Low-water AI,1640,361,1537.75
+2615706,Triunfo,PE,1567,1670,1461,1456,Low-water AI,1456,Colocation / digital hub,1670,214,1538.5
+2202251,Canavieira,PI,1571,1573,1401,1614,Renewable-first compute,1401,Low-water AI,1614,213,1539.75
+2504702,Congo,PB,1578,1683,1467,1431,Low-water AI,1431,Colocation / digital hub,1683,252,1539.75
+2110401,São Benedito do Rio Preto,MA,1576,1367,1573,1644,Colocation / digital hub,1367,Low-water AI,1644,277,1540.0
+2415008,Vila Flor,RN,1572,1687,1347,1556,Renewable-first compute,1347,Colocation / digital hub,1687,340,1540.5
+2907004,Cardeal da Silva,BA,1553,1508,1624,1480,Low-water AI,1480,Renewable-first compute,1624,144,1541.25
+2703759,Jequiá da Praia,AL,1541,1662,1514,1454,Low-water AI,1454,Colocation / digital hub,1662,208,1542.75
+2400604,Almino Afonso,RN,1577,1711,1345,1541,Renewable-first compute,1345,Colocation / digital hub,1711,366,1543.5
+2920700,Maraú,BA,1604,1323,1739,1517,Colocation / digital hub,1323,Renewable-first compute,1739,416,1545.75
+2924058,Pé de Serra,BA,1584,1533,1631,1436,Low-water AI,1436,Renewable-first compute,1631,195,1546.0
+2110104,Santa Quitéria do Maranhão,MA,1632,1228,1636,1691,Colocation / digital hub,1228,Low-water AI,1691,463,1546.75
+2105708,Lago da Pedra,MA,1595,1335,1611,1649,Colocation / digital hub,1335,Low-water AI,1649,314,1547.5
+2208809,Regeneração,PI,1618,1357,1544,1675,Colocation / digital hub,1357,Low-water AI,1675,318,1548.5
+2105203,Igarapé Grande,MA,1603,1320,1616,1660,Colocation / digital hub,1320,Low-water AI,1660,340,1549.75
+2108504,Pindaré-Mirim,MA,1540,1476,1575,1610,Colocation / digital hub,1476,Low-water AI,1610,134,1550.25
+2102374,Cachoeira Grande,MA,1512,1493,1615,1582,Colocation / digital hub,1493,Renewable-first compute,1615,122,1550.5
+2923506,Palmeiras,BA,1558,1676,1621,1352,Low-water AI,1352,Colocation / digital hub,1676,324,1551.75
+2101350,Bacurituba,MA,1523,1553,1533,1599,Hyperscale AI,1523,Low-water AI,1599,76,1552.0
+2503902,Camalaú,PB,1591,1686,1499,1438,Low-water AI,1438,Colocation / digital hub,1686,248,1553.5
+2410702,Riacho da Cruz,RN,1588,1699,1379,1548,Renewable-first compute,1379,Colocation / digital hub,1699,320,1553.5
+2111672,São Roberto,MA,1616,1321,1630,1657,Colocation / digital hub,1321,Low-water AI,1657,336,1556.0
+2112456,Turilândia,MA,1592,1316,1671,1647,Colocation / digital hub,1316,Renewable-first compute,1671,355,1556.5
+2201945,Boqueirão do Piauí,PI,1557,1647,1450,1598,Renewable-first compute,1450,Colocation / digital hub,1647,197,1563.0
+2510600,Ouro Velho,PB,1602,1680,1510,1466,Low-water AI,1466,Colocation / digital hub,1680,214,1564.5
+2202026,Buriti dos Montes,PI,1610,1576,1444,1629,Renewable-first compute,1444,Low-water AI,1629,185,1564.75
+2205508,José de Freitas,PI,1580,1531,1509,1642,Renewable-first compute,1509,Low-water AI,1642,133,1565.5
+2926657,Ribeirão do Largo,BA,1594,1651,1676,1342,Low-water AI,1342,Renewable-first compute,1676,334,1565.75
+2500734,Amparo,PB,1607,1706,1481,1472,Low-water AI,1472,Colocation / digital hub,1706,234,1566.5
+2209203,Santa Filomena,PI,1585,1575,1522,1589,Renewable-first compute,1522,Low-water AI,1589,67,1567.75
+2206902,Novo Oriente do Piauí,PI,1638,1408,1545,1682,Colocation / digital hub,1408,Low-water AI,1682,274,1568.25
+2211209,Uruçuí,PI,1600,1612,1441,1620,Renewable-first compute,1441,Low-water AI,1620,179,1568.25
+2101970,Boa Vista do Gurupi,MA,1648,1273,1672,1685,Colocation / digital hub,1273,Low-water AI,1685,412,1569.5
+2413607,Severiano Melo,RN,1612,1712,1400,1573,Renewable-first compute,1400,Colocation / digital hub,1712,312,1574.25
+2411908,São Francisco do Oeste,RN,1622,1587,1516,1574,Renewable-first compute,1516,Hyperscale AI,1622,106,1574.75
+2931301,Tapiramutá,BA,1611,1659,1684,1349,Low-water AI,1349,Renewable-first compute,1684,335,1575.75
+2501401,Baía da Traição,PB,1621,1720,1403,1578,Renewable-first compute,1403,Colocation / digital hub,1720,317,1580.5
+2611533,Quixaba,PE,1623,1709,1504,1492,Low-water AI,1492,Colocation / digital hub,1709,217,1582.0
+2906105,Canápolis,BA,1614,1694,1542,1479,Low-water AI,1479,Colocation / digital hub,1694,215,1582.25
+2900900,Almadina,BA,1596,1658,1709,1367,Low-water AI,1367,Renewable-first compute,1709,342,1582.5
+2109304,Presidente Vargas,MA,1575,1565,1568,1623,Colocation / digital hub,1565,Low-water AI,1623,58,1582.75
+2922854,Nova Redenção,BA,1608,1660,1682,1384,Low-water AI,1384,Renewable-first compute,1682,298,1583.5
+2210375,São Luis do Piauí,PI,1601,1705,1453,1577,Renewable-first compute,1453,Colocation / digital hub,1705,252,1584.0
+2108702,Pio XII,MA,1660,1260,1704,1713,Colocation / digital hub,1260,Low-water AI,1713,453,1584.25
+2105989,Lajeado Novo,MA,1640,1380,1641,1684,Colocation / digital hub,1380,Low-water AI,1684,304,1586.25
+2108603,Pinheiro,MA,1672,1209,1747,1718,Colocation / digital hub,1209,Renewable-first compute,1747,538,1586.5
+2925907,Quijingue,BA,1613,1689,1587,1469,Low-water AI,1469,Colocation / digital hub,1689,220,1589.5
+2701357,Campestre,AL,1606,1648,1647,1462,Low-water AI,1462,Colocation / digital hub,1648,186,1590.75
+2920007,Maiquinique,BA,1624,1669,1686,1393,Low-water AI,1393,Renewable-first compute,1686,293,1593.0
+2205250,Jardim do Mulato,PI,1649,1445,1592,1689,Colocation / digital hub,1445,Low-water AI,1689,244,1593.75
+2510907,Paulista,PB,1631,1716,1463,1565,Renewable-first compute,1463,Colocation / digital hub,1716,253,1593.75
+2205540,Lagoinha do Piauí,PI,1629,1529,1548,1673,Colocation / digital hub,1529,Low-water AI,1673,144,1594.75
+2208502,Porto,PI,1628,1527,1563,1669,Colocation / digital hub,1527,Low-water AI,1669,142,1596.75
+2910776,Feira da Mata,BA,1645,1589,1637,1518,Low-water AI,1518,Hyperscale AI,1645,127,1597.25
+2105948,Lago dos Rodrigues,MA,1620,1497,1614,1658,Colocation / digital hub,1497,Low-water AI,1658,161,1597.25
+2102150,Brejo de Areia,MA,1599,1566,1598,1635,Colocation / digital hub,1566,Low-water AI,1635,69,1599.5
+2906303,Canavieiras,BA,1647,1562,1716,1474,Low-water AI,1474,Renewable-first compute,1716,242,1599.75
+2206704,Nazaré do Piauí,PI,1659,1466,1584,1696,Colocation / digital hub,1466,Low-water AI,1696,230,1601.25
+2210953,Tamboril do Piauí,PI,1590,1715,1517,1583,Renewable-first compute,1517,Colocation / digital hub,1715,198,1601.25
+2414902,Viçosa,RN,1641,1721,1465,1579,Renewable-first compute,1465,Colocation / digital hub,1721,256,1601.5
+2922656,Nordestina,BA,1635,1655,1653,1470,Low-water AI,1470,Colocation / digital hub,1655,185,1603.25
+2103125,Central do Maranhão,MA,1668,1318,1727,1704,Colocation / digital hub,1318,Renewable-first compute,1727,409,1604.25
+2206670,Morro do Chapéu do Piauí,PI,1669,1404,1645,1700,Colocation / digital hub,1404,Low-water AI,1700,296,1604.5
+2108900,Poção de Pedras,MA,1617,1564,1594,1643,Colocation / digital hub,1564,Low-water AI,1643,79,1604.5
+2111409,São Luís Gonzaga do Maranhão,MA,1589,1681,1537,1613,Renewable-first compute,1537,Colocation / digital hub,1681,144,1605.0
+2931202,Taperoá,BA,1671,1361,1776,1612,Colocation / digital hub,1361,Renewable-first compute,1776,415,1605.0
+2208106,Pimenteiras,PI,1652,1633,1485,1652,Renewable-first compute,1485,Hyperscale AI,1652,167,1605.5
+2103158,Centro do Guilherme,MA,1615,1571,1603,1639,Colocation / digital hub,1571,Low-water AI,1639,68,1607.0
+2406908,Lucrécia,RN,1644,1723,1486,1580,Renewable-first compute,1486,Colocation / digital hub,1723,237,1608.25
+2106607,Matões,MA,1626,1578,1569,1662,Renewable-first compute,1569,Low-water AI,1662,93,1608.75
+2703502,Jacuípe,AL,1627,1679,1656,1484,Low-water AI,1484,Colocation / digital hub,1679,195,1611.5
+2109403,Primeira Cruz,MA,1619,1498,1661,1668,Colocation / digital hub,1498,Low-water AI,1668,170,1611.5
+2924702,Piripá,BA,1650,1696,1674,1428,Low-water AI,1428,Colocation / digital hub,1696,268,1612.0
+2110906,São Francisco do Maranhão,MA,1634,1583,1564,1667,Renewable-first compute,1564,Low-water AI,1667,103,1612.0
+2311702,Reriutaba,CE,1639,1549,1626,1638,Colocation / digital hub,1549,Hyperscale AI,1639,90,1613.0
+2112803,Viana,MA,1658,1403,1694,1697,Colocation / digital hub,1403,Low-water AI,1697,294,1613.0
+2901304,Andaraí,BA,1633,1678,1732,1422,Low-water AI,1422,Renewable-first compute,1732,310,1616.25
+2104099,Formosa da Serra Negra,MA,1696,1336,1712,1721,Colocation / digital hub,1336,Low-water AI,1721,385,1616.25
+2922250,Muquém do São Francisco,BA,1651,1685,1617,1515,Low-water AI,1515,Colocation / digital hub,1685,170,1617.0
+2206100,Matias Olímpio,PI,1681,1432,1649,1710,Colocation / digital hub,1432,Low-water AI,1710,278,1618.0
+2111078,São João do Soter,MA,1637,1570,1600,1670,Colocation / digital hub,1570,Low-water AI,1670,100,1619.25
+2202539,Caraúbas do Piauí,PI,1625,1519,1668,1666,Colocation / digital hub,1519,Renewable-first compute,1668,149,1619.5
+2801108,Canhoba,SE,1643,1691,1589,1564,Low-water AI,1564,Colocation / digital hub,1691,127,1621.75
+2105153,Igarapé do Meio,MA,1655,1423,1711,1698,Colocation / digital hub,1423,Renewable-first compute,1711,288,1621.75
+2205599,Lagoa do Sítio,PI,1656,1641,1519,1674,Renewable-first compute,1519,Low-water AI,1674,155,1622.5
+2202604,Castelo do Piauí,PI,1664,1550,1591,1688,Colocation / digital hub,1550,Low-water AI,1688,138,1623.25
+2514651,São José do Brejo do Cruz,PB,1661,1744,1477,1625,Renewable-first compute,1477,Colocation / digital hub,1744,267,1626.75
+2919009,Lajedinho,BA,1654,1693,1706,1455,Low-water AI,1455,Renewable-first compute,1706,251,1627.0
+2920205,Malhada,BA,1665,1729,1595,1530,Low-water AI,1530,Colocation / digital hub,1729,199,1629.75
+2205532,Jurema,PI,1646,1653,1597,1627,Renewable-first compute,1597,Colocation / digital hub,1653,56,1630.75
+2311231,Potiretama,CE,1662,1739,1506,1617,Renewable-first compute,1506,Colocation / digital hub,1739,233,1631.0
+2210409,São Miguel do Tapuio,PI,1667,1645,1529,1686,Renewable-first compute,1529,Low-water AI,1686,157,1631.75
+2404002,Frutuoso Gomes,RN,1663,1731,1527,1607,Renewable-first compute,1527,Colocation / digital hub,1731,204,1632.0
+2100204,Alcântara,MA,1598,1713,1612,1611,Hyperscale AI,1598,Colocation / digital hub,1713,115,1633.5
+2919702,Macarani,BA,1666,1695,1729,1447,Low-water AI,1447,Renewable-first compute,1729,282,1634.25
+2202778,Colônia do Piauí,PI,1676,1629,1543,1690,Renewable-first compute,1543,Low-water AI,1690,147,1634.5
+2931806,Tremedal,BA,1677,1708,1702,1460,Low-water AI,1460,Colocation / digital hub,1708,248,1636.75
+2100501,Alto Parnaíba,MA,1636,1624,1658,1632,Colocation / digital hub,1624,Renewable-first compute,1658,34,1637.5
+2209708,São Francisco do Piauí,PI,1670,1622,1566,1692,Renewable-first compute,1566,Low-water AI,1692,126,1637.5
+2201176,Barra D'Alcântara,PI,1687,1558,1604,1703,Colocation / digital hub,1558,Low-water AI,1703,145,1638.0
+2209955,São João da Varjota,PI,1674,1742,1462,1677,Renewable-first compute,1462,Colocation / digital hub,1742,280,1638.75
+2107902,Passagem Franca,MA,1657,1604,1608,1687,Colocation / digital hub,1604,Low-water AI,1687,83,1639.0
+2202505,Caracol,PI,1642,1626,1667,1634,Colocation / digital hub,1626,Renewable-first compute,1667,41,1642.25
+2915403,Itaju do Colônia,BA,1682,1707,1721,1465,Low-water AI,1465,Renewable-first compute,1721,256,1643.75
+2702108,Colônia Leopoldina,AL,1653,1702,1717,1508,Low-water AI,1508,Renewable-first compute,1717,209,1645.0
+2925808,Queimadas,BA,1684,1690,1687,1520,Low-water AI,1520,Colocation / digital hub,1690,170,1645.25
+2111904,Sucupira do Norte,MA,1673,1593,1632,1693,Colocation / digital hub,1593,Low-water AI,1693,100,1647.75
+2204550,Guaribas,PI,1630,1649,1685,1628,Low-water AI,1628,Renewable-first compute,1685,57,1648.0
+2210391,São Miguel do Fidalgo,PI,1680,1748,1501,1665,Renewable-first compute,1501,Colocation / digital hub,1748,247,1648.5
+2107209,Nina Rodrigues,MA,1692,1506,1688,1715,Colocation / digital hub,1506,Low-water AI,1715,209,1650.25
+2310951,Pires Ferreira,CE,1679,1594,1659,1671,Colocation / digital hub,1594,Hyperscale AI,1679,85,1650.75
+2108256,Pedro do Rosário,MA,1693,1503,1698,1714,Colocation / digital hub,1503,Low-water AI,1714,211,1652.0
+2903805,Boa Vista do Tupim,BA,1675,1710,1718,1507,Low-water AI,1507,Renewable-first compute,1718,211,1652.5
+2210656,Sigefredo Pacheco,PI,1685,1634,1605,1695,Renewable-first compute,1605,Low-water AI,1695,90,1654.75
+2916807,Itarantim,BA,1688,1719,1728,1485,Low-water AI,1485,Renewable-first compute,1728,243,1655.0
+2106672,Milagres do Maranhão,MA,1695,1540,1669,1723,Colocation / digital hub,1540,Low-water AI,1723,183,1656.75
+2107803,Parnarama,MA,1686,1615,1650,1699,Colocation / digital hub,1615,Low-water AI,1699,84,1662.5
+2408607,Paraná,RN,1689,1733,1620,1616,Low-water AI,1616,Colocation / digital hub,1733,117,1664.5
+2201002,Arraial,PI,1694,1635,1627,1708,Renewable-first compute,1627,Low-water AI,1708,81,1666.0
+2205557,Lagoa Alegre,PI,1690,1628,1644,1706,Colocation / digital hub,1628,Low-water AI,1706,78,1667.0
+2915700,Itamari,BA,1691,1700,1758,1531,Low-water AI,1531,Renewable-first compute,1758,227,1670.0
+2413805,Taboleiro Grande,RN,1697,1752,1582,1651,Renewable-first compute,1582,Colocation / digital hub,1752,170,1670.5
+2100956,Arame,MA,1716,1524,1714,1732,Colocation / digital hub,1524,Low-water AI,1732,208,1671.5
+2205607,Landri Sales,PI,1704,1611,1664,1709,Colocation / digital hub,1611,Low-water AI,1709,98,1672.0
+2104909,Guimarães,MA,1699,1537,1738,1719,Colocation / digital hub,1537,Renewable-first compute,1738,201,1673.25
+2201770,Boa Hora,PI,1678,1741,1599,1681,Renewable-first compute,1599,Colocation / digital hub,1741,142,1674.75
+2201051,Assunção do Piauí,PI,1715,1762,1541,1683,Renewable-first compute,1541,Colocation / digital hub,1762,221,1675.25
+2104073,Feira Nova do Maranhão,MA,1723,1554,1701,1731,Colocation / digital hub,1554,Low-water AI,1731,177,1677.25
+2912608,Ibiquera,BA,1705,1727,1745,1537,Low-water AI,1537,Renewable-first compute,1745,208,1678.5
+2110500,São Bento,MA,1721,1507,1754,1745,Colocation / digital hub,1507,Renewable-first compute,1754,247,1681.75
+2106508,Matinha,MA,1700,1603,1708,1717,Colocation / digital hub,1603,Low-water AI,1717,114,1682.0
+2204105,Francisco Ayres,PI,1707,1677,1634,1716,Renewable-first compute,1634,Low-water AI,1716,82,1683.5
+2104206,Fortuna,MA,1698,1657,1675,1705,Colocation / digital hub,1657,Low-water AI,1705,48,1683.75
+2919603,Macajuba,BA,1712,1722,1752,1552,Low-water AI,1552,Renewable-first compute,1752,200,1684.5
+2206951,Novo Santo Antônio,PI,1719,1621,1673,1727,Colocation / digital hub,1621,Low-water AI,1727,106,1685.0
+2205458,Joca Marques,PI,1711,1650,1660,1722,Colocation / digital hub,1650,Low-water AI,1722,72,1685.75
+2703908,Jundiá,AL,1710,1730,1720,1585,Low-water AI,1585,Colocation / digital hub,1730,145,1686.25
+2210052,São José do Divino,PI,1703,1599,1715,1728,Colocation / digital hub,1599,Low-water AI,1728,129,1686.25
+2205516,Juazeiro do Piauí,PI,1708,1667,1666,1707,Renewable-first compute,1666,Hyperscale AI,1708,42,1687.0
+2211407,Várzea Grande,PI,1725,1636,1655,1736,Colocation / digital hub,1636,Low-water AI,1736,100,1688.0
+2101905,Bequimão,MA,1714,1563,1750,1733,Colocation / digital hub,1563,Renewable-first compute,1750,187,1690.0
+2206357,Milton Brandão,PI,1701,1675,1683,1712,Colocation / digital hub,1675,Low-water AI,1712,37,1692.75
+2208551,Porto Alegre do Piauí,PI,1718,1671,1665,1720,Renewable-first compute,1665,Low-water AI,1720,55,1693.5
+2206654,Morro Cabeça no Tempo,PI,1717,1760,1622,1680,Renewable-first compute,1622,Colocation / digital hub,1760,138,1694.75
+2106706,Mirador,MA,1724,1555,1768,1744,Colocation / digital hub,1555,Renewable-first compute,1768,213,1697.75
+2206753,Nossa Senhora de Nazaré,PI,1709,1747,1635,1701,Renewable-first compute,1635,Colocation / digital hub,1747,112,1698.0
+2200806,Antônio Almeida,PI,1728,1682,1654,1730,Renewable-first compute,1654,Low-water AI,1730,76,1698.5
+2107456,Olinda Nova do Maranhão,MA,1722,1614,1723,1735,Colocation / digital hub,1614,Low-water AI,1735,121,1698.5
+2105807,Lago do Junco,MA,1726,1637,1705,1734,Colocation / digital hub,1637,Low-water AI,1734,97,1700.5
+2102507,Cajari,MA,1706,1646,1733,1724,Colocation / digital hub,1646,Renewable-first compute,1733,87,1702.25
+2924652,Pintadas,BA,1736,1745,1756,1586,Low-water AI,1586,Renewable-first compute,1756,170,1705.75
+2100105,Afonso Cunha,MA,1702,1743,1678,1702,Renewable-first compute,1678,Colocation / digital hub,1743,65,1706.25
+2925501,Prado,BA,1727,1736,1760,1603,Low-water AI,1603,Renewable-first compute,1760,157,1706.5
+2919306,Lençóis,BA,1732,1746,1779,1572,Low-water AI,1572,Renewable-first compute,1779,207,1707.25
+2911105,Formosa do Rio Preto,BA,1713,1758,1680,1679,Low-water AI,1679,Colocation / digital hub,1758,79,1707.5
+2928059,Santa Luzia,BA,1738,1740,1775,1581,Low-water AI,1581,Renewable-first compute,1775,194,1708.5
+2207504,Palmeirais,PI,1729,1692,1679,1738,Renewable-first compute,1679,Low-water AI,1738,59,1709.5
+2106805,Mirinzal,MA,1742,1577,1773,1751,Colocation / digital hub,1577,Renewable-first compute,1773,196,1710.75
+2103703,Cururupu,MA,1730,1672,1700,1742,Colocation / digital hub,1672,Low-water AI,1742,70,1711.0
+2201309,Barreiras do Piauí,PI,1683,1754,1737,1672,Low-water AI,1672,Colocation / digital hub,1754,82,1711.5
+2919058,Lajedo do Tabocal,BA,1740,1749,1762,1597,Low-water AI,1597,Renewable-first compute,1762,165,1712.0
+2905404,Cairu,BA,1733,1674,1777,1678,Colocation / digital hub,1674,Renewable-first compute,1777,103,1715.5
+2916906,Itiruçu,BA,1744,1753,1765,1605,Low-water AI,1605,Renewable-first compute,1765,160,1716.75
+2202075,Cajazeiras do Piauí,PI,1746,1717,1681,1748,Renewable-first compute,1681,Low-water AI,1748,67,1723.0
+2922607,Nilo Peçanha,BA,1748,1661,1790,1694,Colocation / digital hub,1661,Renewable-first compute,1790,129,1723.25
+2102408,Cajapió,MA,1720,1761,1707,1711,Renewable-first compute,1707,Colocation / digital hub,1761,54,1724.75
+2111573,São Pedro dos Crentes,MA,1737,1714,1710,1740,Renewable-first compute,1710,Low-water AI,1740,30,1725.25
+2111722,Satubinha,MA,1731,1756,1695,1725,Renewable-first compute,1695,Colocation / digital hub,1756,61,1726.75
+2104628,Governador Luiz Rocha,MA,1734,1759,1690,1726,Renewable-first compute,1690,Colocation / digital hub,1759,69,1727.25
+2100550,Amapá do Maranhão,MA,1745,1684,1743,1746,Colocation / digital hub,1684,Low-water AI,1746,62,1729.5
+2112100,Timbiras,MA,1747,1704,1722,1749,Colocation / digital hub,1704,Low-water AI,1749,45,1730.5
+2110807,São Félix de Balsas,MA,1739,1765,1692,1729,Renewable-first compute,1692,Colocation / digital hub,1765,73,1731.25
+2107308,Nova Iorque,MA,1741,1763,1689,1739,Renewable-first compute,1689,Colocation / digital hub,1763,74,1733.0
+2105922,Lagoa do Mato,MA,1743,1766,1691,1743,Renewable-first compute,1691,Colocation / digital hub,1766,75,1735.75
+2103109,Cedral,MA,1750,1698,1769,1754,Colocation / digital hub,1698,Renewable-first compute,1769,71,1742.75
+2205276,Jatobá do Piauí,PI,1754,1768,1699,1750,Renewable-first compute,1699,Colocation / digital hub,1768,69,1742.75
+2103554,Conceição do Lago-Açu,MA,1735,1764,1735,1741,Hyperscale AI,1735,Colocation / digital hub,1764,29,1743.75
+2109056,Porto Rico do Maranhão,MA,1757,1688,1774,1762,Colocation / digital hub,1688,Renewable-first compute,1774,86,1745.25
+2210383,São Miguel da Baixa Grande,PI,1758,1769,1703,1753,Renewable-first compute,1703,Colocation / digital hub,1769,66,1745.75
+2111706,São Vicente Ferrer,MA,1755,1697,1772,1764,Colocation / digital hub,1697,Renewable-first compute,1772,75,1747.0
+2105963,Lagoa Grande do Maranhão,MA,1756,1725,1753,1755,Colocation / digital hub,1725,Hyperscale AI,1756,31,1747.25
+2102606,Cândido Mendes,MA,1752,1728,1767,1752,Colocation / digital hub,1728,Renewable-first compute,1767,39,1749.75
+2111789,Serrano do Maranhão,MA,1753,1724,1764,1758,Colocation / digital hub,1724,Renewable-first compute,1764,40,1749.75
+2108405,Peri Mirim,MA,1759,1701,1778,1765,Colocation / digital hub,1701,Renewable-first compute,1778,77,1750.75
+2208601,Prata do Piauí,PI,1761,1777,1713,1759,Renewable-first compute,1713,Colocation / digital hub,1777,64,1752.5
+2106359,Marajá do Sena,MA,1760,1734,1761,1756,Colocation / digital hub,1734,Renewable-first compute,1761,27,1752.75
+2111003,São João Batista,MA,1749,1767,1748,1747,Low-water AI,1747,Colocation / digital hub,1767,20,1752.75
+2206803,Nossa Senhora dos Remédios,PI,1762,1774,1726,1761,Renewable-first compute,1726,Colocation / digital hub,1774,48,1755.75
+2202059,Cabeceiras do Piauí,PI,1764,1770,1730,1760,Renewable-first compute,1730,Colocation / digital hub,1770,40,1756.0
+2605459,Fernando de Noronha,PE,1751,1785,1751,1737,Low-water AI,1737,Colocation / digital hub,1785,48,1756.0
+2104081,Fernando Falcão,MA,1763,1732,1770,1763,Colocation / digital hub,1732,Renewable-first compute,1770,38,1757.0
+2112407,Turiaçu,MA,1765,1718,1780,1773,Colocation / digital hub,1718,Renewable-first compute,1780,62,1759.0
+2101806,Benedito Leite,MA,1766,1771,1744,1757,Renewable-first compute,1744,Colocation / digital hub,1771,27,1759.5
+2204600,Hugo Napoleão,PI,1767,1773,1734,1766,Renewable-first compute,1734,Colocation / digital hub,1773,39,1760.0
+2209906,São João da Serra,PI,1769,1779,1724,1769,Renewable-first compute,1724,Colocation / digital hub,1779,55,1760.25
+2205854,Madeiro,PI,1768,1772,1736,1770,Renewable-first compute,1736,Colocation / digital hub,1772,36,1761.5
+2209153,Santa Cruz dos Milagres,PI,1771,1782,1725,1768,Renewable-first compute,1725,Colocation / digital hub,1782,57,1761.5
+2209609,São Félix do Piauí,PI,1770,1778,1731,1767,Renewable-first compute,1731,Colocation / digital hub,1778,47,1761.5
+2102309,Buriti Bravo,MA,1772,1776,1755,1772,Renewable-first compute,1755,Colocation / digital hub,1776,21,1768.75
+2109270,Presidente Sarney,MA,1774,1737,1786,1782,Colocation / digital hub,1737,Renewable-first compute,1786,49,1769.75
+2210979,Tanque do Piauí,PI,1776,1786,1741,1776,Renewable-first compute,1741,Colocation / digital hub,1786,45,1769.75
+2102903,Carutapera,MA,1777,1735,1785,1783,Colocation / digital hub,1735,Renewable-first compute,1785,50,1770.0
+2111052,São João do Paraíso,MA,1773,1780,1759,1771,Renewable-first compute,1759,Colocation / digital hub,1780,21,1770.75
+2101301,Bacuri,MA,1781,1726,1793,1788,Colocation / digital hub,1726,Renewable-first compute,1793,67,1772.0
+2102077,Bom Lugar,MA,1775,1775,1766,1775,Renewable-first compute,1766,Hyperscale AI,1775,9,1772.75
+2200905,Aroazes,PI,1784,1790,1742,1778,Renewable-first compute,1742,Colocation / digital hub,1790,48,1773.5
+2106201,Luís Domingues,MA,1782,1738,1788,1786,Colocation / digital hub,1738,Renewable-first compute,1788,50,1773.5
+2204006,Francinópolis,PI,1783,1787,1746,1780,Renewable-first compute,1746,Colocation / digital hub,1787,41,1774.0
+2202174,Campo Largo do Piauí,PI,1779,1784,1757,1779,Renewable-first compute,1757,Colocation / digital hub,1784,27,1774.75
+2107605,Palmeirândia,MA,1778,1750,1787,1785,Colocation / digital hub,1750,Renewable-first compute,1787,37,1775.0
+2209377,Santa Rosa do Piauí,PI,1785,1791,1749,1777,Renewable-first compute,1749,Colocation / digital hub,1791,42,1775.5
+2104305,Godofredo Viana,MA,1788,1751,1789,1789,Colocation / digital hub,1751,Renewable-first compute,1789,38,1779.25
+2209971,São João do Arraial,PI,1787,1783,1763,1784,Renewable-first compute,1763,Hyperscale AI,1787,24,1779.25
+2201150,Baixa Grande do Ribeiro,PI,1786,1789,1771,1774,Renewable-first compute,1771,Colocation / digital hub,1789,18,1780.0
+2108306,Penalva,MA,1791,1757,1784,1791,Colocation / digital hub,1757,Hyperscale AI,1791,34,1780.75
+2101731,Belágua,MA,1780,1781,1782,1781,Hyperscale AI,1780,Renewable-first compute,1782,2,1781.0
+2100832,Apicum-Açu,MA,1790,1755,1791,1790,Colocation / digital hub,1755,Renewable-first compute,1791,36,1781.5
+2106904,Monção,MA,1789,1788,1783,1787,Renewable-first compute,1783,Hyperscale AI,1789,6,1786.75
+2105906,Lago Verde,MA,1792,1792,1781,1792,Renewable-first compute,1781,Hyperscale AI,1792,11,1789.25
+2111029,São João do Carú,MA,1793,1793,1792,1793,Renewable-first compute,1792,Hyperscale AI,1793,1,1792.75
+2103174,Centro Novo do Maranhão,MA,1794,1794,1794,1794,Hyperscale AI,1794,Hyperscale AI,1794,0,1794.0
