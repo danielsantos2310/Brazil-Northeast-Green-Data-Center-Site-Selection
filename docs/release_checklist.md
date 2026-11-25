@@ -35,6 +35,19 @@
 - All 11 Tier-A candidates have direct mapped ANA Q95 evidence.
 - All 11 Tier-A candidates are Pareto non-dominated across energy, grid, connectivity, climate, environment and water.
 
+## Step-16 extension
+
+- [x] Build explicit Tier-A diligence gate matrix.
+- [x] Add official AdaptaBrasil baseline water-stress and flood-risk evidence.
+- [x] Add current official public water-system evidence where available.
+- [x] Add ANA water-demand and Cemaden drought context.
+- [x] Narrow 11 Tier-A municipalities to a 5-candidate external-diligence queue.
+- [x] Prepare external utility/water/fibre/parcel request pack and gate-sheet template.
+- [ ] Obtain formal utility connection/headroom evidence.
+- [ ] Obtain permitted industrial-water evidence.
+- [ ] Verify physically independent carrier routes.
+- [ ] Identify and screen candidate parcels.
+
 ## Remaining work after the municipality-screening release
 
 These are optional deeper-diligence or communication layers, not blockers to v4:
