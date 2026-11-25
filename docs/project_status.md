@@ -21,6 +21,7 @@ The municipality-level public-data screening is now complete across all planned 
 - Step 13 — Interactive website: **COMPLETE v4**
 - Step 14 — GitHub / Pages technical publication: **COMPLETE**.
 - Step 15 — Portfolio communication package: **PREPARED**; portfolio case study and LinkedIn launch draft are versioned in `docs/`, but no external LinkedIn post has been published.
+- Step 16 — Tier-A investment-screening deep dive: **IN PROGRESS**; v1 diligence gate matrix created and new SINISA / AdaptaBrasil / Cemaden evidence sources registered.
 
 ## Current robust shortlist
 
