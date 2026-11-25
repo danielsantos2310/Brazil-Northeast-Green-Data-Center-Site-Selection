@@ -5,6 +5,8 @@ on:
   push:
     paths:
       - 'src/fetch/fetch_adaptabrasil_tierA.py'
+      - 'src/fetch/fetch_adaptabrasil_tierA_future.py'
+      - 'src/validation/build_step16_gate_matrix_v2.py'
       - '.github/workflows/step16_adaptabrasil.yml'
 
 permissions:
