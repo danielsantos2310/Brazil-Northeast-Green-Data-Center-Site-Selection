@@ -1,21 +1,26 @@
-# Website preview
+# Northeast Brazil Green Data Centre — website release candidate
 
-This folder contains a **development preview only**. GitHub Pages is intentionally not enabled yet.
+Single-page interactive decision-support story generated from the project's provisional v2 analytical outputs.
+
+## Status
+
+This dashboard is a **provisional release candidate**, not a final investment recommendation.
+
+It deliberately exposes the outstanding evidence gates:
+- ANA Q95 hydrological evidence is being refreshed through the repository's reproducible GitHub Actions pipeline and is not yet included in the weighted ranking.
+- CNUC protected-area geometry is being refreshed to the official July-2026 release through an automated pipeline.
+- Grid infrastructure strength does not imply verified utility connection headroom.
+- Fibre provider diversity does not prove route-independent dark fibre or SLA availability.
+- Municipality screening does not replace parcel-level due diligence.
 
 ## Run locally
 
 From the repository root:
 
 ```bash
-python -m http.server 8000
+python -m http.server 8080
 ```
 
-Then open:
+Open `http://localhost:8080/website/`.
 
-```text
-http://localhost:8000/website/preview.html
-```
-
-The preview currently maps operating and non-operating ANEEL wind/solar projects with valid coordinates. It is an energy-geography explorer, not a site-selection score.
-
-Before publication, this website will be extended with IBGE municipality geometry, grid infrastructure, connectivity, climate, water, environmental constraints and transparent suitability scenarios.
+The website reads the same lightweight municipality evidence published with the repository.
