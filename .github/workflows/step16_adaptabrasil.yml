@@ -1,0 +1,26 @@
+name: Step 16 AdaptaBrasil Tier-A risk refresh
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'src/fetch/fetch_adaptabrasil_tierA.py'
+      - '.github/workflows/step16_adaptabrasil.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pandas requests
+      - run: python src/fetch/fetch_adaptabrasil_tierA.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: step16-adaptabrasil-tierA
+          path: data/processed/step16_adaptabrasil_tierA_risk_v1.csv
