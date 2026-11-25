@@ -1,11 +1,134 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Evidence-led screening of Northeast Brazil municipalities for green data-centre development."><title>Northeast Brazil Green Data Centre Site Selection</title><link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="styles.css"></head><body>
-<header class="nav"><div class="brand">NE Brazil <span>Green DC</span></div><nav><a href="#map-section">Map</a><a href="#candidates">Candidates</a><a href="#method">Method</a></nav></header><main>
-<section class="hero"><div class="eyebrow">Infrastructure × Energy × Climate × Connectivity</div><h1>Where could Northeast Brazil host the next generation of green data centres?</h1><p class="lede">A municipality-level screening model built from official Brazilian infrastructure, power-system, renewable-resource, climate, telecom and environmental datasets. The objective is not to predict a “winner”, but to expose the trade-offs behind investable location decisions.</p><div class="status-pill">PROVISIONAL RELEASE CANDIDATE · WATER / 2026 CNUC REFRESH IN PROGRESS</div></section>
-<section class="kpis"><article><strong>1,794</strong><span>municipalities screened</span></article><article><strong>17</strong><span>Tier-A robust candidates</span></article><article><strong>1,500</strong><span>weight simulations / scenario</span></article><article><strong>4</strong><span>decision scenarios</span></article><article><strong>5+</strong><span>core evidence dimensions</span></article></section>
-<section class="insight-strip"><div><b>Key finding</b><span>Existing market momentum and physical suitability are related, but not equivalent.</span></div><div><b>Grid reality</b><span>Transmission proximity is treated separately from verified connection headroom.</span></div><div><b>Uncertainty</b><span>Missing water evidence is excluded from scoring rather than filled with a neutral guess.</span></div></section>
-<section id="map-section" class="panel map-panel"><div class="section-head"><div><div class="eyebrow">Explore the model</div><h2>Scenario map</h2></div><div class="controls"><label>Scenario<select id="scenarioSelect"><option value="hyperscale_ai">Hyperscale AI</option><option value="colocation_digital_hub">Colocation / Digital Hub</option><option value="renewable_first_compute">Renewable-first Compute</option><option value="low_water_ai">Low-water AI*</option></select></label><label>Show top<select id="topN"><option>25</option><option selected>50</option><option>100</option><option value="1794">All contenders</option></select></label></div></div><div id="map"></div><p class="footnote">*Low-water AI remains provisional until ANA hydrological availability is integrated. Current scores are renormalized over defensible evidence only.</p></section>
-<section id="candidates" class="panel"><div class="section-head"><div><div class="eyebrow">Robust shortlist</div><h2>Tier-A candidates</h2></div><p>Municipalities that remain highly competitive across scenarios and randomized weighting tests.</p></div><div class="candidate-layout"><div class="table-wrap"><table><thead><tr><th>Candidate</th><th>Archetype</th><th>Median rank</th><th>Stress P90</th></tr></thead><tbody id="candidateRows"></tbody></table></div><aside id="candidateDetail" class="detail-card"><h3>Select a candidate</h3><p>Click a row to inspect its evidence profile.</p></aside></div></section>
-<section class="panel split"><div><div class="eyebrow">Decision logic</div><h2>Not a single-score beauty contest</h2><p>The model keeps grid strength, grid-access risk, renewable resource, operating clean-energy ecosystem, fibre-provider diversity, climate/cooling, protected-area exposure and strategic context distinct before combining them.</p><p>This matters because a municipality can be strong in infrastructure and still face connection constraints—or have exceptional renewable resources but weak carrier diversity.</p></div><div class="callout"><b>Pecém example</b><p>São Gonçalo do Amarante is highly competitive even when strategic/ZPE context is removed, yet its grid-access constraint remains visible. The model therefore captures both the investment thesis and its execution risk.</p></div></section>
-<section id="evidence" class="panel"><div class="section-head"><div><div class="eyebrow">Decision evidence</div><h2>What separates the robust candidates?</h2></div><p>Three views of the same shortlist: dimension profiles, weight sensitivity, and the energy–grid trade-off.</p></div><div class="chart-grid"><figure><img src="assets/tierA_candidate_dimension_profiles.png" alt="Tier-A candidate dimension profiles"><figcaption>Dimension profiles show why candidates rank differently rather than hiding the result behind one composite score.</figcaption></figure><figure><img src="assets/tierA_weight_sensitivity.png" alt="Tier-A candidate weight sensitivity"><figcaption>Monte Carlo sensitivity shows which municipalities remain competitive when decision weights move.</figcaption></figure><figure class="wide"><img src="assets/energy_grid_tradeoff_tierA.png" alt="Energy and grid trade-off among Tier-A candidates"><figcaption>Renewable strength and grid infrastructure do not peak in exactly the same places; the shortlist captures that trade-off.</figcaption></figure></div></section>
-<section id="method" class="panel"><div class="section-head"><div><div class="eyebrow">Evidence & uncertainty</div><h2>What the score does — and does not — mean</h2></div></div><div class="method-grid"><article><h3>Energy</h3><p>LABREN solar resource, Global Wind Atlas 100 m wind resource, ANEEL operating wind/solar ecosystem and granted pipeline context.</p></article><article><h3>Grid</h3><p>EPE transmission/substation proximity and ONS operating infrastructure. This is infrastructure strength, not guaranteed MW headroom.</p></article><article><h3>Connectivity</h3><p>ANATEL fibre backhaul and provider diversity. It does not prove dark-fibre availability, route independence or contracted SLA.</p></article><article><h3>Climate</h3><p>INMET 1991–2020 normals. All 74 Northeast station codes used in the key climate variables have resolved coordinates with provenance; seven retain explicit relocation/conflict flags.</p></article><article><h3>Environment</h3><p>CNUC protected-area overlap and hard-screen flags. The automated July-2026 refresh pipeline is now part of the repository.</p></article><article><h3>Water</h3><p>ANA Q95 surface-water availability is handled as hydrological evidence only. It is not equivalent to a water right, permitted sustainable supply or a facility cooling-water strategy.</p></article></div></section>
-<section class="sources panel"><div class="eyebrow">Primary sources</div><h2>Official data lineage</h2><p>ANEEL SIGA · IBGE municipal mesh · EPE WebMap / transmission studies · ONS open data · INPE/LABREN Solar Atlas · Global Wind Atlas · ANATEL transport network · INMET climate normals · ANA/SNIRH · MMA/CNUC · MDIC/ZPE.</p></section></main><footer>Brazil Northeast Green Data Centre Site Selection · provisional release candidate · municipality screening, not parcel-level due diligence</footer><script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="app.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Evidence-led screening of Northeast Brazil municipalities for green data-centre development.">
+  <title>Northeast Brazil Green Data Centre Site Selection</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">NE Brazil <span>Green DC</span></a>
+  <nav>
+    <a href="#map-section">Map</a>
+    <a href="#candidates">Tier A</a>
+    <a href="#evidence">Evidence</a>
+    <a href="#method">Method</a>
+  </nav>
+</header>
+<main id="top">
+  <section class="hero">
+    <div class="eyebrow">Infrastructure × Clean Energy × Water × Digital Connectivity</div>
+    <h1>Where does Northeast Brazil make the strongest case for green data-centre development?</h1>
+    <p class="lede">A reproducible municipality-level screening of 1,794 locations using official Brazilian power-system, renewable-resource, telecom, climate, hydrology and protected-area evidence. The result is a due-diligence funnel—not a claim that any parcel is construction-ready.</p>
+    <div class="status-pill">V4 SCREENING BASELINE · ANA Q95 + CNUC JULY 2026 INTEGRATED</div>
+  </section>
+
+  <section class="kpis">
+    <article><strong>1,794</strong><span>municipalities screened</span></article>
+    <article><strong>11</strong><span>Tier-A robust candidates</span></article>
+    <article><strong>1,500</strong><span>joint uncertainty runs / scenario</span></article>
+    <article><strong>1,112</strong><span>municipalities with direct Q95 reaches</span></article>
+    <article><strong>11 / 11</strong><span>Tier A Pareto non-dominated</span></article>
+  </section>
+
+  <section class="insight-strip">
+    <div><b>Water changed the answer</b><span>Tier A contracted from 17 to 11 once ANA hydrology became real evidence instead of a missing field.</span></div>
+    <div><b>Grid reality stays separate</b><span>Transmission strength is not treated as spare connection headroom; Pecém and Parnaíba retain EPE access-risk flags.</span></div>
+    <div><b>No fake certainty</b><span>Q95 measures hydrological access evidence—not a water right, utility commitment or permitted sustainable withdrawal.</span></div>
+  </section>
+
+  <section id="map-section" class="panel map-panel">
+    <div class="section-head">
+      <div><div class="eyebrow">Explore the evidence</div><h2>Scenario contender map</h2></div>
+      <div class="controls">
+        <label>Scenario
+          <select id="scenarioSelect">
+            <option value="hyperscale_ai">Hyperscale AI</option>
+            <option value="colocation_digital_hub">Colocation / Digital Hub</option>
+            <option value="renewable_first_compute">Renewable-first Compute</option>
+            <option value="low_water_ai">Water-resilient AI</option>
+          </select>
+        </label>
+        <label>Show top
+          <select id="topN">
+            <option>25</option><option selected>50</option><option>100</option><option value="1794">All contenders</option>
+          </select>
+        </label>
+      </div>
+    </div>
+    <div class="leader-row" id="leaders"></div>
+    <div id="map"></div>
+    <p class="footnote">The web map ships the union of municipalities that reach the top 100 in at least one scenario for browser performance. The analytical model covers all 1,794 Northeast municipalities.</p>
+  </section>
+
+  <section id="candidates" class="panel">
+    <div class="section-head">
+      <div><div class="eyebrow">Joint robustness test</div><h2>Tier-A candidate funnel</h2></div>
+      <p>Tier A must survive scenario-weight perturbation and uncertainty in the fallback water-distance method. All 11 current Tier-A municipalities have direct local ANA Q95 intersections.</p>
+    </div>
+    <div class="candidate-layout">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Candidate</th><th>Archetype</th><th>Scenario rank</th><th>Median MC</th><th>P90 stress</th></tr></thead>
+          <tbody id="candidateRows"></tbody>
+        </table>
+      </div>
+      <aside id="candidateDetail" class="detail-card"><h3>Select a candidate</h3><p>Click a row to inspect the evidence profile and next due-diligence gate.</p></aside>
+    </div>
+  </section>
+
+  <section class="panel split">
+    <div>
+      <div class="eyebrow">What changed?</div>
+      <h2>Adding water does not just polish the ranking—it restructures it.</h2>
+      <p>Strong inland renewable candidates with weak local hydrological evidence fall back, while São Francisco-linked corridors and other municipalities with direct Q95 evidence become more robust. That is a desirable model behaviour: previously missing evidence is now allowed to change the decision.</p>
+      <p>The result still does not say a water-intensive cooling design should be used. REDATA-style water efficiency remains a project-level design gate, not a municipality bonus.</p>
+    </div>
+    <div class="callout">
+      <b>Current overall signal</b>
+      <p><strong>São Gonçalo do Amarante / Pecém</strong> remains the strongest cross-scenario candidate, but Juazeiro and Bom Jesus da Lapa strengthen substantially once direct hydrological evidence is considered. Parnaíba also rises while retaining an explicit grid-access warning.</p>
+    </div>
+  </section>
+
+  <section id="evidence" class="panel">
+    <div class="section-head">
+      <div><div class="eyebrow">Decision evidence</div><h2>Why the shortlist survives scrutiny</h2></div>
+      <p>Three views of the same result: multidimensional evidence, joint uncertainty, and the energy–grid–water trade-off.</p>
+    </div>
+    <div class="chart-grid">
+      <figure><img src="assets/tierA_candidate_dimension_profiles_v4.png" alt="Tier A evidence profiles"><figcaption>Six core evidence dimensions. Water is hydrological-access evidence, not permitted supply.</figcaption></figure>
+      <figure><img src="assets/tierA_joint_sensitivity_v4.png" alt="Tier A joint sensitivity"><figcaption>Rank stability under scenario-weight perturbation plus 15–60 km fallback water-distance uncertainty.</figcaption></figure>
+      <figure><img src="assets/tierA_energy_grid_water_v4.png" alt="Tier A energy grid water tradeoff"><figcaption>Energy and grid are shown separately; bubble size represents the hydrological-access score.</figcaption></figure>
+      <figure><img src="assets/water_integration_tier_transitions_v4.png" alt="Tier transitions after water integration"><figcaption>Water evidence changes robustness tiers rather than being treated as decorative context.</figcaption></figure>
+    </div>
+  </section>
+
+  <section id="method" class="panel">
+    <div class="section-head"><div><div class="eyebrow">Methodology</div><h2>Evidence first; gates before score.</h2></div></div>
+    <div class="method-grid">
+      <article><h3>Energy</h3><p>LABREN solar + Global Wind Atlas resource, ANEEL operating clean-energy ecosystem and deliberately low-weight pipeline context.</p></article>
+      <article><h3>Grid</h3><p>EPE transmission/substation topology and ONS operating infrastructure. It measures infrastructure strength—not verified MW headroom.</p></article>
+      <article><h3>Connectivity</h3><p>ANATEL fibre backhaul and provider diversity. Carrier count does not prove physical route independence or dark-fibre availability.</p></article>
+      <article><h3>Climate</h3><p>INMET 1991–2020 normals using 74 resolved Northeast station codes, with relocation/conflict flags retained where needed.</p></article>
+      <article><h3>Environment</h3><p>Official MMA/CNUC July-2026 geometry. Integral Protection share is penalized more heavily than Sustainable Use share; parcel legality remains a hard gate.</p></article>
+      <article><h3>Water</h3><p>ANA Q95 geometry. Direct intersections use the municipality Q95 evidence index; missing local reaches use nearest-reach Q95 percentile with distance decay, sensitivity-tested from 15–60 km.</p></article>
+    </div>
+    <div class="warning-grid">
+      <div><b>Not verified by the score</b><span>Utility connection offer · spare MW · water permit · reclaimed-water contract · dark fibre · parcel title · geotechnics · final environmental licence.</span></div>
+      <div><b>Regulatory treatment</b><span>Facility WUE and clean-energy obligations are due-diligence gates. A municipality cannot “score its way out” of project-level REDATA compliance.</span></div>
+    </div>
+  </section>
+
+  <section class="sources panel">
+    <div class="eyebrow">Primary public sources</div><h2>Traceable data lineage</h2>
+    <p>ANEEL SIGA · IBGE 2025 municipal mesh · EPE WebMap and transmission studies · ONS open data · INPE/LABREN Solar Atlas · Global Wind Atlas · ANATEL transport network · INMET 1991–2020 normals · ANA/SNIRH Q95 · MMA/CNUC July 2026 · MDIC/ZPE.</p>
+    <p class="footnote">This project is a comparative screening framework. A high rank means “investigate further,” not “build here.”</p>
+  </section>
+</main>
+<footer>Brazil Northeast Green Data Centre Site Selection · water-integrated public-data screening · 25 November 2026</footer>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="app.js"></script>
+</body></html>
