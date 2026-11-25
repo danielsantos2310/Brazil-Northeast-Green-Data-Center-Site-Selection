@@ -21,7 +21,7 @@ The municipality-level public-data screening is now complete across all planned 
 - Step 13 — Interactive website: **COMPLETE v4**
 - Step 14 — GitHub / Pages technical publication: **COMPLETE**.
 - Step 15 — Portfolio communication package: **PREPARED**; portfolio case study and LinkedIn launch draft are versioned in `docs/`, but no external LinkedIn post has been published.
-- Step 16 — Tier-A investment-screening deep dive: **IN PROGRESS**; v1 diligence gate matrix created and new SINISA / AdaptaBrasil / Cemaden evidence sources registered.
+- Step 16 — Tier-A investment-screening deep dive: **PUBLIC-DATA PHASE COMPLETE**; AdaptaBrasil climate-risk evidence, current water-system signals and demand/drought context narrowed the next external-diligence queue to 5 municipalities. Formal utility, industrial-water, carrier-route and parcel evidence remain external blocking gates.
 
 ## Current robust shortlist
 
@@ -56,3 +56,8 @@ Dashboard files are under `website/`, and repository-root `index.html` redirects
 ## Remaining work is due diligence / communication, not missing screening data
 
 Future improvements may add current basin demand-pressure evidence, flood/heat extremes, parcel land availability, utility offers, dark-fibre route independence, tariffs/taxes and investment-grade project economics. These are deeper diligence layers rather than blockers to the completed municipality screening.
+## Step 16 external-diligence queue
+
+First external-diligence priorities: Bom Jesus da Lapa, Brumado, Juazeiro, São Gonçalo do Amarante / Pecém and Urandi. Parnaíba is the first reserve challenger.
+
+This queue does not alter the canonical v4 Tier-A set; it prioritizes where to spend deeper commercial and engineering diligence.
