@@ -45,8 +45,8 @@ These are optional deeper-diligence or communication layers, not blockers to v4:
 - [ ] Verified utility connection headroom and commercial offers.
 - [ ] Independent carrier-route / dark-fibre validation.
 - [ ] Tariffs, taxes, construction cost and project economics.
-- [ ] Portfolio case-study presentation.
-- [ ] LinkedIn publication.
+- [x] Portfolio case-study presentation.
+- [x] LinkedIn publication draft prepared; external post not yet published.
 
 ## Never claim
 
