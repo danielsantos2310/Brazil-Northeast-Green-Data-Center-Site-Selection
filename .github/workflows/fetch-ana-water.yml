@@ -1,0 +1,47 @@
+name: Refresh ANA Q95 municipality water evidence
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/fetch-ana-water.yml"
+      - "src/fetch/download_ana_water_layers.py"
+      - "src/fetch/download_ibge_2025.py"
+      - "src/spatial/build_ibge_ne_municipalities.py"
+      - "src/spatial/process_ana_water_municipalities.py"
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install spatial dependencies
+        run: python -m pip install --disable-pip-version-check requests pandas numpy geopandas pyogrio shapely pyproj
+      - name: Build official IBGE 2025 Northeast geometry
+        run: |
+          python src/fetch/download_ibge_2025.py --output-dir data/raw/ibge --extract
+          python src/spatial/build_ibge_ne_municipalities.py --input-dir data/raw/ibge --output data/interim/ibge_ne_municipalities_2025.gpkg
+      - name: Download official ANA Q95 geometry
+        run: python src/fetch/download_ana_water_layers.py --out data/interim/ana_surface_water_availability_ne.geojson
+      - name: Aggregate ANA Q95 to municipalities
+        run: |
+          mkdir -p outputs/qa
+          python src/spatial/process_ana_water_municipalities.py --water data/interim/ana_surface_water_availability_ne.geojson --municipalities data/interim/ibge_ne_municipalities_2025.gpkg --out data/processed/step09_ana_municipality_surface_water_evidence.csv --qa outputs/qa/step09_ana_water_qa.json
+          python - <<'PY'
+          import pandas as pd
+          df=pd.read_csv("data/processed/step09_ana_municipality_surface_water_evidence.csv",dtype={"ibge_code":str})
+          assert len(df)==1794 and df["ibge_code"].nunique()==1794
+          print(df["water_has_mapped_q95_reach"].value_counts(dropna=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ana-q95-northeast-municipality-evidence
+          path: |
+            data/interim/ana_surface_water_availability_ne.geojson
+            data/processed/step09_ana_municipality_surface_water_evidence.csv
+            outputs/qa/step09_ana_water_qa.json
+          if-no-files-found: error
+          retention-days: 14

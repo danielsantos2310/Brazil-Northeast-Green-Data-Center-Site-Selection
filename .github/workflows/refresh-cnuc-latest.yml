@@ -1,0 +1,49 @@
+name: Refresh latest CNUC municipality constraints
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - ".github/workflows/refresh-cnuc-latest.yml"
+      - "src/fetch/refresh_cnuc_latest.py"
+      - "src/fetch/download_ibge_2025.py"
+      - "src/spatial/build_ibge_ne_municipalities.py"
+      - "src/spatial/process_cnuc_municipalities.py"
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Install spatial dependencies
+        run: python -m pip install --disable-pip-version-check requests pandas numpy geopandas pyogrio shapely pyproj
+      - name: Build official IBGE 2025 Northeast geometry
+        run: |
+          python src/fetch/download_ibge_2025.py --output-dir data/raw/ibge --extract
+          python src/spatial/build_ibge_ne_municipalities.py --input-dir data/raw/ibge --output data/interim/ibge_ne_municipalities_2025.gpkg
+      - name: Resolve and download latest official CNUC
+        run: python src/fetch/refresh_cnuc_latest.py --outdir data/interim/cnuc_latest
+      - name: Aggregate CNUC polygons to municipalities
+        run: |
+          mkdir -p outputs/qa
+          python src/spatial/process_cnuc_municipalities.py --cnuc data/interim/cnuc_latest/shapefile --municipalities data/interim/ibge_ne_municipalities_2025.gpkg --out data/processed/step10_cnuc_municipality_constraints_latest.csv --qa outputs/qa/step10_cnuc_municipality_qa_latest.json
+          python - <<'PY'
+          import json, pandas as pd
+          df=pd.read_csv("data/processed/step10_cnuc_municipality_constraints_latest.csv",dtype={"CD_MUN":str})
+          assert len(df)==1794 and df["CD_MUN"].nunique()==1794
+          m=json.load(open("data/interim/cnuc_latest/selected_resources.json",encoding="utf-8"))
+          print("selected:",[(x["name"],x["version"]) for x in m["selected"]])
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cnuc-latest-northeast-municipality-constraints
+          path: |
+            data/interim/cnuc_latest/selected_resources.json
+            data/interim/cnuc_latest/ckan_package_metadata.json
+            data/processed/step10_cnuc_municipality_constraints_latest.csv
+            outputs/qa/step10_cnuc_municipality_qa_latest.json
+          if-no-files-found: error
+          retention-days: 14
