@@ -7,24 +7,39 @@
   <title>Northeast Brazil Green Data Centre Site Selection</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="series.css">
 </head>
-<body>
+<body style="--project-accent:#4fe0b5">
+<div class="series-ribbon"><div class="series-ribbon__inner"><a class="series-brand" href="https://github.com/danielsantos2310" target="_blank" rel="noreferrer">Daniel Santos · Infrastructure Analytics</a><nav class="series-projects" aria-label="Analytics project series"><a href="https://danielsantos2310.github.io/Ireland-Data-Center-Energy-research/">01 · Demand</a><a href="https://danielsantos2310.github.io/Ireland-Electricity-Price-Analytics/">02 · Prices</a><a href="https://danielsantos2310.github.io/Ireland-Data-Centre-Demand-Price-Analytics/">03 · Demand × Price</a><a href="https://danielsantos2310.github.io/Ireland-Electricity-Imports-Analytics./">04 · Generation</a><a aria-current="page" href="https://danielsantos2310.github.io/Brazil-Northeast-Green-Data-Center-Site-Selection/">05 · Brazil Sites</a></nav></div></div>
 <header class="nav">
-  <a class="brand" href="#top">NE Brazil <span>Green DC</span></a>
-  <nav>
+  <a class="brand" href="#top"><span class="brand-index">05</span> NE Brazil <span>Green DC</span></a>
+  <nav aria-label="Project navigation">
+    <a href="#top">Overview</a>
+    <a href="#deep-dive">5 sites</a>
     <a href="#map-section">Map</a>
     <a href="#candidates">Tier A</a>
-    <a href="#deep-dive">Deep dive</a>
     <a href="#evidence">Evidence</a>
     <a href="#method">Method</a>
   </nav>
 </header>
 <main id="top">
+<aside class="project-orientation project-05-orientation" aria-label="Project orientation"><div><span>Question</span><strong>Which Northeast Brazil municipalities justify the next round of data-centre diligence?</strong></div><div><span>Evidence</span><p>ANEEL, EPE, ONS, ANATEL, INMET, ANA, MMA/CNUC, AdaptaBrasil MCTI and Cemaden.</p></div><div><span>Outcome</span><p>11 robust Tier-A municipalities → 5 external-diligence priorities, with hard gates kept outside the score.</p></div></aside>
   <section class="hero">
-    <div class="eyebrow">Infrastructure × Clean Energy × Water × Digital Connectivity</div>
-    <h1>Where does Northeast Brazil make the strongest case for green data-centre development?</h1>
-    <p class="lede">A reproducible municipality-level screening of 1,794 locations using official Brazilian power-system, renewable-resource, telecom, climate, hydrology and protected-area evidence. The result is a due-diligence funnel—not a claim that any parcel is construction-ready.</p>
-    <div class="status-pill">V4 SCREENING COMPLETE · STEP 16 PUBLIC-DATA DEEP DIVE COMPLETE · EXTERNAL GATES PENDING</div>
+    <div class="hero-copy">
+      <div class="eyebrow">Project 05 · Infrastructure × Energy × Water × Connectivity</div>
+      <h1>From 1,794 municipalities to five places worth deeper diligence.</h1>
+      <p class="lede">A reproducible public-data screening system for green data-centre development in Northeast Brazil. It keeps the evidence detailed, but separates <strong>where to investigate next</strong> from claims that require utility, water, fibre and parcel-level verification.</p>
+      <div class="hero-actions"><a class="primary-action" href="#deep-dive">Explore the 5 site dossiers</a><a class="secondary-action" href="#map-section">Open scenario map</a></div>
+      <div class="status-pill">PUBLIC-DATA SCREENING COMPLETE · EXTERNAL GATES PENDING</div>
+    </div>
+    <div class="decision-funnel" aria-label="Screening funnel">
+      <div class="funnel-head"><span>Decision funnel</span><b>Public evidence → external diligence</b></div>
+      <div class="funnel-step"><strong>1,794</strong><div><b>Municipalities</b><span>Full Northeast Brazil screen</span></div></div>
+      <div class="funnel-step"><strong>190</strong><div><b>Scenario contenders</b><span>Top 100 in at least one scenario</span></div></div>
+      <div class="funnel-step"><strong>11</strong><div><b>Tier-A robust</b><span>Joint uncertainty + Pareto validation</span></div></div>
+      <div class="funnel-step active"><strong>5</strong><div><b>Diligence priorities</b><span>Where deeper commercial work starts</span></div></div>
+      <div class="funnel-gates"><span>POWER</span><span>WATER</span><span>FIBRE</span><span>PARCEL</span></div>
+    </div>
   </section>
 
   <section class="kpis">
@@ -81,20 +96,20 @@
     </div>
   </section>
 
-  <section id="deep-dive" class="panel">
-    <div class="section-head">
-      <div><div class="eyebrow">Step 16 · deeper diligence</div><h2>From 11 robust candidates to 5 external-diligence priorities</h2></div>
-      <p>This is not a new weighted ranking. The five locations below are where the public evidence currently justifies spending the next round of utility, water, fibre and parcel diligence. None is investment-ready.</p>
+  <section id="deep-dive" class="panel dossier-panel">
+    <div class="section-head dossier-head">
+      <div><div class="eyebrow">Step 16 · site dossiers</div><h2>Five places worth spending the next diligence budget on.</h2></div>
+      <p>The five below are not “approved sites.” They are the municipalities where public evidence is now strong enough to justify utility, water, carrier and parcel-level work.</p>
     </div>
-    <div class="deep-grid">
-      <article class="deep-card top"><span class="deep-rank">01</span><h3>Bom Jesus da Lapa, BA</h3><b>External diligence now</b><p>Strong grid + Q95 evidence, zero municipality-level CNUC overlap, moderate flood-risk screen and active Adutora da Fé reinforcement.</p><small>Gate: utility headroom · industrial water allocation · independent fibre · parcel screen</small></article>
-      <article class="deep-card top"><span class="deep-rank">02</span><h3>Brumado, BA</h3><b>External diligence now</b><p>Excellent cooling-climate signal, clean CNUC screen and medium baseline water-stress risk, with current water-security investment.</p><small>Gate: high municipality flood-risk screen · utility headroom · water permit · route-diverse fibre</small></article>
-      <article class="deep-card conditional"><span class="deep-rank">03</span><h3>Juazeiro, BA</h3><b>Advance conditionally</b><p>Very strong Q95, renewables and provider depth, but AdaptaBrasil flags very-high water stress and high flood risk; SAAE is restructuring a loss-heavy network.</p><small>Gate: demand pressure · industrial water · flood/parcel · utility capacity</small></article>
-      <article class="deep-card conditional"><span class="deep-rank">04</span><h3>São Gonçalo do Amarante, CE</h3><b>Strategic conditional</b><p>The strongest digital-industrial hub case with excellent connectivity and low flood-risk screen, but EPE access risk and very-high climate water stress remain blocking questions.</p><small>Gate: connection timing/headroom first · industrial water strategy · carrier paths</small></article>
-      <article class="deep-card conditional"><span class="deep-rank">05</span><h3>Urandi, BA</h3><b>Advance conditionally</b><p>Excellent renewable-grid-climate balance and clean CNUC screen, but 2026 municipal water rationing shows a real service-stress signal while a major new adductor remains at project stage.</p><small>Gate: reliable industrial water source · utility headroom · fibre redundancy</small></article>
+    <div class="dossier-layout">
+      <div class="dossier-list" id="dossierList" aria-label="Five diligence-priority sites"></div>
+      <article class="dossier-detail" id="dossierDetail" aria-live="polite"></article>
+    </div>
+    <div class="comparison-block">
+      <div class="comparison-title"><div><span class="eyebrow">Compare the five</span><h3>Climate-risk signals are not the same as hydrological availability.</h3></div><p>AdaptaBrasil values are municipality-scale screening indicators. They do not replace parcel flood modelling or industrial water-right studies.</p></div>
+      <div class="risk-compare" id="riskCompare"></div>
     </div>
     <div class="deep-note"><b>Reserve challenger:</b> Parnaíba remains strategically important because of connectivity, ZPE context and current water-system upgrades, but EPE grid-access risk, challenging cooling conditions, high flood/water-stress screens and 28.5% municipality CNUC overlap keep it outside the first five for now.</div>
-    <p class="footnote">Step-16 public-risk evidence adds AdaptaBrasil baseline water-stress (2020) and flood/flash-flood/urban-flood risk (2015), plus current official public water-system signals. These are municipality-level diligence indicators, not parcel engineering conclusions.</p>
   </section>
 
   <section class="panel split">
@@ -144,6 +159,7 @@
     <p>ANEEL SIGA · IBGE 2025 municipal mesh · EPE WebMap and transmission studies · ONS open data · INPE/LABREN Solar Atlas · Global Wind Atlas · ANATEL transport network · INMET 1991–2020 normals · ANA/SNIRH Q95 and 2025 water-use context · MMA/CNUC July 2026 · MDIC/ZPE · AdaptaBrasil MCTI · Cemaden drought monitoring.</p>
     <p class="footnote">This project is a comparative screening framework. A high rank means “investigate further,” not “build here.”</p>
   </section>
+<section class="series-nav-v2" id="analytics-series" aria-labelledby="series-v2-title"><div class="series-nav-v2__inner"><div class="series-nav-v2__head"><div><div class="series-nav-v2__kicker">Infrastructure Analytics Series · 01—05</div><h2 id="series-v2-title">Follow the research as one connected system.</h2></div><p>Projects 01–04 build the Ireland energy-system evidence base. Project 05 applies the same evidence-first discipline to a real infrastructure site-selection problem in Brazil.</p></div><div class="series-nav-v2__grid"><a class="series-nav-v2__card" href="https://danielsantos2310.github.io/Ireland-Data-Center-Energy-research/"><span class="series-nav-v2__num">PROJECT 01</span><strong>Data Centre Energy</strong><small>Demand growth, grid context and 2035 scenarios</small><span class="series-nav-v2__open">Open project ↗</span></a><a class="series-nav-v2__card" href="https://danielsantos2310.github.io/Ireland-Electricity-Price-Analytics/"><span class="series-nav-v2__num">PROJECT 02</span><strong>Electricity Prices</strong><small>Business prices, drivers and scenario outlooks</small><span class="series-nav-v2__open">Open project ↗</span></a><a class="series-nav-v2__card" href="https://danielsantos2310.github.io/Ireland-Data-Centre-Demand-Price-Analytics/"><span class="series-nav-v2__num">PROJECT 03</span><strong>Demand × Price</strong><small>Testing whether data-centre load explains price movement</small><span class="series-nav-v2__open">Open project ↗</span></a><a class="series-nav-v2__card" href="https://danielsantos2310.github.io/Ireland-Electricity-Imports-Analytics./"><span class="series-nav-v2__num">PROJECT 04</span><strong>Generation & Imports</strong><small>Generation transition, fuel exposure and system balance</small><span class="series-nav-v2__open">Open project ↗</span></a><a class="series-nav-v2__card" aria-current="page" href="https://danielsantos2310.github.io/Brazil-Northeast-Green-Data-Center-Site-Selection/"><span class="series-nav-v2__num">PROJECT 05</span><strong>Brazil Site Selection</strong><small>Municipality screening and five diligence priorities</small><span class="series-nav-v2__open">Current project</span></a></div></div></section>
 </main>
 <footer>Brazil Northeast Green Data Centre Site Selection · water-integrated public-data screening · 25 November 2026</footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
