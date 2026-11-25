@@ -1,6 +1,6 @@
 # Step 16 — Tier-A Investment-Screening Deep Dive
 
-**Status:** IN PROGRESS  
+**Status:** PUBLIC-DATA DEEP DIVE COMPLETE; EXTERNAL DILIGENCE PENDING  
 **Baseline:** v4 water-integrated municipality screening · 25 November 2026
 
 ## Objective
@@ -114,3 +114,17 @@ Planned canonical output:
 A municipality can move forward because public evidence is strong enough to justify further spending.
 
 It cannot be declared investment-ready until the blocking external gates are independently verified.
+
+## Step-16 outcome
+
+The public-data deep dive has narrowed the next external-diligence spend to five municipalities:
+
+1. Bom Jesus da Lapa, BA
+2. Brumado, BA
+3. Juazeiro, BA
+4. São Gonçalo do Amarante / Pecém, CE
+5. Urandi, BA
+
+Parnaíba, PI is the first reserve challenger.
+
+This does not replace or alter the v4 Tier-A set. It is a deeper diligence queue. See `docs/step16_external_diligence_brief.md` and `data/processed/step16_external_diligence_shortlist_v1_2026-11-25.csv`.
