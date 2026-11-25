@@ -34,4 +34,6 @@ jobs:
       - name: Install test dependencies
         run: pip install pandas pytest
       - name: Run tests
+        env:
+          PYTHONPATH: .
         run: pytest -q
