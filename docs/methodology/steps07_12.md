@@ -50,7 +50,7 @@ Connectivity is based primarily on provider diversity rather than binary fibre p
 
 This does **not** prove dark-fibre availability, physical route independence, wavelength capacity, latency or commercial SLA.
 
-## Step 09 — Climate (PROVISIONAL)
+## Step 09 — Climate
 Source: INMET Normais Climatológicas 1991–2020.
 Official source: https://portal.inmet.gov.br/normais
 
@@ -62,9 +62,9 @@ Variables used:
 - relative humidity,
 - dew point.
 
-The downloaded files did not include station coordinates. Station names were therefore matched to IBGE municipalities, and the municipality representative point was used as a station-location proxy. Five-nearest inverse-distance interpolation was then used across Northeast municipalities.
+The normal tables themselves do not carry station coordinates. A provenance-aware station metadata layer was built for all 74 core Northeast station codes used by the selected climate variables. All 74 have resolved coordinates; seven retain explicit relocation/coordinate-conflict flags because long-running conventional stations can move while retaining a station code.
 
-This layer is explicitly provisional and must be replaced with exact INMET station coordinates before final publication. Normals represent climatology, not heat-wave extremes.
+Five-nearest inverse-distance interpolation is performed from the resolved station coordinates. Normals represent climatology, not heat-wave extremes or parcel microclimate.
 
 ## Step 09 — Water (PENDING SPATIAL JOIN)
 Source: ANA/SNIRH surface-water availability.
@@ -78,7 +78,7 @@ No water value was fabricated or imputed. Water remains `NOT_SCORED_ANA_SPATIAL_
 Water availability will represent hydrological evidence only—not industrial abstraction rights, permits, reclaimed-water supply or cooling-water feasibility.
 
 ## Step 10 — Environment
-Source snapshot: MMA/CNUC August 2025 polygon dataset.
+Source snapshot: MMA/CNUC July 2026 (`CNUC_2026_07`) polygon dataset.
 Current portal: https://dados.mma.gov.br/dataset/unidadesdeconservacao
 
 Municipality overlap was calculated in EPSG:5880 using the same projected municipality geometry as the percentage denominator. This avoids coastal/island percentages above 100%.
@@ -91,7 +91,9 @@ Metrics:
 
 Environmental score for exploratory modelling applies a full penalty weight to integral-protection share and a softer 0.35 weight to sustainable-use share. This is municipality screening only: an entire municipality is **not** legally excluded merely because a protected area exists within it.
 
-The final publication must refresh the layer to CNUC July 2026, which the MMA portal identifies as the current release.
+The July-2026 release has been downloaded through a reproducible GitHub Actions workflow, topology-validated, spatially intersected with all 1,794 municipalities, and propagated through the scenario model.
+
+Current July-2026 counts: 732 municipalities with any CNUC overlap; 258 intersecting Integral Protection areas; 347 with >=10% overlap; 213 with >=30% overlap. The refresh changed lower/middle ranking order but did not change top-50 or Tier-A membership.
 
 ## MDIC / ZPE context
 Primary official page:
@@ -151,10 +153,7 @@ Two additional stress tests were run:
 
 The 25% haircut is **not an estimate of real spare capacity**.
 
-Robustness results must be rerun after:
-- ANA water geometry is joined,
-- exact INMET station coordinates replace proxies,
-- CNUC is updated to July 2026.
+Robustness has been rerun after exact INMET station-coordinate resolution and the July-2026 CNUC refresh. The remaining required final rerun is after ANA water evidence is joined.
 
 ## Interpretation rule
 A high score means:

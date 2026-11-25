@@ -1,6 +1,6 @@
 # Green Data Centre Site Selection — Northeast Brazil
 
-> **Status: GitHub release candidate (25 November 2026). The analytical baseline remains provisional while the current ANA water layer and July-2026 CNUC geometry are being refreshed.**
+> **Status: GitHub release candidate (25 November 2026). The analytical baseline remains provisional while the ANA water layer is being integrated. The July-2026 CNUC geometry refresh is complete and has been rerun through the model.**
 
 ## The question
 
@@ -42,7 +42,7 @@ The screening model uses:
 - **ANATEL** — fibre backhaul and endpoint-provider diversity.
 - **INMET** — 1991–2020 climate normals, interpolated from resolved station coordinates.
 - **ANA/SNIRH** — hydrological availability methodology; final municipality Q95 evidence pending endpoint extraction.
-- **MMA/CNUC** — protected-area constraints; current model uses August 2025 geometry while the July 2026 refresh is queued.
+- **MMA/CNUC** — protected-area constraints using the official July 2026 geometry (`CNUC_2026_07`), processed through a reproducible GitHub Actions refresh.
 - **MDIC / ZPE** — strategic and investment context from official web records.
 
 ## What the current model says
@@ -87,4 +87,4 @@ The repository/release package is designed to include:
 
 This is a municipality-level public-data screen. Final investment decisions still require parcel-level due diligence, utility studies, grid access approval, commercial carrier checks, geotechnical work, environmental licensing, water permitting, cooling design, tax/legal review and construction/logistics analysis.
 
-The public release should remain labelled **provisional** until the current ANA water layer and July-2026 CNUC refresh are integrated and the model is rerun.
+The public release should remain labelled **provisional** until ANA Q95 hydrological evidence is integrated and the model is rerun with a real water dimension. The July-2026 CNUC refresh is complete.
