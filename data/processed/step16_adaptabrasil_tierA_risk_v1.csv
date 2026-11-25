@@ -1,0 +1,23 @@
+ibge_code,municipality,state,indicator_key,indicator_id,year,value,range_label,source_url,matched
+2702405,Delmiro Gouveia,AL,water_stress_risk,2,2020,0.75,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/AL/municipio/2/2020/null/adaptabrasil,True
+2918407,Juazeiro,BA,water_stress_risk,2,2020,0.83,Muito alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2903904,Bom Jesus da Lapa,BA,water_stress_risk,2,2020,0.67,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2932606,Urandi,BA,water_stress_risk,2,2020,0.62,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2924009,Paulo Afonso,BA,water_stress_risk,2,2020,0.73,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2905206,Caetité,BA,water_stress_risk,2,2020,0.63,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2904605,Brumado,BA,water_stress_risk,2,2020,0.45,Médio,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/2/2020/null/adaptabrasil,True
+2312403,São Gonçalo do Amarante,CE,water_stress_risk,2,2020,0.8,Muito alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/CE/municipio/2/2020/null/adaptabrasil,True
+2305407,Icó,CE,water_stress_risk,2,2020,0.7,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/CE/municipio/2/2020/null/adaptabrasil,True
+2207702,Parnaíba,PI,water_stress_risk,2,2020,0.73,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/PI/municipio/2/2020/null/adaptabrasil,True
+2210003,São João do Piauí,PI,water_stress_risk,2,2020,0.59,Médio,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/PI/municipio/2/2020/null/adaptabrasil,True
+2702405,Delmiro Gouveia,AL,flood_risk,60041,2015,0.77,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/AL/municipio/60041/2015/null/adaptabrasil,True
+2918407,Juazeiro,BA,flood_risk,60041,2015,0.76,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2903904,Bom Jesus da Lapa,BA,flood_risk,60041,2015,0.47,Médio,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2932606,Urandi,BA,flood_risk,60041,2015,0.46,Médio,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2924009,Paulo Afonso,BA,flood_risk,60041,2015,0.78,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2905206,Caetité,BA,flood_risk,60041,2015,0.62,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2904605,Brumado,BA,flood_risk,60041,2015,0.75,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/BA/municipio/60041/2015/null/adaptabrasil,True
+2312403,São Gonçalo do Amarante,CE,flood_risk,60041,2015,0.28,Baixo,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/CE/municipio/60041/2015/null/adaptabrasil,True
+2305407,Icó,CE,flood_risk,60041,2015,0.71,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/CE/municipio/60041/2015/null/adaptabrasil,True
+2207702,Parnaíba,PI,flood_risk,60041,2015,0.7,Alto,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/PI/municipio/60041/2015/null/adaptabrasil,True
+2210003,São João do Piauí,PI,flood_risk,60041,2015,0.43,Médio,https://sistema.adaptabrasil.mcti.gov.br/api/mapa-dados/PI/municipio/60041/2015/null/adaptabrasil,True
