@@ -108,7 +108,7 @@ def fetch_indicator(uf, indicator_id, year):
     return r.json(), url
 
 def extract_record(rec):
-    code = rec.get("id") or rec.get("geocode") or rec.get("codigo") or rec.get("county_id")
+    code = rec.get("geocod_ibge") or rec.get("geocode") or rec.get("codigo") or rec.get("county_id") or rec.get("id")
     name = rec.get("name") or rec.get("nome") or rec.get("municipio")
     value = rec.get("value") or rec.get("valor")
     label = rec.get("rangelabel") or rec.get("faixa") or rec.get("label")
@@ -134,12 +134,6 @@ def main():
             raise RuntimeError(f"No usable year discovered for {key}: {meta}")
         for uf, group in tiera.groupby("state"):
             payload,url=fetch_indicator(STATE_BY_UF.get(uf,uf),meta["id"],year)
-            if key == "water_stress_risk" and uf == sorted(tiera["state"].unique())[0]:
-                print("SAMPLE_BASELINE_PAYLOAD_TYPE", type(payload).__name__)
-                if isinstance(payload, list):
-                    print("SAMPLE_BASELINE_RECORD", json.dumps(payload[:2], ensure_ascii=False)[:4000])
-                elif isinstance(payload, dict):
-                    print("SAMPLE_BASELINE_RECORD", json.dumps(payload, ensure_ascii=False)[:4000])
             if isinstance(payload,dict):
                 data=payload.get("data") or payload.get("results") or payload.get("features") or []
             else:
