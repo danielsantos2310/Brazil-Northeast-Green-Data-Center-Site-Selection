@@ -127,6 +127,7 @@ Current automated refresh workflows:
 - [Executive decision brief](docs/executive_decision_brief.md)
 - [LinkedIn launch draft](docs/linkedin_launch_draft.md)
 - [Official-source verification note](docs/source_verification_2026-11-25.md)
+- [Step-16 Tier-A deep dive](docs/step16_tierA_deep_dive.md)
 
 ## Important limitations
 
