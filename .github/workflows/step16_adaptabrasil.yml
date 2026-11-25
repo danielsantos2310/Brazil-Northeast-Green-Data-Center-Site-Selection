@@ -20,15 +20,18 @@ jobs:
           python-version: '3.12'
       - run: pip install pandas requests
       - run: python src/fetch/fetch_adaptabrasil_tierA.py
+      - run: python src/validation/build_step16_gate_matrix_v2.py
       - uses: actions/upload-artifact@v4
         with:
           name: step16-adaptabrasil-tierA
-          path: data/processed/step16_adaptabrasil_tierA_risk_v1.csv
+          path: |
+            data/processed/step16_adaptabrasil_tierA_risk_v1.csv
+            data/processed/step16_tierA_diligence_gate_matrix_v2_climate_risk_2026-11-25.csv
       - name: Commit refreshed evidence
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/processed/step16_adaptabrasil_tierA_risk_v1.csv
+          git add data/processed/step16_adaptabrasil_tierA_risk_v1.csv data/processed/step16_tierA_diligence_gate_matrix_v2_climate_risk_2026-11-25.csv
           if ! git diff --cached --quiet; then
             git commit -m "data: refresh Step-16 AdaptaBrasil Tier-A risk"
             git push
