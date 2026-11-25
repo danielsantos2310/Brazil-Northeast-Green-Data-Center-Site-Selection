@@ -1,0 +1,29 @@
+scenario,dimension,final_target_weight,provisional_no_water_weight,water_pending
+Hyperscale AI,energy,0.25,0.2777777777777778,False
+Hyperscale AI,grid,0.3,0.3333333333333333,False
+Hyperscale AI,connectivity,0.15,0.16666666666666666,False
+Hyperscale AI,climate,0.1,0.11111111111111112,False
+Hyperscale AI,environment,0.05,0.05555555555555556,False
+Hyperscale AI,strategic_context,0.05,0.05555555555555556,False
+Hyperscale AI,water,0.1,0.0,True
+Colocation / digital hub,energy,0.15,0.15789473684210525,False
+Colocation / digital hub,grid,0.25,0.2631578947368421,False
+Colocation / digital hub,connectivity,0.3,0.3157894736842105,False
+Colocation / digital hub,climate,0.1,0.10526315789473685,False
+Colocation / digital hub,environment,0.05,0.052631578947368425,False
+Colocation / digital hub,strategic_context,0.1,0.10526315789473685,False
+Colocation / digital hub,water,0.05,0.0,True
+Renewable-first compute,energy,0.35,0.38888888888888884,False
+Renewable-first compute,grid,0.25,0.2777777777777778,False
+Renewable-first compute,connectivity,0.1,0.11111111111111112,False
+Renewable-first compute,climate,0.05,0.05555555555555556,False
+Renewable-first compute,environment,0.1,0.11111111111111112,False
+Renewable-first compute,strategic_context,0.05,0.05555555555555556,False
+Renewable-first compute,water,0.1,0.0,True
+Low-water AI,energy,0.2,0.25,False
+Low-water AI,grid,0.25,0.3125,False
+Low-water AI,connectivity,0.1,0.125,False
+Low-water AI,climate,0.15,0.18749999999999997,False
+Low-water AI,environment,0.05,0.0625,False
+Low-water AI,strategic_context,0.05,0.0625,False
+Low-water AI,water,0.2,0.0,True
