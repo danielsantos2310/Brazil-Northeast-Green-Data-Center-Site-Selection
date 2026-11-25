@@ -34,7 +34,7 @@ def main()->None:
     group_col=next((c for c in ["grupo","GRUPO","grupo_manejo","Grupo"] if c in uc.columns),None)
     if not group_col: raise RuntimeError(f"Could not find CNUC group field. Columns: {list(uc.columns)}")
     uc[group_col]=uc[group_col].fillna("").astype(str); uc=uc[uc.geometry.notna() & ~uc.geometry.is_empty].copy()
-    mm=m.to_crs(METRIC_CRS); uu=uc.to_crs(METRIC_CRS); mm["municipality_geometry_area_km2"]=mm.geometry.area/1e6
+    mm=m.to_crs(METRIC_CRS); uu=uc.to_crs(METRIC_CRS)\n    mm["geometry"]=mm.geometry.make_valid(); uu["geometry"]=uu.geometry.make_valid()\n    mm["municipality_geometry_area_km2"]=mm.geometry.area/1e6
     pairs=gpd.sjoin(uu[[group_col,"geometry"]].reset_index(names="uc_index"),mm[["CD_MUN","geometry"]],predicate="intersects",how="inner").reset_index(drop=True)
     mgeom=mm.set_index("CD_MUN").geometry; ugeom=uu.geometry; rec=[]
     for r in pairs.itertuples(index=False):
