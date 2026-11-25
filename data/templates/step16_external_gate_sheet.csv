@@ -1,0 +1,6 @@
+municipality,state,power_status,power_evidence_quality,power_connection_mw,power_voltage_kv,power_target_energisation,power_capex_estimate,power_notes,water_status,water_evidence_quality,water_source,water_firm_m3_day,water_right_status,reclaimed_water_option,water_notes,fibre_status,fibre_evidence_quality,route_a_carrier,route_b_carrier,physical_route_independence_verified,fibre_notes,parcel_status,parcel_evidence_quality,parcel_id,developable_area_ha,zoning_clear,environment_initial_clear,flood_initial_clear,title_initial_clear,parcel_notes,overall_gate,review_date
+Bom Jesus da Lapa,BA,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,False,,UNKNOWN,UNKNOWN,,,False,False,False,False,,UNKNOWN,
+Brumado,BA,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,False,,UNKNOWN,UNKNOWN,,,False,False,False,False,,UNKNOWN,
+Juazeiro,BA,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,False,,UNKNOWN,UNKNOWN,,,False,False,False,False,,UNKNOWN,
+São Gonçalo do Amarante,CE,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,False,,UNKNOWN,UNKNOWN,,,False,False,False,False,,UNKNOWN,
+Urandi,BA,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,,,,UNKNOWN,UNKNOWN,,,False,,UNKNOWN,UNKNOWN,,,False,False,False,False,,UNKNOWN,
